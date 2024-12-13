@@ -525,3 +525,58 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 20:08:09.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> ya ya
 [13Dec2024 20:09:38.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> mano pero yo dejes esmeraldas en un cofre, donde estan?
 [13Dec2024 20:10:02.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> si
+[13Dec2024 20:11:31.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [We Need to Go Deeper]
+[13Dec2024 20:11:31.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [Incendium]
+[13Dec2024 20:11:48.409] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Disconnected
+[13Dec2024 20:11:48.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
+[13Dec2024 20:11:48.411] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xGab
+[13Dec2024 20:11:48.476] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28746ms or 574 ticks behind
+[13Dec2024 20:11:48.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> exploto
+[13Dec2024 20:11:50.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [A Terrible Fortress]
+[13Dec2024 20:11:50.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [Radioactive]
+[13Dec2024 20:11:52.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> ya
+[13Dec2024 20:11:56.467] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:53353] logged in with entity id 14063 at (-891.5840876644126, 63.5, -296.55303863353834)
+[13Dec2024 20:11:56.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
+[13Dec2024 20:11:56.864] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xGab (18)
+[13Dec2024 20:11:56.865] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xGab
+[13Dec2024 20:11:59.261] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 53610399-617d-31d9-bf79-3ccc523fb0d7
+[13Dec2024 20:12:00.262] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 53610399-617d-31d9-bf79-3ccc523fb0d7
+[13Dec2024 20:12:00.263] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xGab (53610399-617d-31d9-bf79-3ccc523fb0d7) successfully connected to voice chat
+[13Dec2024 20:12:12.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> hay mucho lag
+[13Dec2024 20:12:17.177] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13746ms or 274 ticks behind
+[13Dec2024 20:12:23.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> GOOOOOOD
+[13Dec2024 20:12:28.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <hola7> VAMOS
+[13Dec2024 20:12:39.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> LETS GOOOOOO
+[13Dec2024 20:13:06.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> todos los prote
+[13Dec2024 20:14:05.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> espera
+[13Dec2024 20:14:11.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> como los vas a mover?
+[13Dec2024 20:14:31.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no me parece
+[13Dec2024 20:14:33.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
+[13Dec2024 20:14:33.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[13Dec2024 20:14:33.910] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client jhonnyxd0711
+[13Dec2024 20:14:45.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> imaginate que nos sale y despues lo tengamos que mover y lo vamos a perde
+[13Dec2024 20:14:48.505] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:51541] logged in with entity id 15244 at (-887.526142810715, 65.0, -246.8904264064628)
+[13Dec2024 20:14:48.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[13Dec2024 20:14:48.997] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of jhonnyxd0711 (18)
+[13Dec2024 20:14:48.999] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to jhonnyxd0711
+[13Dec2024 20:14:51.319] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:14:52.373] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:14:52.373] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player jhonnyxd0711 (327b31e5-afde-3c87-8c08-1aad031e04de) successfully connected to voice chat
+[13Dec2024 20:14:54.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> bueno
+[13Dec2024 20:15:09.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> vamooooo
+[13Dec2024 20:15:13.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> a cuanto?
+[13Dec2024 20:15:30.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> esmealdas?
+[13Dec2024 20:16:04.194] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1.json: Don't know what dedsafio3:dedita is
+[13Dec2024 20:16:04.195] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1.json: Don't know what dedsafio3:nutri_totem is
+[13Dec2024 20:16:04.195] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1.json: Don't know what dedsafio3:dedita is
+[13Dec2024 20:16:04.196] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1.json: Don't know what dedsafio3:nutri_totem is
+[13Dec2024 20:16:04.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:38935] logged in with entity id 15726 at (-214.29875341794474, 60.0, -1091.714502601134)
+[13Dec2024 20:16:04.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
+[13Dec2024 20:16:07.416] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of joAcxz (18)
+[13Dec2024 20:16:07.425] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to joAcxz
+[13Dec2024 20:16:18.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz suffocated in a wall
+[13Dec2024 20:16:19.652] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
+[13Dec2024 20:16:20.662] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
+[13Dec2024 20:16:20.663] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player joAcxz (1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1) successfully connected to voice chat
+[13Dec2024 20:18:59.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tu eres loco?
+[13Dec2024 20:20:04.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> XDDDD
