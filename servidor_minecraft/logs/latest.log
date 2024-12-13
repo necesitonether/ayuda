@@ -610,3 +610,21 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 20:29:20.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> voy a activar ya el x ray
 [13Dec2024 20:29:20.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> VAKMOOOOOS
 [13Dec2024 20:30:02.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> uff ya tengo 5 stack de diamante gracias al x ray
+[13Dec2024 20:30:44.301] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[13Dec2024 20:31:12.610] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
+[13Dec2024 20:31:12.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[13Dec2024 20:31:12.612] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client jhonnyxd0711
+[13Dec2024 20:31:12.660] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Dec2024 20:31:22.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no bueno
+[13Dec2024 20:31:36.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> mira
+[13Dec2024 20:34:58.789] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:45531] logged in with entity id 23195 at (-907.709649851133, 63.5, -279.65930882115526)
+[13Dec2024 20:34:58.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[13Dec2024 20:34:59.193] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of jhonnyxd0711 (18)
+[13Dec2024 20:34:59.195] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to jhonnyxd0711
+[13Dec2024 20:35:04.012] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:35:05.013] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:35:05.013] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player jhonnyxd0711 (327b31e5-afde-3c87-8c08-1aad031e04de) successfully connected to voice chat
+[13Dec2024 20:36:19.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> marico 3 trades y el casco esta a la mitas, que rico
+[13Dec2024 20:36:22.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> por fin
+[13Dec2024 20:38:30.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Take Aim]
+[13Dec2024 20:39:10.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> granja
