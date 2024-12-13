@@ -769,3 +769,49 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 21:20:56.873] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/42343, l='ServerLevel[Mundo nuevo]', x=-87.74, y=-20.00, z=41.74] died: Toxic Slime was killed
 [13Dec2024 21:21:07.352] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/42346, l='ServerLevel[Mundo nuevo]', x=-101.74, y=-20.00, z=66.74] died: Toxic Slime was killed
 [13Dec2024 21:21:13.515] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[13Dec2024 21:21:44.706] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[13Dec2024 21:22:06.004] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6323ms or 126 ticks behind
+[13Dec2024 21:22:08.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> QUE MIERDA
+[13Dec2024 21:22:11.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> q
+[13Dec2024 21:22:25.540] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[13Dec2024 21:22:52.009] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[13Dec2024 21:23:09.125] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[13Dec2024 21:23:36.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> te metieron el testiculo?
+[13Dec2024 21:24:01.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no te dieron nada?
+[13Dec2024 21:24:07.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> mis bolas
+[13Dec2024 21:24:14.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> que puta mierda
+[13Dec2024 21:24:50.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> sabes a que me recuerda tu descripcion?
+[13Dec2024 21:24:58.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> A LAS CORRUPTAS DE ALBION
+[13Dec2024 21:25:11.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> DEBES MATAR AL JEFE FINAL PARA ESCAPAR
+[13Dec2024 21:25:18.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no bueno
+[13Dec2024 21:25:20.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> eso es verdad
+[13Dec2024 21:25:25.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> albion le gano
+[13Dec2024 21:25:50.818] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 7b2de654-3e79-34bf-bded-9c3297e7a4ff timed out
+[13Dec2024 21:25:50.819] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player genaaa
+[13Dec2024 21:25:50.819] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
+[13Dec2024 21:25:57.779] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaaa lost connection: Timed out
+[13Dec2024 21:25:57.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa left the game
+[13Dec2024 21:25:57.782] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client genaaa
+[13Dec2024 21:25:57.849] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Dec2024 21:26:06.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> idk
+[13Dec2024 21:26:14.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> toma
+[13Dec2024 21:26:16.749] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:44541] logged in with entity id 45567 at (-213.1828765902288, 59.875, -1092.4253867047728)
+[13Dec2024 21:26:16.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
+[13Dec2024 21:26:17.619] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaaa (18)
+[13Dec2024 21:26:17.620] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
+[13Dec2024 21:26:25.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> yo
+[13Dec2024 21:26:36.246] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
+[13Dec2024 21:26:37.248] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
+[13Dec2024 21:26:37.249] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaaa (7b2de654-3e79-34bf-bded-9c3297e7a4ff) successfully connected to voice chat
+[13Dec2024 21:27:08.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no pero me dijiste que te diara de lo que consegui
+[13Dec2024 21:27:51.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> los phantoms son autistas
+[13Dec2024 21:28:36.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> te traspaso
+[13Dec2024 21:28:59.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> dejame a mi
+[13Dec2024 21:29:17.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> va muy lag
+[13Dec2024 21:30:11.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> toma
+[13Dec2024 21:30:17.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> me consegui uno por el suelo
+[13Dec2024 21:30:22.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> lo hagarre de mientras
+[13Dec2024 21:30:28.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> capaz era ese
+[13Dec2024 21:30:29.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no
+[13Dec2024 21:30:36.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no se puede
+[13Dec2024 21:31:22.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> MANO SON AUTISTAS LOS PHANTOM
