@@ -815,3 +815,33 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 21:30:29.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no
 [13Dec2024 21:30:36.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no se puede
 [13Dec2024 21:31:22.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> MANO SON AUTISTAS LOS PHANTOM
+[13Dec2024 21:32:52.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> protes?
+[13Dec2024 21:33:04.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> a
+[13Dec2024 21:33:05.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> 3
+[13Dec2024 21:33:13.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> mentira 4
+[13Dec2024 21:33:15.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> yo tmb
+[13Dec2024 21:33:22.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> olvide que le puse a la pechera
+[13Dec2024 21:33:31.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> si
+[13Dec2024 21:33:38.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no al pico no
+[13Dec2024 21:33:43.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> bueno me voy por hoy
+[13Dec2024 21:33:50.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tengo que hacer algo, mañana vere si entro
+[13Dec2024 21:34:02.770] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Remolach0 lost connection: Disconnected
+[13Dec2024 21:34:02.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 left the game
+[13Dec2024 21:34:02.772] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Remolach0
+[13Dec2024 21:34:26.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new title for 3 players
+[13Dec2024 21:34:32.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Dec2024 21:34:32.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Dec2024 21:34:32.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Dec2024 21:34:32.567] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Server closed
+[13Dec2024 21:34:32.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
+[13Dec2024 21:34:32.585] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaaa lost connection: Server closed
+[13Dec2024 21:34:32.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa left the game
+[13Dec2024 21:34:32.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Dec2024 21:34:33.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[13Dec2024 21:34:34.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[13Dec2024 21:34:34.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[13Dec2024 21:34:34.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Dec2024 21:34:34.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Dec2024 21:34:34.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Dec2024 21:34:34.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Dec2024 21:34:34.982] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
