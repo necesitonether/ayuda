@@ -7496,3 +7496,762 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 20:17:42.013] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
 [13Dec2024 20:18:59.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tu eres loco?
 [13Dec2024 20:20:04.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> XDDDD
+[13Dec2024 20:20:28.272] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[13Dec2024 20:20:33.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [Isn't It Iron Pick]
+[13Dec2024 20:20:38.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> recieeen
+[13Dec2024 20:20:52.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> SHHHH
+[13Dec2024 20:20:56.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> ahi se nota quien fue carreado
+[13Dec2024 20:20:57.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> respete
+[13Dec2024 20:22:34.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
+[13Dec2024 20:22:34.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[13Dec2024 20:22:34.206] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of jhonnyxd0711
+[13Dec2024 20:22:34.208] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.206] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client jhonnyxd0711
+[13Dec2024 20:22:34.231] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.252] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.266] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.292] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.310] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.331] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.349] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.373] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.391] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.408] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.433] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.448] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.472] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.488] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.511] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.528] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.550] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no
+[13Dec2024 20:22:34.569] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.591] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.608] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.627] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.650] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.668] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.700] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.711] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.731] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.749] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.770] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.787] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.810] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.829] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.847] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.873] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.888] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.906] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.933] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.958] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.967] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:34.990] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.009] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.030] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.048] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.067] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.091] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.111] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.132] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.150] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.169] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.189] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.217] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.230] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.252] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.271] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.291] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.311] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.330] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.347] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.370] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.389] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.410] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.437] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.448] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.472] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.491] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.513] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.529] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.553] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.570] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.590] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.607] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.631] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.650] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.667] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.693] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.707] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.731] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.750] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.768] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.787] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.811] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.828] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.847] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.871] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.891] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.909] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.927] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.951] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.969] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:35.987] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.010] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.028] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.047] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.073] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.114] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.118] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.132] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.150] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.167] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.191] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.210] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.230] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.262] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.271] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.288] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.312] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.332] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.350] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.367] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.387] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.410] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.457] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.473] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.490] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.510] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.529] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.547] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.571] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.590] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.608] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.628] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.647] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.673] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.690] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.709] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.732] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.750] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.771] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.788] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.811] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.828] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.847] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.872] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.893] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.910] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.932] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.949] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.967] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:36.990] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.009] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.032] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.050] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.069] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.087] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.111] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.129] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.147] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.172] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.191] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.210] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.228] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.267] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.272] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.291] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.308] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.332] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.348] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.373] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.389] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.407] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.435] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.448] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.472] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.491] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.514] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.530] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.552] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.577] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.590] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.607] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.632] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.651] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.675] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.688] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.711] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.730] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.749] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.773] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.792] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.809] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.829] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.847] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.871] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.889] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.908] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.928] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.946] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.970] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:37.989] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.007] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.030] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.049] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.069] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.087] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.111] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.129] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.150] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.170] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.187] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.212] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.229] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.252] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.268] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.287] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.318] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.330] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.348] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.368] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.388] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.412] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.428] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.451] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.469] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.489] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.510] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.528] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.558] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.572] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.592] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.608] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.628] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.651] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.669] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.690] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.706] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.730] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.748] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.771] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.791] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.810] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.827] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.851] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.873] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.892] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.909] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.932] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.950] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.969] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:38.994] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.010] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.028] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.052] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.071] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.091] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.108] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.131] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.149] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.167] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.192] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.209] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.230] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.251] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.269] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.287] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.317] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.329] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.347] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.372] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.391] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.408] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.432] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.449] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.472] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.492] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.516] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.529] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.547] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.570] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.591] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.609] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.632] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.652] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.671] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.688] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.712] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.732] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.750] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.769] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.788] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.813] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.828] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.847] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.870] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.890] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.908] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.927] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.952] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.971] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:39.995] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.010] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.028] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.051] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.071] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.094] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.108] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.129] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.147] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.171] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.190] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.212] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.232] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.251] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.268] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.293] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.310] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.329] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.347] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.372] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.391] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.409] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.429] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.453] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.469] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.487] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.511] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.530] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.549] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.572] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.590] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.609] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.633] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.649] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.666] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.692] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.710] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.727] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.752] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.769] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.787] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.811] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.829] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.848] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.872] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.893] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.914] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.928] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.952] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.970] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:40.991] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.008] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.032] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.050] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.069] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.088] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.112] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.131] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.149] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.168] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.191] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.210] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.229] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.247] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.270] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.289] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.312] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.330] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.349] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.367] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.394] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.410] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.429] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.448] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.471] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.491] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.508] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.540] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.548] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.572] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.590] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.608] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.631] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.648] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.666] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.690] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.708] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.727] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.751] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.769] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.786] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.812] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.829] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.849] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.872] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.891] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.910] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.929] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.946] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.969] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:41.988] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.011] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.029] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.048] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.067] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.091] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.110] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.127] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.150] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.170] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.189] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.212] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.229] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.246] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.271] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.289] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.312] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.331] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.348] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.366] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.391] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.407] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.452] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.467] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.490] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.509] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.531] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.553] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.569] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.586] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.611] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.631] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.648] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.672] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.689] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.709] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.727] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.751] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.768] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.791] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.810] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.831] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.848] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.868] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.890] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.908] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.928] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.947] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> its mine
+[13Dec2024 20:22:42.971] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:42.988] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.010] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.028] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.046] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.070] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.091] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.108] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.133] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.149] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.167] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.189] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.211] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.230] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.249] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.269] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.291] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.310] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.329] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.346] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.366] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.391] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.409] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.448] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.467] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.486] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.509] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.528] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.548] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.571] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.591] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.610] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.626] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.650] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.669] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.690] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.707] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.726] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.752] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.769] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.788] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.816] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.829] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.849] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.866] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.892] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.911] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.929] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.947] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.971] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:43.990] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.007] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.030] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.048] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.066] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.089] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.108] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.137] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.232] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 327b31e5-afde-3c87-8c08-1aad031e04de does not have a secret
+[13Dec2024 20:22:44.241] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[13Dec2024 20:22:44.293] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[13Dec2024 20:23:08.607] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 42 messages to dispatch.
+[13Dec2024 20:23:08.681] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[13Dec2024 20:23:08.731] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[13Dec2024 20:23:08.800] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[13Dec2024 20:23:08.845] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[13Dec2024 20:23:08.845] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, kuma_api, terrablender, xenon, rubidium, embeddium, geckolib, pehkui, lionfishapi, incendium, sophisticatedcore, cataclysm, iceberg, curios, waystones, journeymap, prism, citadel, securitycraft, artifacts, cpm, itemborders, mixinextras, lucky77, sophisticatedbackpacks, lootbeams, worldedit, architectury, netherexp, vampirism, teamlapenlib, lootr, iceandfire, balm, deditasmod, cloth_config, voicechat, forge, expandability, corpse, dungeons_arise]
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:cui' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'teamlapenlib:main' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:secret' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:create_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'sophisticatedbackpacks:channel' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:version' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:update_state' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'deditasmod:deditasmod' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:admin_req' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'cataclysm:main_channel' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:waypoint' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'lionfishapi:main_channel' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:add_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:player_state' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:teleport_req' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'lootr:main_network_channel' : Version test of '2' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:remove_category' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:add_category' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:common' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:internal' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'geckolib:main' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'corpse:default' : Version test of '1.0.0' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'architectury:network' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:leave_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'citadel:main_channel' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.846] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'securitycraft:securitycraft' : Version test of 'v1.9.11' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'iceandfire:main_channel' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:set_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:joined_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'worldinfo:world_id' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:player_states' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'pehkui:main' : Version test of '2' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:mp_options_req' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:player_loc' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:admin_save' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:request_secret' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'sophisticatedcore:channel' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:remove_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'vampirism:main' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:perm_req' : Version test of '1' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'waystones:network' : Version test of '1.0' from client : ACCEPTED
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[13Dec2024 20:23:08.847] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[13Dec2024 20:23:08.901] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 3
+[13Dec2024 20:23:08.922] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[13Dec2024 20:23:08.922] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:08.922] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:08.941] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 4
+[13Dec2024 20:23:08.981] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 5
+[13Dec2024 20:23:08.998] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[13Dec2024 20:23:08.998] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:08.998] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.012] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:refinement' to 'fml:handshake' sequence 6
+[13Dec2024 20:23:09.041] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 7
+[13Dec2024 20:23:09.068] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 8
+[13Dec2024 20:23:09.096] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:task_unlocker' to 'fml:handshake' sequence 9
+[13Dec2024 20:23:09.128] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:miniontasks' to 'fml:handshake' sequence 10
+[13Dec2024 20:23:09.158] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 11
+[13Dec2024 20:23:09.190] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:skills' to 'fml:handshake' sequence 12
+[13Dec2024 20:23:09.234] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 13
+[13Dec2024 20:23:09.263] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:actions' to 'fml:handshake' sequence 14
+[13Dec2024 20:23:09.292] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:refinement_set' to 'fml:handshake' sequence 15
+[13Dec2024 20:23:09.306] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[13Dec2024 20:23:09.306] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.306] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.337] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 16
+[13Dec2024 20:23:09.337] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[13Dec2024 20:23:09.337] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.338] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[13Dec2024 20:23:09.339] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.340] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.340] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[13Dec2024 20:23:09.340] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.340] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.377] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:task_requirement' to 'fml:handshake' sequence 17
+[13Dec2024 20:23:09.377] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[13Dec2024 20:23:09.377] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.377] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.407] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 18
+[13Dec2024 20:23:09.408] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[13Dec2024 20:23:09.409] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.409] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.436] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 19
+[13Dec2024 20:23:09.470] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 20
+[13Dec2024 20:23:09.482] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[13Dec2024 20:23:09.482] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.482] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.482] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[13Dec2024 20:23:09.482] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.482] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.520] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 21
+[13Dec2024 20:23:09.521] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[13Dec2024 20:23:09.521] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.521] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.564] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[13Dec2024 20:23:09.564] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.564] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.565] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[13Dec2024 20:23:09.565] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.565] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.567] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 22
+[13Dec2024 20:23:09.607] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 23
+[13Dec2024 20:23:09.633] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[13Dec2024 20:23:09.633] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.634] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.639] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 24
+[13Dec2024 20:23:09.675] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:task_reward' to 'fml:handshake' sequence 25
+[13Dec2024 20:23:09.687] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 22
+[13Dec2024 20:23:09.687] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.687] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.707] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:oil' to 'fml:handshake' sequence 26
+[13Dec2024 20:23:09.712] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 23
+[13Dec2024 20:23:09.712] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.712] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.735] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:converting_handler' to 'fml:handshake' sequence 27
+[13Dec2024 20:23:09.763] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 28
+[13Dec2024 20:23:09.788] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 24
+[13Dec2024 20:23:09.789] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.789] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.789] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 25
+[13Dec2024 20:23:09.789] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.789] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.789] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 26
+[13Dec2024 20:23:09.792] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.792] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.794] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:entityactions' to 'fml:handshake' sequence 29
+[13Dec2024 20:23:09.830] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 30
+[13Dec2024 20:23:09.841] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 27
+[13Dec2024 20:23:09.841] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 27 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.841] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.859] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry vampirism:task_reward_instance' to 'fml:handshake' sequence 31
+[13Dec2024 20:23:09.864] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 28
+[13Dec2024 20:23:09.864] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 28 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.864] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.886] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 32
+[13Dec2024 20:23:09.906] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 29
+[13Dec2024 20:23:09.906] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 29 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.907] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.925] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config securitycraft-server.toml' to 'fml:handshake' sequence 33
+[13Dec2024 20:23:09.939] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 30
+[13Dec2024 20:23:09.939] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 30 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.939] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.939] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 31
+[13Dec2024 20:23:09.939] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 31 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:09.939] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:09.956] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 34
+[13Dec2024 20:23:09.986] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config journeymap-server.toml' to 'fml:handshake' sequence 35
+[13Dec2024 20:23:10.023] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config vampirism-server.toml' to 'fml:handshake' sequence 36
+[13Dec2024 20:23:10.060] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config sophisticatedbackpacks-server.toml' to 'fml:handshake' sequence 37
+[13Dec2024 20:23:10.100] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config vampirism-balance.toml' to 'fml:handshake' sequence 38
+[13Dec2024 20:23:10.142] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config corpse-server.toml' to 'fml:handshake' sequence 39
+[13Dec2024 20:23:10.182] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config pehkui-server.toml' to 'fml:handshake' sequence 40
+[13Dec2024 20:23:10.228] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 41
+[13Dec2024 20:23:11.615] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 32
+[13Dec2024 20:23:11.615] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 32 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.615] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.656] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 33
+[13Dec2024 20:23:11.656] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 33 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 34
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 34 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 35
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 35 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 36
+[13Dec2024 20:23:11.657] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 36 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 37
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 37 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 38
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 38 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 39
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 39 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 40
+[13Dec2024 20:23:11.658] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 40 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.659] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.659] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 41
+[13Dec2024 20:23:11.659] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 41 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[13Dec2024 20:23:11.659] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[13Dec2024 20:23:11.660] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[13Dec2024 20:23:11.733] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:36125] logged in with entity id 18386 at (-904.9906394472558, 63.5, -268.98956813181815)
+[13Dec2024 20:23:11.734] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@24db47c7 into net.minecraft.network.Connection@58138091
+[13Dec2024 20:23:11.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[13Dec2024 20:23:11.872] [Server thread/DEBUG] [voicechat/]: [voicechat] Setting default state of jhonnyxd0711: {disabled=false, disconnected=true, uuid=327b31e5-afde-3c87-8c08-1aad031e04de, name=jhonnyxd0711, group=null}
+[13Dec2024 20:23:12.101] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of jhonnyxd0711 (18)
+[13Dec2024 20:23:12.101] [Server thread/DEBUG] [voicechat/]: [voicechat] Sending initial states to jhonnyxd0711
+[13Dec2024 20:23:12.101] [Server thread/DEBUG] [voicechat/]: [voicechat] Synchronizing 0 groups with jhonnyxd0711
+[13Dec2024 20:23:12.101] [Server thread/DEBUG] [voicechat/]: [voicechat] Synchronizing 0 volume categories with jhonnyxd0711
+[13Dec2024 20:23:12.101] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to jhonnyxd0711
+[13Dec2024 20:23:14.752] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:23:15.752] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:23:15.753] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Set state of jhonnyxd0711 to connected: {disabled=false, disconnected=false, uuid=327b31e5-afde-3c87-8c08-1aad031e04de, name=jhonnyxd0711, group=null}
+[13Dec2024 20:23:15.753] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player jhonnyxd0711 (327b31e5-afde-3c87-8c08-1aad031e04de) successfully connected to voice chat
+[13Dec2024 20:23:15.853] [Server thread/DEBUG] [voicechat/]: [voicechat] Got state of jhonnyxd0711: {disabled=false, disconnected=false, uuid=327b31e5-afde-3c87-8c08-1aad031e04de, name=jhonnyxd0711, group=null}
+[13Dec2024 20:23:20.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Gave 1 [Totem Nutria] to joAcxz]
+[13Dec2024 20:24:00.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> y esa agua?
+[13Dec2024 20:26:08.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no se donde esta la mesa
+[13Dec2024 20:27:44.622] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Mundo nuevo
+[13Dec2024 20:27:44.661] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Mundo nuevo
+[13Dec2024 20:28:07.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> yo estoy fino
+[13Dec2024 20:28:32.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> deberia de poner un cultivo de trigo
+[13Dec2024 20:29:02.912] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
+[13Dec2024 20:29:02.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[13Dec2024 20:29:02.926] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of hola7
+[13Dec2024 20:29:02.927] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client hola7
+[13Dec2024 20:29:17.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ILEGALIDADES
+[13Dec2024 20:29:20.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> voy a activar ya el x ray
+[13Dec2024 20:29:20.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> VAKMOOOOOS
+[13Dec2024 20:30:02.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> uff ya tengo 5 stack de diamante gracias al x ray

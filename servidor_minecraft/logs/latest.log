@@ -580,3 +580,33 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 20:16:20.663] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player joAcxz (1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1) successfully connected to voice chat
 [13Dec2024 20:18:59.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> tu eres loco?
 [13Dec2024 20:20:04.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> XDDDD
+[13Dec2024 20:20:28.272] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[13Dec2024 20:20:33.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 has made the advancement [Isn't It Iron Pick]
+[13Dec2024 20:20:38.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> recieeen
+[13Dec2024 20:20:52.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> SHHHH
+[13Dec2024 20:20:56.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> ahi se nota quien fue carreado
+[13Dec2024 20:20:57.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> respete
+[13Dec2024 20:22:34.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Timed out
+[13Dec2024 20:22:34.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[13Dec2024 20:22:34.206] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client jhonnyxd0711
+[13Dec2024 20:22:34.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no
+[13Dec2024 20:22:42.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> its mine
+[13Dec2024 20:23:11.733] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhonnyxd0711[/127.227.115.134:36125] logged in with entity id 18386 at (-904.9906394472558, 63.5, -268.98956813181815)
+[13Dec2024 20:23:11.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 joined the game
+[13Dec2024 20:23:12.101] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of jhonnyxd0711 (18)
+[13Dec2024 20:23:12.101] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to jhonnyxd0711
+[13Dec2024 20:23:14.752] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:23:15.752] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 327b31e5-afde-3c87-8c08-1aad031e04de
+[13Dec2024 20:23:15.753] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player jhonnyxd0711 (327b31e5-afde-3c87-8c08-1aad031e04de) successfully connected to voice chat
+[13Dec2024 20:23:20.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Gave 1 [Totem Nutria] to joAcxz]
+[13Dec2024 20:24:00.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> y esa agua?
+[13Dec2024 20:26:08.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no se donde esta la mesa
+[13Dec2024 20:28:07.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> yo estoy fino
+[13Dec2024 20:28:32.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> deberia de poner un cultivo de trigo
+[13Dec2024 20:29:02.912] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
+[13Dec2024 20:29:02.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[13Dec2024 20:29:02.927] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client hola7
+[13Dec2024 20:29:17.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ILEGALIDADES
+[13Dec2024 20:29:20.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> voy a activar ya el x ray
+[13Dec2024 20:29:20.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> VAKMOOOOOS
+[13Dec2024 20:30:02.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> uff ya tengo 5 stack de diamante gracias al x ray
