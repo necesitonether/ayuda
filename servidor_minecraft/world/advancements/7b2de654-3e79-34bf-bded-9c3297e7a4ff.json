@@ -4486,12 +4486,6 @@
     },
     "done": false
   },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "requirement": "2024-12-13 20:57:50 +0000"
-    },
-    "done": false
-  },
   "securitycraft:recipes/building_blocks/reinforced_polished_granite_slab_from_reinforced_granite_stonecutting": {
     "criteria": {
       "has_reinforced_granite": "2024-12-13 20:03:46 +0000"
@@ -4510,6 +4504,12 @@
     },
     "done": true
   },
+  "netherexp:recipes/bone_blocks/bone_rod": {
+    "criteria": {
+      "has_item": "2024-12-13 21:05:55 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_granite_stairs_from_reinforced_granite_stonecutting": {
     "criteria": {
       "has_reinforced_granite": "2024-12-13 20:03:46 +0000"
@@ -4525,6 +4525,12 @@
   "securitycraft:recipes/building_blocks/reinforced_polished_granite": {
     "criteria": {
       "has_block": "2024-12-13 20:03:46 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_fence": {
+    "criteria": {
+      "has_item": "2024-12-13 21:05:55 +0000"
     },
     "done": true
   },
