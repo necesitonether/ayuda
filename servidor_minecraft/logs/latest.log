@@ -1,653 +1,651 @@
-[13Dec2024 18:46:19.727] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[13Dec2024 18:46:19.731] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[13Dec2024 18:46:20.592] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Dec2024 18:46:20.675] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ayuda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[13Dec2024 18:46:21.015] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:46:21.017] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:46:21.018] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:46:21.019] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:46:21.282] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[13Dec2024 18:46:24.197] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Dec2024 18:46:24.346] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[13Dec2024 18:46:27.010] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
-[13Dec2024 18:46:27.013] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
-[13Dec2024 18:46:27.013] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
-[13Dec2024 18:46:27.019] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
-[13Dec2024 18:46:27.021] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
-[13Dec2024 18:46:27.022] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
-[13Dec2024 18:46:27.511] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[13Dec2024 18:46:39.514] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[13Dec2024 18:46:39.515] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[13Dec2024 18:46:39.517] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[13Dec2024 18:46:39.518] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[13Dec2024 18:46:39.519] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[13Dec2024 18:46:39.524] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[13Dec2024 18:46:39.525] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[13Dec2024 18:46:39.527] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[13Dec2024 18:46:40.133] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
-[13Dec2024 18:46:41.518] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[13Dec2024 18:46:41.518] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[13Dec2024 18:46:41.773] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[13Dec2024 18:46:49.259] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
-[13Dec2024 18:46:50.133] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[13Dec2024 18:46:50.207] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@66cba6a6]
-[13Dec2024 18:46:50.227] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[13Dec2024 18:46:50.257] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
-[13Dec2024 18:46:50.258] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[13Dec2024 18:46:50.266] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[13Dec2024 18:46:50.266] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[13Dec2024 18:46:50.268] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[13Dec2024 18:46:50.350] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[13Dec2024 18:46:50.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
-[13Dec2024 18:46:50.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
-[13Dec2024 18:46:50.504] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
+[13Dec2024 18:57:50.104] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Dec2024 18:57:50.108] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[13Dec2024 18:57:50.932] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Dec2024 18:57:51.033] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ayuda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Dec2024 18:57:51.382] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:57:51.384] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:57:51.385] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:57:51.387] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:57:51.628] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[13Dec2024 18:57:55.272] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Dec2024 18:57:55.413] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[13Dec2024 18:57:58.469] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[13Dec2024 18:57:58.470] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[13Dec2024 18:57:58.471] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
+[13Dec2024 18:57:58.473] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[13Dec2024 18:57:58.477] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[13Dec2024 18:57:58.477] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
+[13Dec2024 18:57:59.293] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Dec2024 18:58:10.859] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Dec2024 18:58:10.861] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[13Dec2024 18:58:10.867] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[13Dec2024 18:58:10.869] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[13Dec2024 18:58:10.874] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[13Dec2024 18:58:10.875] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[13Dec2024 18:58:10.877] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[13Dec2024 18:58:10.881] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[13Dec2024 18:58:11.485] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[13Dec2024 18:58:13.348] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Dec2024 18:58:13.348] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Dec2024 18:58:13.410] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[13Dec2024 18:58:20.038] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:stampede] was not realized!
+[13Dec2024 18:58:20.038] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:wisp] was not realized!
+[13Dec2024 18:58:20.039] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:ecto_slab] was not realized!
+[13Dec2024 18:58:20.040] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:vessel] was not realized!
+[13Dec2024 18:58:20.040] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:banshee] was not realized!
+[13Dec2024 18:58:20.040] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:apparition] was not realized!
+[13Dec2024 18:58:20.041] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:carcass] was not realized!
+[13Dec2024 18:58:20.793] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ayuda/servidor_minecraft/config/netherexp-common.toml is not correct. Correcting
+[13Dec2024 18:58:20.794] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2024 18:58:20.794] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.should_nether_vines_grow_spores was corrected from null to its default, true. 
+[13Dec2024 18:58:20.794] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.enable_nylium_paths was corrected from null to its default, true. 
+[13Dec2024 18:58:20.794] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.enable_soul_paths was corrected from null to its default, true. 
+[13Dec2024 18:58:20.795] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.renewable_fossil_fuel was corrected from null to its default, true. 
+[13Dec2024 18:58:20.795] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.geyser_cooldown was corrected from null to its default, 5. 
+[13Dec2024 18:58:20.796] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.geyser_push_velocity was corrected from null to its default, 1.2. 
+[13Dec2024 18:58:20.797] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sporeshroom_push_velocity was corrected from null to its default, 1.0. 
+[13Dec2024 18:58:20.797] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.brazier_chest_refill_cooldown was corrected from null to its default, 3600. 
+[13Dec2024 18:58:20.798] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.treacherous_candle_completion_cooldown was corrected from null to its default, 1800. 
+[13Dec2024 18:58:20.798] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.frogmist_breakable_by_fist was corrected from null to its default, false. 
+[13Dec2024 18:58:20.799] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.magma_cream_block_douses_fire was corrected from null to its default, true. 
+[13Dec2024 18:58:20.800] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.shotgun_barrel_bullets was corrected from null to its default, 10. 
+[13Dec2024 18:58:20.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.soul_magma_damage_type was corrected from null to its default, SPRINTING. 
+[13Dec2024 18:58:20.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.soul_swirls_cooldown was corrected from null to its default, 50. 
+[13Dec2024 18:58:20.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.unbounded_speed_duration was corrected from null to its default, 10. 
+[13Dec2024 18:58:20.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.soul_swirls_bone_meal_behavior was corrected from null to its default, DUPLICATES. 
+[13Dec2024 18:58:20.802] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sculk_grinder_experience was corrected from null to its default, 450. 
+[13Dec2024 18:58:20.803] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2024 18:58:20.804] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.potion_stack_size was corrected from null to its default, 16. 
+[13Dec2024 18:58:20.804] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.will_o_wisp_stack_size was corrected from null to its default, 16. 
+[13Dec2024 18:58:20.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2024 18:58:20.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.3d_fireballs was corrected from null to its default, false. 
+[13Dec2024 18:58:20.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.diminishing_blazes was corrected from null to its default, true. 
+[13Dec2024 18:58:20.807] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.pixel_consistent_magma_cubes was corrected from null to its default, true. 
+[13Dec2024 18:58:20.807] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.skeleton_fossilization was corrected from null to its default, true. 
+[13Dec2024 18:58:20.807] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.wither_skeleton_fossilization was corrected from null to its default, true. 
+[13Dec2024 18:58:20.808] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.phasmophobic_mobs was corrected from null to its default, true. 
+[13Dec2024 18:58:20.808] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.hoglin_drops_hogham was corrected from null to its default, true. 
+[13Dec2024 18:58:20.808] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.wither_skeleton_drops_fossil_fuel was corrected from null to its default, false. 
+[13Dec2024 18:58:20.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.wisp_emerging_chance was corrected from null to its default, 50. 
+[13Dec2024 18:58:20.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.suspicious_soul_sand_from_wisp_emerging was corrected from null to its default, true. 
+[13Dec2024 18:58:20.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.ecto_slab_emerging_behavior was corrected from null to its default, UNBOUNDED_SPEED_ONLY. 
+[13Dec2024 18:58:20.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.ecto_slab_emerging_chance was corrected from null to its default, 40. 
+[13Dec2024 18:58:20.810] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entities.ecto_slab_emerging_with_unbounded_speed was corrected from null to its default, 10. 
+[13Dec2024 18:58:20.814] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2024 18:58:20.814] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.nether_fog_distance was corrected from null to its default, MEDIUM. 
+[13Dec2024 18:58:20.815] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.larger_nether_biomes was corrected from null to its default, false. 
+[13Dec2024 18:58:20.816] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.amplifier_immunity_reduction was corrected from null to its default, true. 
+[13Dec2024 18:58:20.816] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.ectoplasm_rusts_netherite was corrected from null to its default, true. 
+[13Dec2024 18:58:20.817] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.ectoplasm_source_conversion was corrected from null to its default, true. 
+[13Dec2024 18:58:20.817] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.reduce_soul_sand_slowness was corrected from null to its default, false. 
+[13Dec2024 18:58:20.817] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.remove_soul_speed_durability_penalty was corrected from null to its default, false. 
+[13Dec2024 18:58:20.817] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.enable_sub_biomes was corrected from null to its default, true. 
+[13Dec2024 18:58:20.818] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key game_mechanics.secondary_sub_biome_weights was corrected from null to its default, 2. 
+[13Dec2024 18:58:20.820] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Dec2024 18:58:20.820] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.improved_fireball_particles was corrected from null to its default, true. 
+[13Dec2024 18:58:20.821] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.improved_soul_fire_particles was corrected from null to its default, true. 
+[13Dec2024 18:58:20.821] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.enable_black_ice_particles was corrected from null to its default, true. 
+[13Dec2024 18:58:20.822] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.enable_ectoplasm_particles was corrected from null to its default, true. 
+[13Dec2024 18:58:20.822] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.enable_ectoplasm_sounds was corrected from null to its default, true. 
+[13Dec2024 18:58:20.822] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.blackstone_sounds was corrected from null to its default, true. 
+[13Dec2024 18:58:20.823] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.polished_blackstone_sounds was corrected from null to its default, true. 
+[13Dec2024 18:58:20.823] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.magma_block_sounds was corrected from null to its default, true. 
+[13Dec2024 18:58:20.823] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.glowstone_sounds was corrected from null to its default, true. 
+[13Dec2024 18:58:20.824] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key particles_and_sounds.quartz_sounds was corrected from null to its default, true. 
+[13Dec2024 18:58:21.193] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
+[13Dec2024 18:58:21.846] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[13Dec2024 18:58:22.028] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[13Dec2024 18:58:22.053] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[13Dec2024 18:58:22.054] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[13Dec2024 18:58:22.055] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[13Dec2024 18:58:22.152] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[13Dec2024 18:58:22.426] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4a68f2c3]
+[13Dec2024 18:58:22.443] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[13Dec2024 18:58:22.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[13Dec2024 18:58:22.452] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[13Dec2024 18:58:22.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[13Dec2024 18:58:22.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[13Dec2024 18:58:22.592] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[13Dec2024 18:58:22.647] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13Dec2024 18:58:22.649] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[13Dec2024 18:58:22.650] [main/INFO] [terrablender/]: Registered region vampirism:overworld to index 1 for type OVERWORLD
+[13Dec2024 18:58:22.678] [main/INFO] [de.teamlapen.vampirism.modcompat.terrablender.TerraBlenderCompat/]: TerraBlender is installed. Using it to add vampire Forest to overworld.
+[13Dec2024 18:58:22.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
+[13Dec2024 18:58:22.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
+[13Dec2024 18:58:22.894] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
 
-[13Dec2024 18:46:50.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
-[13Dec2024 18:46:50.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[13Dec2024 18:46:50.693] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[13Dec2024 18:46:50.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
-[13Dec2024 18:46:50.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
-[13Dec2024 18:46:50.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
-[13Dec2024 18:46:50.939] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
-[13Dec2024 18:46:50.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
-[13Dec2024 18:46:50.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
-[13Dec2024 18:46:51.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.11 Target: null
-[13Dec2024 18:46:51.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[13Dec2024 18:46:51.658] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
-[13Dec2024 18:46:51.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Dec2024 18:46:51.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[13Dec2024 18:46:51.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[13Dec2024 18:46:51.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.19
-[13Dec2024 18:46:54.822] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Dec2024 18:46:55.048] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-dedsafio3 (version 0.0.8 -> MISSING)
+[13Dec2024 18:58:22.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
+[13Dec2024 18:58:22.913] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
+[13Dec2024 18:58:22.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
+[13Dec2024 18:58:22.951] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[13Dec2024 18:58:22.958] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[13Dec2024 18:58:22.958] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Vampirism Biomes are added via TerraBlender. Not adding them to overworld preset.
+[13Dec2024 18:58:23.112] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.11 Target: null
+[13Dec2024 18:58:23.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[13Dec2024 18:58:23.620] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
+[13Dec2024 18:58:23.621] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Dec2024 18:58:23.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[13Dec2024 18:58:23.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[13Dec2024 18:58:23.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.19
+[13Dec2024 18:58:28.107] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Dec2024 18:58:28.270] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+mixinextras (version 0.3.6 -> 0.4.1)
 Things may not work well.
-[13Dec2024 18:46:55.269] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
-	dedsafio3:arcoiris_wool: 1013
-	dedsafio3:batidora_legendaria: 1012
-	dedsafio3:bloque_dilitio: 1014
-	dedsafio3:piedra_tintadaextrana: 1106
-	dedsafio3:piedrapulidadesueloextrano: 1105
-	dedsafio3:reforced_glass: 1011
-	dedsafio3:runa_celest: 1016
-	dedsafio3:runa_red: 1015
-	dedsafio3:runa_rose: 1103
-	dedsafio3:runa_yellow: 1104
-
-[13Dec2024 18:46:55.271] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
-	dedsafio3:freezing_aspect: 42
-	dedsafio3:leeching_aspect: 41
-
-[13Dec2024 18:46:55.272] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
-	dedsafio3:bomba_a_cuerpo: 320
-	dedsafio3:bomba_a_suelo: 319
-	dedsafio3:bomba_a_voladora: 321
-	dedsafio3:bomba_n_cuerpo: 317
-	dedsafio3:bomba_n_suelo: 318
-	dedsafio3:bomba_n_voladora: 315
-	dedsafio3:bomba_r_cuerpo: 314
-	dedsafio3:bomba_r_suelo: 316
-	dedsafio3:bomba_r_voladora: 313
-	dedsafio3:casino_dedsafio: 141
-	dedsafio3:creeper_warden: 150
-	dedsafio3:creeperpastel: 149
-	dedsafio3:fantasmarojo: 138
-	dedsafio3:flachbang: 142
-	dedsafio3:gorgona: 145
-	dedsafio3:hydra: 143
-	dedsafio3:infernal_bull_experimental: 322
-	dedsafio3:mobxd: 137
-	dedsafio3:ojon: 147
-	dedsafio3:rana: 140
-	dedsafio3:rana_gigante: 327
-	dedsafio3:revil: 144
-	dedsafio3:revil_boss: 326
-	dedsafio3:serpiente: 146
-	dedsafio3:spawner: 139
-	dedsafio3:taxi_23: 324
-	dedsafio3:tiki_guardian: 325
-	dedsafio3:tortuga_infernal: 323
-	dedsafio3:vampiro: 148
-
-[13Dec2024 18:46:55.281] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
-	dedsafio3:aguacate: 1564
-	dedsafio3:algodondeazucar: 1605
-	dedsafio3:almade_golem: 1525
-	dedsafio3:arcoiris_wool: 1562
-	dedsafio3:bala: 1577
-	dedsafio3:batidora_legendaria: 1558
-	dedsafio3:black_shulker_bag: 1496
-	dedsafio3:blood_medusa: 1582
-	dedsafio3:bloque_dilitio: 1583
-	dedsafio3:blue_capsule: 1486
-	dedsafio3:blue_shulker_bag: 1497
-	dedsafio3:bomba_a_voladora_spawn_egg: 1517
-	dedsafio3:bomba_bloqueador: 1596
-	dedsafio3:bomba_n_voladora_spawn_egg: 1516
-	dedsafio3:bomba_r_voladora_spawn_egg: 1515
-	dedsafio3:boost: 1511
-	dedsafio3:boost_vacio: 1556
-	dedsafio3:borg_extractor: 1613
-	dedsafio3:borg_extractor_filled: 1614
-	dedsafio3:brocoli: 1559
-	dedsafio3:brown_shulker_bag: 1498
-	dedsafio3:casino_dedsafio_spawn_egg: 1570
-	dedsafio3:cetro_ancestral: 1563
-	dedsafio3:corazon: 1578
-	dedsafio3:corazon_dorado: 1593
-	dedsafio3:creeper_warden_spawn_egg: 1621
-	dedsafio3:creeperpastel_spawn_egg: 1620
-	dedsafio3:cristal_dilitio: 1592
-	dedsafio3:cuchara: 1534
-	dedsafio3:cuchara_r: 1533
-	dedsafio3:cuerno_toro: 1532
-	dedsafio3:cyan_shulker_bag: 1499
-	dedsafio3:dedita: 1519
-	dedsafio3:dedita_amarilla: 1529
-	dedsafio3:dedita_mision: 1520
-	dedsafio3:dedita_morada: 1530
-	dedsafio3:dedita_roja: 1528
-	dedsafio3:dedita_rosa: 1527
-	dedsafio3:dedita_verde: 1531
-	dedsafio3:deditacasino: 1521
-	dedsafio3:deditamulticolor: 1522
-	dedsafio3:emptycapsule: 1487
-	dedsafio3:ender_bag: 1512
-	dedsafio3:energia: 1581
-	dedsafio3:energia_vacio: 1580
-	dedsafio3:espacial_armor_boots: 1550
-	dedsafio3:espacial_armor_chestplate: 1548
-	dedsafio3:espacial_armor_helmet: 1547
-	dedsafio3:espacial_armor_leggings: 1549
-	dedsafio3:espacial_naoneim_armor_boots: 1546
-	dedsafio3:espacial_naoneim_armor_chestplate: 1544
-	dedsafio3:espacial_naoneim_armor_helmet: 1543
-	dedsafio3:espacial_naoneim_armor_leggings: 1545
-	dedsafio3:espada: 1507
-	dedsafio3:espada_inanimada: 1524
-	dedsafio3:estoesunitem: 1526
-	dedsafio3:fantasmarojo_spawn_egg: 1510
-	dedsafio3:flachbang_spawn_egg: 1571
-	dedsafio3:gema_dilitio: 1538
-	dedsafio3:gema_nereida: 1576
-	dedsafio3:golden_black_steel_ingot: 1573
-	dedsafio3:golden_black_steel_reinforced_sheet: 1572
-	dedsafio3:gorgona_spawn_egg: 1589
-	dedsafio3:gray_shulker_bag: 1500
-	dedsafio3:green_shulker_bag: 1501
-	dedsafio3:healingsword: 1489
-	dedsafio3:hueso_aguacate: 1560
-	dedsafio3:hydra_spawn_egg: 1574
-	dedsafio3:ice_sword: 1537
-	dedsafio3:infernal_armor_boots: 1542
-	dedsafio3:infernal_armor_chestplate: 1540
-	dedsafio3:infernal_armor_helmet: 1539
-	dedsafio3:infernal_armor_leggings: 1541
-	dedsafio3:infernal_bull_experimental_spawn_egg: 1518
-	dedsafio3:infernal_nugget: 1555
-	dedsafio3:light_blue_shulker_bag: 1502
-	dedsafio3:light_gray_shulker_bag: 1503
-	dedsafio3:limbo_extractor: 1615
-	dedsafio3:limbo_extractor_filled: 1616
-	dedsafio3:lime_shulker_bag: 1504
-	dedsafio3:magenta_shulker_bag: 1505
-	dedsafio3:maza: 1553
-	dedsafio3:mejoria_dilitio: 1552
-	dedsafio3:mejoria_espacial: 1551
-	dedsafio3:metalrecocido: 1523
-	dedsafio3:mobxd_spawn_egg: 1506
-	dedsafio3:motordedilitio: 1604
-	dedsafio3:nereida_extractor: 1617
-	dedsafio3:nereida_extractor_filled: 1618
-	dedsafio3:nether_extractor: 1609
-	dedsafio3:nether_extractor_filled: 1610
-	dedsafio3:nutri_totem: 1598
-	dedsafio3:ojo_rana: 1591
-	dedsafio3:ojon_spawn_egg: 1603
-	dedsafio3:orange_shulker_bag: 1491
-	dedsafio3:overworld_extractor: 1612
-	dedsafio3:overworld_extractor_filled: 1611
-	dedsafio3:pata_rana: 1588
-	dedsafio3:pepita_dilitio: 1554
-	dedsafio3:piedra_tintadaextrana: 1608
-	dedsafio3:piedrapulidadesueloextrano: 1607
-	dedsafio3:pink_shulker_bag: 1493
-	dedsafio3:placa_corona: 1595
-	dedsafio3:portable_anvil: 1508
-	dedsafio3:portable_golden_anvil: 1509
-	dedsafio3:procectorsolar: 1485
-	dedsafio3:purple_shulker_bag: 1494
-	dedsafio3:rana_gigante_spawn_egg: 1568
-	dedsafio3:rana_spawn_egg: 1569
-	dedsafio3:red_shulker_bag: 1492
-	dedsafio3:reforced_glass: 1513
-	dedsafio3:revil_boss_spawn_egg: 1567
-	dedsafio3:revil_spawn_egg: 1575
-	dedsafio3:rodillo: 1561
-	dedsafio3:runa_celest: 1585
-	dedsafio3:runa_red: 1584
-	dedsafio3:runa_rose: 1586
-	dedsafio3:runa_yellow: 1587
-	dedsafio3:sc_3: 1579
-	dedsafio3:serpiente_spawn_egg: 1590
-	dedsafio3:shulkerbag: 1488
-	dedsafio3:soul_gem_fragment: 1619
-	dedsafio3:spawner_spawn_egg: 1514
-	dedsafio3:tanque_dilitio: 1594
-	dedsafio3:taxi_23_spawn_egg: 1565
-	dedsafio3:tenedor: 1536
-	dedsafio3:tenedor_r: 1535
-	dedsafio3:tiki_guardian_spawn_egg: 1566
-	dedsafio3:tortuga_infernal_spawn_egg: 1557
-	dedsafio3:totem_eon: 1597
-	dedsafio3:totem_eon_raro: 1601
-	dedsafio3:totem_eon_raro_2: 1602
-	dedsafio3:totem_espacial: 1599
-	dedsafio3:totem_reviil: 1600
-	dedsafio3:vampiro_spawn_egg: 1606
-	dedsafio3:warden_bat_wing_group: 1622
-	dedsafio3:white_shulker_bag: 1490
-	dedsafio3:yellow_shulker_bag: 1495
-
-[13Dec2024 18:46:55.302] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
-	dedsafio3:bomba: 45
-	dedsafio3:desangrado: 89
-	dedsafio3:distorsion: 47
-	dedsafio3:enderman_vision: 54
-	dedsafio3:fiesta: 56
-	dedsafio3:flashbang: 50
-	dedsafio3:freeze_effect: 43
-	dedsafio3:incapacidad: 57
-	dedsafio3:infeccion: 48
-	dedsafio3:invertido: 55
-	dedsafio3:milk: 53
-	dedsafio3:pre: 51
-	dedsafio3:pre_2: 59
-	dedsafio3:protector_bomba: 52
-	dedsafio3:protectorsolar: 40
-	dedsafio3:shuffle: 44
-	dedsafio3:sirenomorphosis: 49
-	dedsafio3:tempo: 46
-	dedsafio3:tortazo: 58
-	dedsafio3:trueslowness: 42
-	dedsafio3:zombifik: 41
-
-[13Dec2024 18:46:55.303] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:point_of_interest_type
-	dedsafio3:casino: 20
-
-[13Dec2024 18:46:55.303] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:potion
-	dedsafio3:milk_potion: 43
-
-[13Dec2024 18:46:55.304] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
-	dedsafio3:flashbang: 1796
-	dedsafio3:ghost.ambient: 1794
-	dedsafio3:ghost.death: 1795
-	dedsafio3:ghosthit: 1793
-	dedsafio3:gorgondie: 1797
-	dedsafio3:gorgonhurt: 1800
-	dedsafio3:gorgonidle: 1799
-	dedsafio3:gorgonrisa: 1798
-	dedsafio3:ring: 1801
-
-[13Dec2024 18:46:55.307] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:villager_profession
-	dedsafio3:casino: 20
-
-[13Dec2024 18:46:55.309] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
-
-There are 212 missing entries in this save.
-If you continue the missing entries will get removed.
-A world backup will be automatically created in your saves directory.
-
-
-[13Dec2024 18:46:55.310] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
-    dedsafio3:flashbang
-    dedsafio3:ghost.ambient
-    dedsafio3:ghost.death
-    dedsafio3:ghosthit
-    dedsafio3:gorgondie
-    dedsafio3:gorgonhurt
-    dedsafio3:gorgonidle
-    dedsafio3:gorgonrisa
-    dedsafio3:ring
-
-Missing minecraft:villager_profession:
-    dedsafio3:casino
-
-Missing minecraft:item:
-    dedsafio3:aguacate
-    dedsafio3:algodondeazucar
-    dedsafio3:almade_golem
-    dedsafio3:arcoiris_wool
-    dedsafio3:bala
-    dedsafio3:batidora_legendaria
-    dedsafio3:black_shulker_bag
-    dedsafio3:blood_medusa
-    dedsafio3:bloque_dilitio
-    dedsafio3:blue_capsule
-    dedsafio3:blue_shulker_bag
-    dedsafio3:bomba_a_voladora_spawn_egg
-    dedsafio3:bomba_bloqueador
-    dedsafio3:bomba_n_voladora_spawn_egg
-    dedsafio3:bomba_r_voladora_spawn_egg
-    dedsafio3:boost
-    dedsafio3:boost_vacio
-    dedsafio3:borg_extractor
-    dedsafio3:borg_extractor_filled
-    dedsafio3:brocoli
-    dedsafio3:brown_shulker_bag
-    dedsafio3:casino_dedsafio_spawn_egg
-    dedsafio3:cetro_ancestral
-    dedsafio3:corazon
-    dedsafio3:corazon_dorado
-    dedsafio3:creeper_warden_spawn_egg
-    dedsafio3:creeperpastel_spawn_egg
-    dedsafio3:cristal_dilitio
-    dedsafio3:cuchara
-    dedsafio3:cuchara_r
-    dedsafio3:cuerno_toro
-    dedsafio3:cyan_shulker_bag
-    dedsafio3:dedita
-    dedsafio3:dedita_amarilla
-    dedsafio3:dedita_mision
-    dedsafio3:dedita_morada
-    dedsafio3:dedita_roja
-    dedsafio3:dedita_rosa
-    dedsafio3:dedita_verde
-    dedsafio3:deditacasino
-    dedsafio3:deditamulticolor
-    dedsafio3:emptycapsule
-    dedsafio3:ender_bag
-    dedsafio3:energia
-    dedsafio3:energia_vacio
-    dedsafio3:espacial_armor_boots
-    dedsafio3:espacial_armor_chestplate
-    dedsafio3:espacial_armor_helmet
-    dedsafio3:espacial_armor_leggings
-    dedsafio3:espacial_naoneim_armor_boots
-    dedsafio3:espacial_naoneim_armor_chestplate
-    dedsafio3:espacial_naoneim_armor_helmet
-    dedsafio3:espacial_naoneim_armor_leggings
-    dedsafio3:espada
-    dedsafio3:espada_inanimada
-    dedsafio3:estoesunitem
-    dedsafio3:fantasmarojo_spawn_egg
-    dedsafio3:flachbang_spawn_egg
-    dedsafio3:gema_dilitio
-    dedsafio3:gema_nereida
-    dedsafio3:golden_black_steel_ingot
-    dedsafio3:golden_black_steel_reinforced_sheet
-    dedsafio3:gorgona_spawn_egg
-    dedsafio3:gray_shulker_bag
-    dedsafio3:green_shulker_bag
-    dedsafio3:healingsword
-    dedsafio3:hueso_aguacate
-    dedsafio3:hydra_spawn_egg
-    dedsafio3:ice_sword
-    dedsafio3:infernal_armor_boots
-    dedsafio3:infernal_armor_chestplate
-    dedsafio3:infernal_armor_helmet
-    dedsafio3:infernal_armor_leggings
-    dedsafio3:infernal_bull_experimental_spawn_egg
-    dedsafio3:infernal_nugget
-    dedsafio3:light_blue_shulker_bag
-    dedsafio3:light_gray_shulker_bag
-    dedsafio3:limbo_extractor
-    dedsafio3:limbo_extractor_filled
-    dedsafio3:lime_shulker_bag
-    dedsafio3:magenta_shulker_bag
-    dedsafio3:maza
-    dedsafio3:mejoria_dilitio
-    dedsafio3:mejoria_espacial
-    dedsafio3:metalrecocido
-    dedsafio3:mobxd_spawn_egg
-    dedsafio3:motordedilitio
-    dedsafio3:nereida_extractor
-    dedsafio3:nereida_extractor_filled
-    dedsafio3:nether_extractor
-    dedsafio3:nether_extractor_filled
-    dedsafio3:nutri_totem
-    dedsafio3:ojo_rana
-    dedsafio3:ojon_spawn_egg
-    dedsafio3:orange_shulker_bag
-    dedsafio3:overworld_extractor
-    dedsafio3:overworld_extractor_filled
-    dedsafio3:pata_rana
-    dedsafio3:pepita_dilitio
-    dedsafio3:piedra_tintadaextrana
-    dedsafio3:piedrapulidadesueloextrano
-    dedsafio3:pink_shulker_bag
-    dedsafio3:placa_corona
-    dedsafio3:portable_anvil
-    dedsafio3:portable_golden_anvil
-    dedsafio3:procectorsolar
-    dedsafio3:purple_shulker_bag
-    dedsafio3:rana_gigante_spawn_egg
-    dedsafio3:rana_spawn_egg
-    dedsafio3:red_shulker_bag
-    dedsafio3:reforced_glass
-    dedsafio3:revil_boss_spawn_egg
-    dedsafio3:revil_spawn_egg
-    dedsafio3:rodillo
-    dedsafio3:runa_celest
-    dedsafio3:runa_red
-    dedsafio3:runa_rose
-    dedsafio3:runa_yellow
-    dedsafio3:sc_3
-    dedsafio3:serpiente_spawn_egg
-    dedsafio3:shulkerbag
-    dedsafio3:soul_gem_fragment
-    dedsafio3:spawner_spawn_egg
-    dedsafio3:tanque_dilitio
-    dedsafio3:taxi_23_spawn_egg
-    dedsafio3:tenedor
-    dedsafio3:tenedor_r
-    dedsafio3:tiki_guardian_spawn_egg
-    dedsafio3:tortuga_infernal_spawn_egg
-    dedsafio3:totem_eon
-    dedsafio3:totem_eon_raro
-    dedsafio3:totem_eon_raro_2
-    dedsafio3:totem_espacial
-    dedsafio3:totem_reviil
-    dedsafio3:vampiro_spawn_egg
-    dedsafio3:warden_bat_wing_group
-    dedsafio3:white_shulker_bag
-    dedsafio3:yellow_shulker_bag
-
-Missing minecraft:potion:
-    dedsafio3:milk_potion
-
-Missing minecraft:block:
-    dedsafio3:arcoiris_wool
-    dedsafio3:batidora_legendaria
-    dedsafio3:bloque_dilitio
-    dedsafio3:piedra_tintadaextrana
-    dedsafio3:piedrapulidadesueloextrano
-    dedsafio3:reforced_glass
-    dedsafio3:runa_celest
-    dedsafio3:runa_red
-    dedsafio3:runa_rose
-    dedsafio3:runa_yellow
-
-Missing minecraft:point_of_interest_type:
-    dedsafio3:casino
-
-Missing minecraft:mob_effect:
-    dedsafio3:bomba
-    dedsafio3:desangrado
-    dedsafio3:distorsion
-    dedsafio3:enderman_vision
-    dedsafio3:fiesta
-    dedsafio3:flashbang
-    dedsafio3:freeze_effect
-    dedsafio3:incapacidad
-    dedsafio3:infeccion
-    dedsafio3:invertido
-    dedsafio3:milk
-    dedsafio3:pre
-    dedsafio3:pre_2
-    dedsafio3:protector_bomba
-    dedsafio3:protectorsolar
-    dedsafio3:shuffle
-    dedsafio3:sirenomorphosis
-    dedsafio3:tempo
-    dedsafio3:tortazo
-    dedsafio3:trueslowness
-    dedsafio3:zombifik
-
-Missing minecraft:enchantment:
-    dedsafio3:freezing_aspect
-    dedsafio3:leeching_aspect
-
-Missing minecraft:entity_type:
-    dedsafio3:bomba_a_cuerpo
-    dedsafio3:bomba_a_suelo
-    dedsafio3:bomba_a_voladora
-    dedsafio3:bomba_n_cuerpo
-    dedsafio3:bomba_n_suelo
-    dedsafio3:bomba_n_voladora
-    dedsafio3:bomba_r_cuerpo
-    dedsafio3:bomba_r_suelo
-    dedsafio3:bomba_r_voladora
-    dedsafio3:casino_dedsafio
-    dedsafio3:creeper_warden
-    dedsafio3:creeperpastel
-    dedsafio3:fantasmarojo
-    dedsafio3:flachbang
-    dedsafio3:gorgona
-    dedsafio3:hydra
-    dedsafio3:infernal_bull_experimental
-    dedsafio3:mobxd
-    dedsafio3:ojon
-    dedsafio3:rana
-    dedsafio3:rana_gigante
-    dedsafio3:revil
-    dedsafio3:revil_boss
-    dedsafio3:serpiente
-    dedsafio3:spawner
-    dedsafio3:taxi_23
-    dedsafio3:tiki_guardian
-    dedsafio3:tortuga_infernal
-    dedsafio3:vampiro
-
-
-[13Dec2024 18:46:55.319] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[13Dec2024 18:46:55.325] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: deditasmod:lingote_de_acero_negro_aureo_ore Expected: 2046 Got: 1009
-[13Dec2024 18:46:55.327] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita Expected: 3022 Got: 1270
-[13Dec2024 18:46:55.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:deditas Expected: 3023 Got: 1271
-[13Dec2024 18:46:55.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:deditass Expected: 3024 Got: 1272
-[13Dec2024 18:46:55.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_morada Expected: 3025 Got: 1273
-[13Dec2024 18:46:55.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:deditarosa Expected: 3026 Got: 1274
-[13Dec2024 18:46:55.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_roja Expected: 3027 Got: 1275
-[13Dec2024 18:46:55.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_verde Expected: 3028 Got: 1276
-[13Dec2024 18:46:55.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:cuchara_de_resurreccion Expected: 3029 Got: 1277
-[13Dec2024 18:46:55.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:cuchara Expected: 3030 Got: 1278
-[13Dec2024 18:46:55.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:tenedor_de_resurreccion Expected: 3031 Got: 1279
-[13Dec2024 18:46:55.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:bloqueador_solar Expected: 3032 Got: 1280
-[13Dec2024 18:46:55.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_nutria Expected: 3033 Got: 1281
-[13Dec2024 18:46:55.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_eonico Expected: 3034 Got: 1282
-[13Dec2024 18:46:55.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_flash_bang Expected: 3035 Got: 1283
-[13Dec2024 18:46:55.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_reviil Expected: 3036 Got: 1284
-[13Dec2024 18:46:55.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_ferreo Expected: 3037 Got: 1285
-[13Dec2024 18:46:55.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_multicolor Expected: 3038 Got: 1286
-[13Dec2024 18:46:55.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_eon_mariposon Expected: 3039 Got: 1287
-[13Dec2024 18:46:55.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_eon_dedsafio_3 Expected: 3040 Got: 1288
-[13Dec2024 18:46:55.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:healinginfernalsword Expected: 3041 Got: 1289
-[13Dec2024 18:46:55.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:cuerno_de_toro_infernal Expected: 3042 Got: 1290
-[13Dec2024 18:46:55.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:lingote_de_acero_negro_aureo_ore Expected: 3043 Got: 1291
-[13Dec2024 18:46:55.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_helmet Expected: 3044 Got: 1292
-[13Dec2024 18:46:55.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_chestplate Expected: 3045 Got: 1293
-[13Dec2024 18:46:55.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_leggings Expected: 3046 Got: 1294
-[13Dec2024 18:46:55.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_boots Expected: 3047 Got: 1295
-[13Dec2024 18:46:55.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:pepita_de_acero_negro_aureo_ingot Expected: 3048 Got: 1296
-[13Dec2024 18:46:55.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:ass_ingot Expected: 3049 Got: 1297
-[13Dec2024 18:46:55.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:as_ingot Expected: 3050 Got: 1298
-[13Dec2024 18:46:57.384] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[13Dec2024 18:46:57.388] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[13Dec2024 18:46:57.538] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:dedsafio3
-[13Dec2024 18:46:58.972] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[13Dec2024 18:46:59.777] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[13Dec2024 18:47:02.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
-[13Dec2024 18:47:02.650] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
-[13Dec2024 18:47:02.660] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
-[13Dec2024 18:47:02.677] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[13Dec2024 18:47:03.021] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2846 advancements
-[13Dec2024 18:47:03.036] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[13Dec2024 18:47:03.044] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[13Dec2024 18:47:03.053] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
-[13Dec2024 18:47:03.058] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
-[13Dec2024 18:47:04.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[13Dec2024 18:47:04.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Dec2024 18:47:04.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Dec2024 18:47:04.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Dec2024 18:47:04.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Dec2024 18:47:04.743] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Dec2024 18:47:04.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Dec2024 18:47:04.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Dec2024 18:47:04.867] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Dec2024 18:47:04.867] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Dec2024 18:47:05.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Dec2024 18:47:05.775] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
-[13Dec2024 18:47:07.482] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 18:47:07.909] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 18:47:22.082] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 18:47:23.832] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
-[13Dec2024 18:47:23.854] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
-[13Dec2024 18:47:23.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Dec2024 18:47:35.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.189] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.196] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.197] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.202] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.202] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.203] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.203] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.211] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.359] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:35.858] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:36.357] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:47:37.187] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 13331 ms
-[13Dec2024 18:47:37.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (32.303s)! For help, type "help"
-[13Dec2024 18:47:37.273] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Dec2024 18:47:41.499] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[13Dec2024 18:47:41.506] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[13Dec2024 18:47:41.508] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[13Dec2024 18:47:41.533] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[13Dec2024 18:47:55.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.18.191.26:39201] logged in with entity id 48 at (-875.386333829989, 56.166109260938214, -389.6397659563255)
-[13Dec2024 18:47:55.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[13Dec2024 18:47:56.421] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of hola7 (18)
-[13Dec2024 18:47:56.426] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to hola7
-[13Dec2024 18:47:58.723] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[13Dec2024 18:48:25.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [We Need to Go Deeper]
-[13Dec2024 18:48:25.329] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5998ms or 119 ticks behind
-[13Dec2024 18:48:26.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [A Terrible Fortress]
-[13Dec2024 18:48:33.688] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
-[13Dec2024 18:48:45.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 was killed
-[13Dec2024 18:48:45.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Killed hola7]
-[13Dec2024 18:48:51.295] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
-[13Dec2024 18:48:51.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[13Dec2024 18:48:51.303] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client hola7
-[13Dec2024 18:48:54.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[13Dec2024 18:48:54.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Dec2024 18:48:54.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Dec2024 18:48:54.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Dec2024 18:48:54.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
-[13Dec2024 18:48:54.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
-[13Dec2024 18:48:54.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
-[13Dec2024 18:48:54.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13Dec2024 18:48:54.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Dec2024 18:48:54.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Dec2024 18:48:54.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Dec2024 18:58:28.436] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate Expected: 1729 Got: 1010
+[13Dec2024 18:58:28.437] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:pale_soul_slate Expected: 1730 Got: 1011
+[13Dec2024 18:58:28.438] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_slab Expected: 1731 Got: 1012
+[13Dec2024 18:58:28.438] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_stairs Expected: 1732 Got: 1013
+[13Dec2024 18:58:28.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_wall Expected: 1733 Got: 1014
+[13Dec2024 18:58:28.440] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_bricks Expected: 1734 Got: 1015
+[13Dec2024 18:58:28.440] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_slab Expected: 1735 Got: 1016
+[13Dec2024 18:58:28.441] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_stairs Expected: 1736 Got: 1017
+[13Dec2024 18:58:28.442] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_wall Expected: 1737 Got: 1018
+[13Dec2024 18:58:28.448] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:etched_soul_slate_bricks Expected: 1738 Got: 1019
+[13Dec2024 18:58:28.448] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cracked_soul_slate_bricks Expected: 1739 Got: 1020
+[13Dec2024 18:58:28.449] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_pillar Expected: 1740 Got: 1021
+[13Dec2024 18:58:28.449] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:chiseled_soul_slate_bricks Expected: 1741 Got: 1022
+[13Dec2024 18:58:28.449] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_tiles Expected: 1742 Got: 1023
+[13Dec2024 18:58:28.450] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_tile_slab Expected: 1743 Got: 1024
+[13Dec2024 18:58:28.451] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_tile_stairs Expected: 1744 Got: 1025
+[13Dec2024 18:58:28.451] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_slate_tile_wall Expected: 1745 Got: 1026
+[13Dec2024 18:58:28.453] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:etched_soul_slate_tiles Expected: 1746 Got: 1027
+[13Dec2024 18:58:28.453] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:chiseled_soul_slate_tiles Expected: 1747 Got: 1028
+[13Dec2024 18:58:28.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:brazier_chest Expected: 1748 Got: 1029
+[13Dec2024 18:58:28.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:treacherous_candle Expected: 1749 Got: 1030
+[13Dec2024 18:58:28.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:sculk_grinder Expected: 1750 Got: 1031
+[13Dec2024 18:58:28.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_candle Expected: 1751 Got: 1032
+[13Dec2024 18:58:28.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_glass Expected: 1752 Got: 1033
+[13Dec2024 18:58:28.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:ochre_frogmist Expected: 1753 Got: 1034
+[13Dec2024 18:58:28.458] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:verdant_frogmist Expected: 1754 Got: 1035
+[13Dec2024 18:58:28.458] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:pearlescent_frogmist Expected: 1755 Got: 1036
+[13Dec2024 18:58:28.459] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_swirls Expected: 1756 Got: 1037
+[13Dec2024 18:58:28.459] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:wraithing_lesion Expected: 1757 Got: 1038
+[13Dec2024 18:58:28.459] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:ecto_soul_sand Expected: 1758 Got: 1039
+[13Dec2024 18:58:28.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:suspicious_soul_sand Expected: 1759 Got: 1040
+[13Dec2024 18:58:28.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_magma_block Expected: 1760 Got: 1041
+[13Dec2024 18:58:28.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:black_ice Expected: 1761 Got: 1042
+[13Dec2024 18:58:28.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:fossil_ore Expected: 1762 Got: 1043
+[13Dec2024 18:58:28.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:fossil_fuel_ore Expected: 1763 Got: 1044
+[13Dec2024 18:58:28.465] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_torchflower Expected: 1764 Got: 1045
+[13Dec2024 18:58:28.465] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_torchflower_crop Expected: 1765 Got: 1046
+[13Dec2024 18:58:28.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cerebrage_skull Expected: 1766 Got: 1047
+[13Dec2024 18:58:28.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:sorroweed Expected: 1767 Got: 1048
+[13Dec2024 18:58:28.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:sorrowsquash Expected: 1768 Got: 1049
+[13Dec2024 18:58:28.468] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:carved_sorrowsquash Expected: 1769 Got: 1050
+[13Dec2024 18:58:28.469] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:ghoul_o_lantern Expected: 1770 Got: 1051
+[13Dec2024 18:58:28.470] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_ghoul_o_lantern Expected: 1771 Got: 1052
+[13Dec2024 18:58:28.473] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_jack_o_lantern Expected: 1772 Got: 1053
+[13Dec2024 18:58:28.473] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:sorrowsquash_stem Expected: 1773 Got: 1054
+[13Dec2024 18:58:28.474] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:sorrowsquash_stem_plant Expected: 1774 Got: 1055
+[13Dec2024 18:58:28.475] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_soil_layer Expected: 1775 Got: 1056
+[13Dec2024 18:58:28.475] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:shotgun_barrel Expected: 1776 Got: 1057
+[13Dec2024 18:58:28.475] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smooth_netherrack Expected: 1777 Got: 1058
+[13Dec2024 18:58:28.476] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smooth_netherrack_slab Expected: 1778 Got: 1059
+[13Dec2024 18:58:28.477] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smooth_netherrack_stairs Expected: 1779 Got: 1060
+[13Dec2024 18:58:28.477] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smooth_netherrack_wall Expected: 1780 Got: 1061
+[13Dec2024 18:58:28.477] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherrack_bricks Expected: 1781 Got: 1062
+[13Dec2024 18:58:28.478] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherrack_brick_slab Expected: 1782 Got: 1063
+[13Dec2024 18:58:28.478] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherrack_brick_stairs Expected: 1783 Got: 1064
+[13Dec2024 18:58:28.479] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherrack_brick_wall Expected: 1784 Got: 1065
+[13Dec2024 18:58:28.480] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherrack_tiles Expected: 1785 Got: 1066
+[13Dec2024 18:58:28.480] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherrack_pillar Expected: 1786 Got: 1067
+[13Dec2024 18:58:28.481] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:basalt_slab Expected: 1787 Got: 1068
+[13Dec2024 18:58:28.481] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:basalt_stairs Expected: 1788 Got: 1069
+[13Dec2024 18:58:28.482] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:basalt_wall Expected: 1789 Got: 1070
+[13Dec2024 18:58:28.482] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_basalt_slab Expected: 1790 Got: 1071
+[13Dec2024 18:58:28.483] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_basalt_stairs Expected: 1791 Got: 1072
+[13Dec2024 18:58:28.484] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_basalt_wall Expected: 1792 Got: 1073
+[13Dec2024 18:58:28.484] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_basalt_bricks Expected: 1793 Got: 1074
+[13Dec2024 18:58:28.485] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_basalt_brick_slab Expected: 1794 Got: 1075
+[13Dec2024 18:58:28.485] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_basalt_brick_stairs Expected: 1795 Got: 1076
+[13Dec2024 18:58:28.485] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_basalt_brick_wall Expected: 1796 Got: 1077
+[13Dec2024 18:58:28.485] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherite_plated_block Expected: 1797 Got: 1078
+[13Dec2024 18:58:28.486] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cut_netherite_block Expected: 1798 Got: 1079
+[13Dec2024 18:58:28.486] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cut_netherite_slab Expected: 1799 Got: 1080
+[13Dec2024 18:58:28.486] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cut_netherite_stairs Expected: 1800 Got: 1103
+[13Dec2024 18:58:28.486] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cut_netherite_pillar Expected: 1801 Got: 1104
+[13Dec2024 18:58:28.487] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:netherite_grate Expected: 1802 Got: 1105
+[13Dec2024 18:58:28.488] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:rusty_netherite_plated_block Expected: 1803 Got: 1106
+[13Dec2024 18:58:28.489] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_block Expected: 1804 Got: 1107
+[13Dec2024 18:58:28.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_slab Expected: 1805 Got: 1108
+[13Dec2024 18:58:28.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_stairs Expected: 1806 Got: 1109
+[13Dec2024 18:58:28.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_pillar Expected: 1807 Got: 1110
+[13Dec2024 18:58:28.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:rusty_netherite_grate Expected: 1808 Got: 1111
+[13Dec2024 18:58:28.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:enigma_flesh Expected: 1809 Got: 1112
+[13Dec2024 18:58:28.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:strange_enigma_flesh Expected: 1810 Got: 1113
+[13Dec2024 18:58:28.491] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:enigma_crown Expected: 1811 Got: 1114
+[13Dec2024 18:58:28.492] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:enigma_shelf Expected: 1812 Got: 1115
+[13Dec2024 18:58:28.492] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cerebrage_claret_stem Expected: 1813 Got: 1116
+[13Dec2024 18:58:28.492] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cerebrage_claret_hyphae Expected: 1814 Got: 1117
+[13Dec2024 18:58:28.492] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stripped_claret_stem Expected: 1815 Got: 1118
+[13Dec2024 18:58:28.493] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stripped_claret_hyphae Expected: 1816 Got: 1119
+[13Dec2024 18:58:28.493] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_planks Expected: 1817 Got: 1120
+[13Dec2024 18:58:28.493] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_slab Expected: 1818 Got: 1121
+[13Dec2024 18:58:28.494] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_stairs Expected: 1819 Got: 1122
+[13Dec2024 18:58:28.495] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_fence Expected: 1820 Got: 1123
+[13Dec2024 18:58:28.496] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_fence_gate Expected: 1821 Got: 1124
+[13Dec2024 18:58:28.496] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_door Expected: 1822 Got: 1125
+[13Dec2024 18:58:28.497] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_trapdoor Expected: 1823 Got: 1126
+[13Dec2024 18:58:28.497] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_button Expected: 1824 Got: 1127
+[13Dec2024 18:58:28.497] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_pressure_plate Expected: 1825 Got: 1128
+[13Dec2024 18:58:28.498] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_sign Expected: 1826 Got: 1129
+[13Dec2024 18:58:28.498] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_wall_sign Expected: 1827 Got: 1130
+[13Dec2024 18:58:28.499] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_hanging_sign Expected: 1828 Got: 1131
+[13Dec2024 18:58:28.499] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:claret_wall_hanging_sign Expected: 1829 Got: 1132
+[13Dec2024 18:58:28.500] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:magma_cream_block Expected: 1830 Got: 1133
+[13Dec2024 18:58:28.500] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:igneous_reeds Expected: 1831 Got: 1134
+[13Dec2024 18:58:28.500] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk Expected: 1832 Got: 1135
+[13Dec2024 18:58:28.501] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_plant Expected: 1833 Got: 1137
+[13Dec2024 18:58:28.501] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_block Expected: 1834 Got: 1138
+[13Dec2024 18:58:28.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stripped_smokestalk_block Expected: 1835 Got: 1139
+[13Dec2024 18:58:28.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_planks Expected: 1836 Got: 1140
+[13Dec2024 18:58:28.502] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_slab Expected: 1837 Got: 1141
+[13Dec2024 18:58:28.503] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_stairs Expected: 1838 Got: 1142
+[13Dec2024 18:58:28.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_fence Expected: 1839 Got: 1143
+[13Dec2024 18:58:28.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_fence_gate Expected: 1840 Got: 1144
+[13Dec2024 18:58:28.504] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_door Expected: 1841 Got: 1145
+[13Dec2024 18:58:28.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_trapdoor Expected: 1842 Got: 1146
+[13Dec2024 18:58:28.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_button Expected: 1843 Got: 1147
+[13Dec2024 18:58:28.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_pressure_plate Expected: 1844 Got: 1148
+[13Dec2024 18:58:28.505] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_sign Expected: 1845 Got: 1149
+[13Dec2024 18:58:28.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_wall_sign Expected: 1846 Got: 1150
+[13Dec2024 18:58:28.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_hanging_sign Expected: 1847 Got: 1151
+[13Dec2024 18:58:28.507] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smokestalk_wall_hanging_sign Expected: 1848 Got: 1152
+[13Dec2024 18:58:28.507] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:quartz_crystal Expected: 1849 Got: 1153
+[13Dec2024 18:58:28.507] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:quartz_crystal_block Expected: 1850 Got: 1154
+[13Dec2024 18:58:28.508] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cracked_quartz_bricks Expected: 1851 Got: 1155
+[13Dec2024 18:58:28.508] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:chiseled_quartz_pillar Expected: 1852 Got: 1156
+[13Dec2024 18:58:28.509] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:silica_sand Expected: 1853 Got: 1157
+[13Dec2024 18:58:28.510] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:silica_sandstone Expected: 1854 Got: 1158
+[13Dec2024 18:58:28.512] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:silica_sandstone_slab Expected: 1855 Got: 1159
+[13Dec2024 18:58:28.513] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:silica_sandstone_stairs Expected: 1856 Got: 1160
+[13Dec2024 18:58:28.513] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:silica_sandstone_wall Expected: 1857 Got: 1161
+[13Dec2024 18:58:28.514] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cut_silica_sandstone Expected: 1858 Got: 1162
+[13Dec2024 18:58:28.514] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cut_silica_sandstone_slab Expected: 1859 Got: 1163
+[13Dec2024 18:58:28.515] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:chiseled_silica_sandstone Expected: 1860 Got: 1164
+[13Dec2024 18:58:28.515] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smooth_silica_sandstone Expected: 1861 Got: 1165
+[13Dec2024 18:58:28.515] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smooth_silica_sandstone_slab Expected: 1862 Got: 1166
+[13Dec2024 18:58:28.515] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:smooth_silica_sandstone_stairs Expected: 1863 Got: 1167
+[13Dec2024 18:58:28.516] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:nether_brick_pillar Expected: 1864 Got: 1168
+[13Dec2024 18:58:28.516] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:red_mixed_nether_bricks Expected: 1865 Got: 1169
+[13Dec2024 18:58:28.516] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blue_mixed_nether_bricks Expected: 1866 Got: 1293
+[13Dec2024 18:58:28.516] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blue_nether_bricks Expected: 1867 Got: 1294
+[13Dec2024 18:58:28.517] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blue_nether_brick_slab Expected: 1868 Got: 1295
+[13Dec2024 18:58:28.517] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blue_nether_brick_stairs Expected: 1869 Got: 1296
+[13Dec2024 18:58:28.517] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blue_nether_brick_wall Expected: 1870 Got: 1297
+[13Dec2024 18:58:28.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:nether_pizza Expected: 1871 Got: 1298
+[13Dec2024 18:58:28.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:warped_wart Expected: 1872 Got: 1299
+[13Dec2024 18:58:28.518] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:shroomnight Expected: 1873 Got: 1300
+[13Dec2024 18:58:28.519] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:nether_wart_beard Expected: 1874 Got: 1301
+[13Dec2024 18:58:28.520] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:warped_wart_beard Expected: 1875 Got: 1302
+[13Dec2024 18:58:28.522] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:weeping_ivy Expected: 1876 Got: 1303
+[13Dec2024 18:58:28.522] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:twisting_ivy Expected: 1877 Got: 1304
+[13Dec2024 18:58:28.523] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:red_scale_fungus Expected: 1878 Got: 1305
+[13Dec2024 18:58:28.523] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blue_scale_fungus Expected: 1879 Got: 1306
+[13Dec2024 18:58:28.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:crimson_sprouts Expected: 1880 Got: 1307
+[13Dec2024 18:58:28.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_path Expected: 1881 Got: 1308
+[13Dec2024 18:58:28.524] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:crimson_nylium_path Expected: 1882 Got: 1309
+[13Dec2024 18:58:28.525] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:warped_nylium_path Expected: 1883 Got: 1310
+[13Dec2024 18:58:28.526] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:decayable_nether_wart_block Expected: 1884 Got: 1311
+[13Dec2024 18:58:28.526] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:decayable_warped_wart_block Expected: 1885 Got: 1312
+[13Dec2024 18:58:28.526] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:decayable_shroomlight Expected: 1886 Got: 1313
+[13Dec2024 18:58:28.527] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:decayable_shroomnight Expected: 1887 Got: 1314
+[13Dec2024 18:58:28.527] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:crimson_sporeshroom Expected: 1888 Got: 1315
+[13Dec2024 18:58:28.527] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:warped_sporeshroom Expected: 1889 Got: 1316
+[13Dec2024 18:58:28.527] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:souled_geyser Expected: 1890 Got: 1317
+[13Dec2024 18:58:28.528] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:basaltic_geyser Expected: 1891 Got: 1318
+[13Dec2024 18:58:28.528] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:white_ash Expected: 1892 Got: 1319
+[13Dec2024 18:58:28.528] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:white_ash_block Expected: 1893 Got: 1320
+[13Dec2024 18:58:28.529] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:skeleton_skull_candle Expected: 1894 Got: 1321
+[13Dec2024 18:58:28.529] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_skeleton_skull_candle Expected: 1895 Got: 1322
+[13Dec2024 18:58:28.529] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:bone_cortical Expected: 1896 Got: 1323
+[13Dec2024 18:58:28.530] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:bone_rod Expected: 1897 Got: 1324
+[13Dec2024 18:58:28.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:bone_fence Expected: 1898 Got: 1325
+[13Dec2024 18:58:28.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:skull_block Expected: 1899 Got: 1326
+[13Dec2024 18:58:28.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:burning_skull_block Expected: 1900 Got: 1327
+[13Dec2024 18:58:28.531] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_burning_skull_block Expected: 1901 Got: 1328
+[13Dec2024 18:58:28.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stacked_bones Expected: 1902 Got: 1329
+[13Dec2024 18:58:28.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stacked_bone_slab Expected: 1903 Got: 1330
+[13Dec2024 18:58:28.532] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stacked_bone_stairs Expected: 1904 Got: 1331
+[13Dec2024 18:58:28.533] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:wither_bone_block Expected: 1905 Got: 1332
+[13Dec2024 18:58:28.533] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:wither_skull_block Expected: 1906 Got: 1333
+[13Dec2024 18:58:28.533] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:burning_wither_skull_block Expected: 1907 Got: 1334
+[13Dec2024 18:58:28.534] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soul_burning_wither_skull_block Expected: 1908 Got: 1335
+[13Dec2024 18:58:28.534] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stacked_wither_bones Expected: 1909 Got: 1336
+[13Dec2024 18:58:28.534] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stacked_wither_bone_slab Expected: 1910 Got: 1337
+[13Dec2024 18:58:28.534] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:stacked_wither_bone_stairs Expected: 1911 Got: 1338
+[13Dec2024 18:58:28.535] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_blackstone_pillar Expected: 1912 Got: 1339
+[13Dec2024 18:58:28.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:polished_blackstone_fence Expected: 1913 Got: 1340
+[13Dec2024 18:58:28.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:weeping_polished_blackstone_bricks Expected: 1914 Got: 1341
+[13Dec2024 18:58:28.536] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:twisting_polished_blackstone_bricks Expected: 1915 Got: 1342
+[13Dec2024 18:58:28.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:ossified_gargoyle_statue Expected: 1916 Got: 1343
+[13Dec2024 18:58:28.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:trample_gargoyle_statue Expected: 1917 Got: 1344
+[13Dec2024 18:58:28.537] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:phase_gargoyle_statue Expected: 1918 Got: 1345
+[13Dec2024 18:58:28.538] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:ghoul_gargoyle_statue Expected: 1919 Got: 1346
+[13Dec2024 18:58:28.538] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:wretched_gargoyle_statue Expected: 1920 Got: 1347
+[13Dec2024 18:58:28.538] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:treacherous_gargoyle_statue Expected: 1921 Got: 1348
+[13Dec2024 18:58:28.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:cirripedia_gargoyle_statue Expected: 1922 Got: 1349
+[13Dec2024 18:58:28.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:occult_gargoyle_statue Expected: 1923 Got: 1350
+[13Dec2024 18:58:28.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:sealed_gargoyle_statue Expected: 1924 Got: 1351
+[13Dec2024 18:58:28.539] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:obfuscated_gargoyle_statue Expected: 1925 Got: 1352
+[13Dec2024 18:58:28.540] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:inscribed_panel Expected: 1926 Got: 1353
+[13Dec2024 18:58:28.541] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_soul_swirls Expected: 1927 Got: 1354
+[13Dec2024 18:58:28.541] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_enigma_crown Expected: 1928 Got: 1355
+[13Dec2024 18:58:28.541] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_smokestalk Expected: 1929 Got: 1356
+[13Dec2024 18:58:28.543] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_red_scale_fungus Expected: 1930 Got: 1357
+[13Dec2024 18:58:28.543] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_blue_scale_fungus Expected: 1931 Got: 1358
+[13Dec2024 18:58:28.543] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_crimson_sporeshroom Expected: 1932 Got: 1359
+[13Dec2024 18:58:28.544] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_warped_sporeshroom Expected: 1933 Got: 1360
+[13Dec2024 18:58:28.544] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:potted_soul_torchflower Expected: 1934 Got: 1361
+[13Dec2024 18:58:28.545] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:shroombright Expected: 1935 Got: 1362
+[13Dec2024 18:58:28.545] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:umbral_sporeshroom Expected: 1936 Got: 1363
+[13Dec2024 18:58:28.545] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blackstonic_geyser Expected: 1937 Got: 1364
+[13Dec2024 18:58:28.546] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:ashen_geyser Expected: 1938 Got: 1365
+[13Dec2024 18:58:28.547] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:umbral_wart_beard Expected: 1939 Got: 1366
+[13Dec2024 18:58:28.547] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:twilight_ivy Expected: 1940 Got: 1367
+[13Dec2024 18:58:28.550] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:violet_scale_fungus Expected: 1941 Got: 1368
+[13Dec2024 18:58:28.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:umbral_nylium_path Expected: 1942 Got: 1369
+[13Dec2024 18:58:28.551] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:shale_swirls Expected: 1943 Got: 1370
+[13Dec2024 18:58:28.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:shroomblight Expected: 1944 Got: 1371
+[13Dec2024 18:58:28.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:soulblight_sporeshroom Expected: 1945 Got: 1372
+[13Dec2024 18:58:28.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blight_swirls Expected: 1946 Got: 1373
+[13Dec2024 18:58:28.552] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blightwart Expected: 1947 Got: 1442
+[13Dec2024 18:58:28.554] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:blightwart_beard Expected: 1948 Got: 1443
+[13Dec2024 18:58:28.554] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:yellow_mixed_nether_bricks Expected: 1949 Got: 1444
+[13Dec2024 18:58:28.554] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:yellow_nether_bricks Expected: 1950 Got: 1445
+[13Dec2024 18:58:28.555] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:yellow_nether_brick_slab Expected: 1951 Got: 2075
+[13Dec2024 18:58:28.555] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:yellow_nether_brick_stairs Expected: 1952 Got: 2076
+[13Dec2024 18:58:28.555] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:yellow_nether_brick_wall Expected: 1953 Got: 2077
+[13Dec2024 18:58:28.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: netherexp:ectoplasm Expected: 1954 Got: 2078
+[13Dec2024 18:58:28.556] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid: Object did not get ID it asked for. Name: netherexp:ectoplasm Expected: 11 Got: 13
+[13Dec2024 18:58:28.557] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid: Object did not get ID it asked for. Name: netherexp:flowing_ectoplasm Expected: 12 Got: 14
+[13Dec2024 18:58:28.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:warphopper_fur Expected: 2214 Got: 1299
+[13Dec2024 18:58:28.562] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:hogham Expected: 2215 Got: 1300
+[13Dec2024 18:58:28.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cooked_hogham Expected: 2216 Got: 1301
+[13Dec2024 18:58:28.563] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:foggy_essence Expected: 2217 Got: 1302
+[13Dec2024 18:58:28.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:iron_scrap Expected: 2218 Got: 1303
+[13Dec2024 18:58:28.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:white_ash_powder Expected: 2219 Got: 1304
+[13Dec2024 18:58:28.564] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:fossil_fuel Expected: 2220 Got: 1305
+[13Dec2024 18:58:28.565] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:rift_armor_trim_smithing_template Expected: 2221 Got: 1306
+[13Dec2024 18:58:28.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:spirit_armor_trim_smithing_template Expected: 2222 Got: 1307
+[13Dec2024 18:58:28.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:valor_armor_trim_smithing_template Expected: 2223 Got: 1308
+[13Dec2024 18:58:28.566] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:pump_charge_upgrade_smithing_template Expected: 2224 Got: 1309
+[13Dec2024 18:58:28.567] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:lightspores Expected: 2225 Got: 1310
+[13Dec2024 18:58:28.567] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:nightspores Expected: 2226 Got: 1311
+[13Dec2024 18:58:28.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:antidote Expected: 2227 Got: 1312
+[13Dec2024 18:58:28.568] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:grenade_antidote Expected: 2228 Got: 1313
+[13Dec2024 18:58:28.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:glowcheese Expected: 2229 Got: 1314
+[13Dec2024 18:58:28.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:nether_pizza_slice Expected: 2230 Got: 1315
+[13Dec2024 18:58:28.569] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:wisp_bottle Expected: 2231 Got: 1316
+[13Dec2024 18:58:28.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:sanctum_compass Expected: 2232 Got: 1317
+[13Dec2024 18:58:28.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:wraithing_flesh Expected: 2233 Got: 1318
+[13Dec2024 18:58:28.570] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:phasmo_shard Expected: 2234 Got: 1319
+[13Dec2024 18:58:28.571] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:phasmo_arrow Expected: 2235 Got: 1320
+[13Dec2024 18:58:28.572] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:warped_wart Expected: 2236 Got: 1321
+[13Dec2024 18:58:28.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:mist_charge Expected: 2237 Got: 1322
+[13Dec2024 18:58:28.573] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:banshee_rod Expected: 2238 Got: 1323
+[13Dec2024 18:58:28.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:banshee_powder Expected: 2239 Got: 1324
+[13Dec2024 18:58:28.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:will_o_wisp Expected: 2240 Got: 1325
+[13Dec2024 18:58:28.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:stridite Expected: 2241 Got: 1326
+[13Dec2024 18:58:28.577] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherite_plating Expected: 2242 Got: 1327
+[13Dec2024 18:58:28.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:treacherous_flame Expected: 2243 Got: 1328
+[13Dec2024 18:58:28.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:shotgun_fist Expected: 2244 Got: 1329
+[13Dec2024 18:58:28.578] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:pump_charge_shotgun Expected: 2245 Got: 1330
+[13Dec2024 18:58:28.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:claret_sign Expected: 2246 Got: 1331
+[13Dec2024 18:58:28.579] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:claret_hanging_sign Expected: 2247 Got: 1332
+[13Dec2024 18:58:28.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:smokestalk_sign Expected: 2248 Got: 1333
+[13Dec2024 18:58:28.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:smokestalk_hanging_sign Expected: 2249 Got: 1334
+[13Dec2024 18:58:28.580] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:music_disc_cricket Expected: 2250 Got: 1335
+[13Dec2024 18:58:28.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:music_disc_buckshot_wonderland Expected: 2251 Got: 1336
+[13Dec2024 18:58:28.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:skull_on_a_stick Expected: 2252 Got: 1337
+[13Dec2024 18:58:28.581] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:apparition_spawn_egg Expected: 2253 Got: 1338
+[13Dec2024 18:58:28.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:wisp_spawn_egg Expected: 2254 Got: 1339
+[13Dec2024 18:58:28.582] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:vessel_spawn_egg Expected: 2255 Got: 1340
+[13Dec2024 18:58:28.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:ecto_slab_spawn_egg Expected: 2256 Got: 1341
+[13Dec2024 18:58:28.583] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:banshee_spawn_egg Expected: 2257 Got: 1342
+[13Dec2024 18:58:28.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:stampede_spawn_egg Expected: 2258 Got: 1343
+[13Dec2024 18:58:28.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:carcass_spawn_egg Expected: 2259 Got: 1344
+[13Dec2024 18:58:28.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:sealed_pottery_sherd Expected: 2260 Got: 1345
+[13Dec2024 18:58:28.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:spectre_pottery_sherd Expected: 2261 Got: 1346
+[13Dec2024 18:58:28.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:marionette_pottery_sherd Expected: 2262 Got: 1415
+[13Dec2024 18:58:28.585] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:eldritch_pottery_sherd Expected: 2263 Got: 1416
+[13Dec2024 18:58:28.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:deception_pottery_sherd Expected: 2264 Got: 1417
+[13Dec2024 18:58:28.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:firearm_pottery_sherd Expected: 2265 Got: 1418
+[13Dec2024 18:58:28.586] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:botanical_pottery_sherd Expected: 2266 Got: 1419
+[13Dec2024 18:58:28.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cerebrage Expected: 2267 Got: 1420
+[13Dec2024 18:58:28.587] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cerebrage_seeds Expected: 2268 Got: 1421
+[13Dec2024 18:58:28.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:roasted_bone Expected: 2269 Got: 1422
+[13Dec2024 18:58:28.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:shotgun_core Expected: 2270 Got: 1423
+[13Dec2024 18:58:28.588] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:brightspores Expected: 2271 Got: 1424
+[13Dec2024 18:58:28.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:blightspores Expected: 2272 Got: 1425
+[13Dec2024 18:58:28.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:blightwart Expected: 2273 Got: 1426
+[13Dec2024 18:58:28.589] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate Expected: 2274 Got: 1427
+[13Dec2024 18:58:28.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:pale_soul_slate Expected: 2275 Got: 1428
+[13Dec2024 18:58:28.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_slab Expected: 2276 Got: 1429
+[13Dec2024 18:58:28.590] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_stairs Expected: 2277 Got: 1430
+[13Dec2024 18:58:28.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_wall Expected: 2278 Got: 1431
+[13Dec2024 18:58:28.591] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_bricks Expected: 2279 Got: 1432
+[13Dec2024 18:58:28.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_slab Expected: 2280 Got: 1433
+[13Dec2024 18:58:28.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_stairs Expected: 2281 Got: 1434
+[13Dec2024 18:58:28.592] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_wall Expected: 2282 Got: 1435
+[13Dec2024 18:58:28.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:etched_soul_slate_bricks Expected: 2283 Got: 1436
+[13Dec2024 18:58:28.593] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cracked_soul_slate_bricks Expected: 2284 Got: 1437
+[13Dec2024 18:58:28.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_brick_pillar Expected: 2285 Got: 1438
+[13Dec2024 18:58:28.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:chiseled_soul_slate_bricks Expected: 2286 Got: 1439
+[13Dec2024 18:58:28.594] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_tiles Expected: 2287 Got: 1440
+[13Dec2024 18:58:28.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_tile_slab Expected: 2288 Got: 1441
+[13Dec2024 18:58:28.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_tile_stairs Expected: 2289 Got: 1442
+[13Dec2024 18:58:28.595] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_slate_tile_wall Expected: 2290 Got: 1443
+[13Dec2024 18:58:28.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:etched_soul_slate_tiles Expected: 2291 Got: 1444
+[13Dec2024 18:58:28.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:chiseled_soul_slate_tiles Expected: 2292 Got: 1445
+[13Dec2024 18:58:28.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:brazier_chest Expected: 2293 Got: 1446
+[13Dec2024 18:58:28.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:treacherous_candle Expected: 2294 Got: 1447
+[13Dec2024 18:58:28.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:sculk_grinder Expected: 2295 Got: 1448
+[13Dec2024 18:58:28.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_candle Expected: 2296 Got: 1449
+[13Dec2024 18:58:28.598] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_glass Expected: 2297 Got: 1450
+[13Dec2024 18:58:28.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:ochre_frogmist Expected: 2298 Got: 1451
+[13Dec2024 18:58:28.599] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:verdant_frogmist Expected: 2299 Got: 1452
+[13Dec2024 18:58:28.600] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:pearlescent_frogmist Expected: 2300 Got: 1453
+[13Dec2024 18:58:28.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_swirls Expected: 2301 Got: 1454
+[13Dec2024 18:58:28.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:wraithing_lesion Expected: 2302 Got: 1455
+[13Dec2024 18:58:28.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:ecto_soul_sand Expected: 2303 Got: 1456
+[13Dec2024 18:58:28.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:suspicious_soul_sand Expected: 2304 Got: 1457
+[13Dec2024 18:58:28.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_magma_block Expected: 2305 Got: 1458
+[13Dec2024 18:58:28.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:black_ice Expected: 2306 Got: 1459
+[13Dec2024 18:58:28.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:fossil_ore Expected: 2307 Got: 1460
+[13Dec2024 18:58:28.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:fossil_fuel_ore Expected: 2308 Got: 1461
+[13Dec2024 18:58:28.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_torchflower Expected: 2309 Got: 1462
+[13Dec2024 18:58:28.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:sorroweed Expected: 2310 Got: 1463
+[13Dec2024 18:58:28.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:sorrowsquash Expected: 2311 Got: 1464
+[13Dec2024 18:58:28.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:carved_sorrowsquash Expected: 2312 Got: 1465
+[13Dec2024 18:58:28.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:ghoul_o_lantern Expected: 2313 Got: 1466
+[13Dec2024 18:58:28.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_ghoul_o_lantern Expected: 2314 Got: 1467
+[13Dec2024 18:58:28.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_jack_o_lantern Expected: 2315 Got: 1468
+[13Dec2024 18:58:28.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:soul_soil_layer Expected: 2316 Got: 1469
+[13Dec2024 18:58:28.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:shotgun_barrel Expected: 2317 Got: 1470
+[13Dec2024 18:58:28.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:smooth_netherrack Expected: 2318 Got: 1471
+[13Dec2024 18:58:28.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:smooth_netherrack_slab Expected: 2319 Got: 1472
+[13Dec2024 18:58:28.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:smooth_netherrack_stairs Expected: 2320 Got: 1473
+[13Dec2024 18:58:28.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:smooth_netherrack_wall Expected: 2321 Got: 1474
+[13Dec2024 18:58:28.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherrack_bricks Expected: 2322 Got: 1475
+[13Dec2024 18:58:28.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherrack_brick_slab Expected: 2323 Got: 1476
+[13Dec2024 18:58:28.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherrack_brick_stairs Expected: 2324 Got: 1477
+[13Dec2024 18:58:28.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherrack_brick_wall Expected: 2325 Got: 1478
+[13Dec2024 18:58:28.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherrack_tiles Expected: 2326 Got: 1479
+[13Dec2024 18:58:28.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherrack_pillar Expected: 2327 Got: 1480
+[13Dec2024 18:58:28.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:basalt_slab Expected: 2328 Got: 1481
+[13Dec2024 18:58:28.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:basalt_stairs Expected: 2329 Got: 1482
+[13Dec2024 18:58:28.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:basalt_wall Expected: 2330 Got: 1483
+[13Dec2024 18:58:28.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:polished_basalt_slab Expected: 2331 Got: 1484
+[13Dec2024 18:58:28.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:polished_basalt_stairs Expected: 2332 Got: 1485
+[13Dec2024 18:58:28.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:polished_basalt_wall Expected: 2333 Got: 1486
+[13Dec2024 18:58:28.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:polished_basalt_bricks Expected: 2334 Got: 1487
+[13Dec2024 18:58:28.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:polished_basalt_brick_slab Expected: 2335 Got: 1488
+[13Dec2024 18:58:28.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:polished_basalt_brick_stairs Expected: 2336 Got: 1489
+[13Dec2024 18:58:28.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:polished_basalt_brick_wall Expected: 2337 Got: 1490
+[13Dec2024 18:58:28.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherite_plated_block Expected: 2338 Got: 1491
+[13Dec2024 18:58:28.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cut_netherite_block Expected: 2339 Got: 1492
+[13Dec2024 18:58:28.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cut_netherite_slab Expected: 2340 Got: 1493
+[13Dec2024 18:58:28.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cut_netherite_stairs Expected: 2341 Got: 1494
+[13Dec2024 18:58:28.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cut_netherite_pillar Expected: 2342 Got: 1495
+[13Dec2024 18:58:28.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:netherite_grate Expected: 2343 Got: 1496
+[13Dec2024 18:58:28.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:rusty_netherite_plated_block Expected: 2344 Got: 1497
+[13Dec2024 18:58:28.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_block Expected: 2345 Got: 1498
+[13Dec2024 18:58:28.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_slab Expected: 2346 Got: 1499
+[13Dec2024 18:58:28.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_stairs Expected: 2347 Got: 1500
+[13Dec2024 18:58:28.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:rusty_cut_netherite_pillar Expected: 2348 Got: 1501
+[13Dec2024 18:58:28.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:rusty_netherite_grate Expected: 2349 Got: 1502
+[13Dec2024 18:58:28.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:enigma_flesh Expected: 2350 Got: 1503
+[13Dec2024 18:58:28.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:strange_enigma_flesh Expected: 2351 Got: 1504
+[13Dec2024 18:58:28.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:enigma_crown Expected: 2352 Got: 1505
+[13Dec2024 18:58:28.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:enigma_shelf Expected: 2353 Got: 1506
+[13Dec2024 18:58:28.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cerebrage_claret_stem Expected: 2354 Got: 1507
+[13Dec2024 18:58:28.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:cerebrage_claret_hyphae Expected: 2355 Got: 1508
+[13Dec2024 18:58:28.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:stripped_claret_stem Expected: 2356 Got: 1509
+[13Dec2024 18:58:28.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:stripped_claret_hyphae Expected: 2357 Got: 1510
+[13Dec2024 18:58:28.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:claret_planks Expected: 2358 Got: 1511
+[13Dec2024 18:58:28.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherexp:claret_slab Expected: 2359 Got: 1512
+[13Dec2024 18:58:28.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: netherexp:levitation_immunity Expected: 62 Got: 0
+[13Dec2024 18:58:28.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: netherexp:hunger_immunity Expected: 63 Got: 34
+[13Dec2024 18:58:28.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: netherexp:wither_immunity Expected: 64 Got: 35
+[13Dec2024 18:58:28.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: netherexp:luck_immunity Expected: 65 Got: 36
+[13Dec2024 18:58:28.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: netherexp:unluck_immunity Expected: 66 Got: 37
+[13Dec2024 18:58:28.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: netherexp:brain_damage_immunity Expected: 67 Got: 38
+[13Dec2024 18:58:28.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: netherexp:block.suspicious_soul_sand.hit Expected: 1829 Got: 1600
+[13Dec2024 18:58:28.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: netherexp:block.suspicious_soul_sand.fall Expected: 1830 Got: 1601
+[13Dec2024 18:58:28.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: netherexp:item.gold_ingot.gilding Expected: 1831 Got: 1602
+[13Dec2024 18:58:28.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: netherexp:block.ectoplasm.freeze Expected: 1832 Got: 1603
+[13Dec2024 18:58:28.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: netherexp:block.ectoplasm.whispering Expected: 1833 Got: 1604
+[13Dec2024 18:58:28.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: netherexp:block.soul_slate.solidifying Expected: 1834 Got: 1605
+[13Dec2024 18:58:28.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: netherexp:item.bucket.empty_ectoplasm Expected: 1835 Got: 1606
+[13Dec2024 18:58:28.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: netherexp:barrage Expected: 43 Got: 45
+[13Dec2024 18:58:28.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: netherexp:artemis Expected: 44 Got: 46
+[13Dec2024 18:58:30.645] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
+[13Dec2024 18:58:30.646] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
+[13Dec2024 18:58:33.563] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[13Dec2024 18:58:36.418] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[13Dec2024 18:58:36.459] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[13Dec2024 18:58:36.511] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[13Dec2024 18:58:36.528] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[13Dec2024 18:58:36.793] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3095 advancements
+[13Dec2024 18:58:36.811] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[13Dec2024 18:58:36.821] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[13Dec2024 18:58:36.832] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[13Dec2024 18:58:36.840] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[13Dec2024 18:58:38.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Dec2024 18:58:38.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Dec2024 18:58:38.841] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Dec2024 18:58:38.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Dec2024 18:58:39.073] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Dec2024 18:58:39.102] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Dec2024 18:58:39.310] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Dec2024 18:58:39.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Dec2024 18:58:39.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Dec2024 18:58:39.312] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Dec2024 18:58:40.099] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[13Dec2024 18:58:40.101] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[13Dec2024 18:58:40.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Dec2024 18:58:40.750] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[13Dec2024 18:58:55.740] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[13Dec2024 18:58:55.774] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[13Dec2024 18:58:55.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Dec2024 18:59:19.805] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.808] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.809] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.811] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.812] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.814] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.815] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.815] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.817] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.818] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.819] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.819] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.820] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.821] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.830] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.832] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.833] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.833] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.835] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.836] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.836] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.839] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.844] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.845] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.849] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.850] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.850] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.851] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.856] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.857] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.861] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.862] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.862] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.863] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.863] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.864] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.865] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.867] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.867] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.869] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:19.872] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:20.293] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:20.914] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:59:21.553] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25760 ms
+[13Dec2024 18:59:21.554] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (42.219s)! For help, type "help"
+[13Dec2024 18:59:21.607] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Dec2024 18:59:26.010] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[13Dec2024 18:59:26.012] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[13Dec2024 18:59:26.013] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13Dec2024 18:59:26.075] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'special-thats.gl.at.ply.gg:2024'
+[13Dec2024 18:59:26.264] [VoiceChatServerThread/ERROR] [voicechat/]: [voicechat] Failed to parse bind IP address 'i-indiana.gl.joinmc.link'
+java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
+	at de.maxhenkel.voicechat.plugins.impl.VoicechatSocketImpl.open(VoicechatSocketImpl.java:25) ~[voicechat-forge-1.20.1-2.5.26.jar%23157!/:1.20.1-2.5.26]
+	at de.maxhenkel.voicechat.voice.server.Server.run(Server.java:102) ~[voicechat-forge-1.20.1-2.5.26.jar%23157!/:1.20.1-2.5.26]
+[13Dec2024 18:59:26.265] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Binding to wildcard IP address
+[13Dec2024 18:59:26.268] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at i-indiana.gl.joinmc.link:2024
+[13Dec2024 18:59:32.071] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5949ms or 118 ticks behind
+[13Dec2024 19:01:09.226] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.18.191.26:34471] logged in with entity id 174 at (-842.6520504089277, 74.61813547611762, -96.26692461698424)
+[13Dec2024 19:01:09.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
+[13Dec2024 19:01:10.148] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of hola7 (18)
+[13Dec2024 19:01:10.162] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to hola7
+[13Dec2024 19:01:12.208] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
+[13Dec2024 19:01:14.211] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 7e72bd4c-8b47-3eae-954c-2a9ebf246379
+[13Dec2024 19:01:15.206] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7e72bd4c-8b47-3eae-954c-2a9ebf246379
+[13Dec2024 19:01:15.212] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player hola7 (7e72bd4c-8b47-3eae-954c-2a9ebf246379) successfully connected to voice chat
+[13Dec2024 19:01:35.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [Incendium]
+[13Dec2024 19:01:42.997] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8525ms or 170 ticks behind
+[13Dec2024 19:01:43.071] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[13Dec2024 19:02:02.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 was killed
+[13Dec2024 19:02:02.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Killed hola7]
+[13Dec2024 19:04:43.285] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
+[13Dec2024 19:04:43.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[13Dec2024 19:04:43.290] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client hola7
+[13Dec2024 19:05:18.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Dec2024 19:05:18.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Dec2024 19:05:18.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Dec2024 19:05:18.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Dec2024 19:05:18.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[13Dec2024 19:05:19.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[13Dec2024 19:05:19.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[13Dec2024 19:05:19.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Dec2024 19:05:19.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Dec2024 19:05:19.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Dec2024 19:05:19.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
