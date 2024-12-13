@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "5c83ff06e8214b7981cb195dcfd2aa1d"
+	name: "hola7#5c83ff06"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

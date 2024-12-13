@@ -1,0 +1,17 @@
+{
+	id: "5c83ff06-e821-4b79-81cb-195dcfd2aa1d"
+	type: "player"
+	player_name: "hola7"
+	ranks: {
+		5c83ff06-e821-4b79-81cb-195dcfd2aa1d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "hola7"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF595C"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
