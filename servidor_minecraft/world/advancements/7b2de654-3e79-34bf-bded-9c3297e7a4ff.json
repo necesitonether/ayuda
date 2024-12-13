@@ -49,7 +49,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2024-12-13 13:49:12 +0000"
+      "minecraft:nether_wastes": "2024-12-13 13:49:12 +0000",
+      "minecraft:soul_sand_valley": "2024-12-13 14:56:00 +0000"
     },
     "done": false
   },
@@ -80,6 +81,42 @@
   "cataclysm:root": {
     "criteria": {
       "custom_test_name": "2024-12-13 14:25:53 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/totem_top": {
+    "criteria": {
+      "has_obsidian": "2024-12-13 14:55:02 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/vampire_beacon": {
+    "criteria": {
+      "has_obsidian": "2024-12-13 14:55:02 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-12-13 14:55:02 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/totem_base": {
+    "criteria": {
+      "has_obsidian": "2024-12-13 14:55:02 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/fire_place": {
+    "criteria": {
+      "has_logs": "2024-12-13 14:55:02 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-12-13 14:55:02 +0000"
     },
     "done": true
   },
