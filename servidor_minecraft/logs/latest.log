@@ -717,3 +717,55 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 21:10:48.290] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/36960, l='ServerLevel[Mundo nuevo]', x=-98.96, y=-20.00, z=56.56] died: Toxic Slime was killed
 [13Dec2024 21:10:55.028] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2448ms or 48 ticks behind
 [13Dec2024 21:11:16.043] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[13Dec2024 21:11:33.484] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2453ms or 49 ticks behind
+[13Dec2024 21:11:53.885] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5404ms or 108 ticks behind
+[13Dec2024 21:12:12.624] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/39022, l='ServerLevel[Mundo nuevo]', x=-289.86, y=-20.00, z=126.86] died: Toxic Slime was killed
+[13Dec2024 21:12:12.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/39024, l='ServerLevel[Mundo nuevo]', x=-290.86, y=-20.00, z=83.14] died: Toxic Slime was killed
+[13Dec2024 21:12:13.462] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4581ms or 91 ticks behind
+[13Dec2024 21:12:14.552] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Remolach0[/127.93.139.23:42007] logged in with entity id 39115 at (-898.6954904245777, 63.5, -267.2176118121699)
+[13Dec2024 21:12:14.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 joined the game
+[13Dec2024 21:12:15.009] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Remolach0 (18)
+[13Dec2024 21:12:15.012] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Remolach0
+[13Dec2024 21:12:16.824] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/37744, l='ServerLevel[Mundo nuevo]', x=-114.74, y=-20.00, z=-36.74] died: Toxic Slime was killed
+[13Dec2024 21:12:17.976] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 87a7ce23-6343-3565-a964-e707c0e9d03e
+[13Dec2024 21:12:18.971] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 87a7ce23-6343-3565-a964-e707c0e9d03e
+[13Dec2024 21:12:18.972] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Remolach0 (87a7ce23-6343-3565-a964-e707c0e9d03e) successfully connected to voice chat
+[13Dec2024 21:12:21.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> buenas
+[13Dec2024 21:12:27.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> oaaa
+[13Dec2024 21:12:27.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jhonnyxd0711> remo!
+[13Dec2024 21:12:33.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5526ms or 110 ticks behind
+[13Dec2024 21:12:52.383] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3452ms or 69 ticks behind
+[13Dec2024 21:13:11.432] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[13Dec2024 21:13:12.859] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/38074, l='ServerLevel[Mundo nuevo]', x=-100.26, y=-20.00, z=50.40] died: Toxic Slime was killed
+[13Dec2024 21:13:26.659] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/38201, l='ServerLevel[Mundo nuevo]', x=-85.98, y=-20.00, z=127.26] died: Toxic Slime was killed
+[13Dec2024 21:13:28.802] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[13Dec2024 21:13:46.728] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2947ms or 58 ticks behind
+[13Dec2024 21:14:04.672] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2991ms or 59 ticks behind
+[13Dec2024 21:14:23.031] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[13Dec2024 21:14:43.946] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5916ms or 118 ticks behind
+[13Dec2024 21:14:53.065] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/38901, l='ServerLevel[Mundo nuevo]', x=-99.44, y=-20.00, z=55.14] died: Toxic Slime was killed
+[13Dec2024 21:14:57.375] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jhonnyxd0711 lost connection: Disconnected
+[13Dec2024 21:14:57.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhonnyxd0711 left the game
+[13Dec2024 21:14:57.376] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client jhonnyxd0711
+[13Dec2024 21:15:01.134] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2203ms or 44 ticks behind
+[13Dec2024 21:15:24.598] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[13Dec2024 21:15:40.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> dilo
+[13Dec2024 21:16:11.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> GOD
+[13Dec2024 21:16:19.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> mesi
+[13Dec2024 21:17:10.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no encontraste ancient?
+[13Dec2024 21:17:21.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> netherite
+[13Dec2024 21:17:30.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> bueno
+[13Dec2024 21:17:59.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> chao
+[13Dec2024 21:18:55.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> weno
+[13Dec2024 21:18:58.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> me las robo
+[13Dec2024 21:19:05.840] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[13Dec2024 21:19:21.267] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/42313, l='ServerLevel[Mundo nuevo]', x=-69.96, y=-20.00, z=27.74] died: Toxic Slime was killed
+[13Dec2024 21:19:22.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2125ms or 42 ticks behind
+[13Dec2024 21:19:45.363] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[13Dec2024 21:20:13.054] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/42289, l='ServerLevel[Mundo nuevo]', x=-123.74, y=-20.00, z=34.74] died: Toxic Slime was killed
+[13Dec2024 21:20:20.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[13Dec2024 21:20:36.289] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/42282, l='ServerLevel[Mundo nuevo]', x=-93.26, y=-20.00, z=40.74] died: Toxic Slime was killed
+[13Dec2024 21:20:39.882] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[13Dec2024 21:20:56.873] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/42343, l='ServerLevel[Mundo nuevo]', x=-87.74, y=-20.00, z=41.74] died: Toxic Slime was killed
+[13Dec2024 21:21:07.352] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/42346, l='ServerLevel[Mundo nuevo]', x=-101.74, y=-20.00, z=66.74] died: Toxic Slime was killed
+[13Dec2024 21:21:13.515] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind

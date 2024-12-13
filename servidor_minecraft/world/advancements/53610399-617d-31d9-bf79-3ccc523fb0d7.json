@@ -2795,6 +2795,7 @@
       "bread": "2024-12-10 18:23:04 +0000",
       "golden_apple": "2024-12-10 19:01:13 +0000",
       "cooked_chicken": "2024-12-12 19:59:39 +0000",
+      "enchanted_golden_apple": "2024-12-13 21:11:29 +0000",
       "carrot": "2024-12-10 18:53:43 +0000"
     },
     "done": false
@@ -3621,6 +3622,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2024-12-13 21:10:14 +0000"
+    },
+    "done": true
+  },
   "incendium:misc/soul_searcher": {
     "criteria": {
       "incendium:toxic_heap": "2024-12-13 20:59:01 +0000"
@@ -3705,6 +3712,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-12-13 21:10:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2024-12-13 21:00:23 +0000"
@@ -3732,6 +3745,12 @@
   "minecraft:recipes/building_blocks/red_nether_bricks": {
     "criteria": {
       "has_item": "2024-12-13 21:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_glazed_terracotta": {
+    "criteria": {
+      "has_green_terracotta": "2024-12-13 21:20:34 +0000"
     },
     "done": true
   },
@@ -3786,6 +3805,12 @@
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2024-12-13 21:00:23 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/geysers/basaltic": {
+    "criteria": {
+      "has_item": "2024-12-13 21:14:57 +0000"
     },
     "done": true
   },
