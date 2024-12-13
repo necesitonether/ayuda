@@ -4636,75 +4636,135 @@
     },
     "done": true
   },
+  "securitycraft:recipes/transportation/birch_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/mangrove_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/bamboo_security_sea_raft": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/cherry_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/jungle_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/spruce_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/dark_oak_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/acacia_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/transportation/oak_security_sea_boat": {
+    "criteria": {
+      "has_keypad_chest": "2024-12-13 21:43:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-12-13 21:53:20 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-13 21:34:26 +0000"
+      "log_spam_fixer": "2024-12-13 22:44:48 +0000"
     },
     "done": false
   },
