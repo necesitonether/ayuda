@@ -1,1175 +1,653 @@
-[13Dec2024 18:31:53.160] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[13Dec2024 18:31:53.164] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[13Dec2024 18:31:53.876] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Dec2024 18:31:53.955] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ayuda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[13Dec2024 18:31:54.348] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:31:54.350] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:31:54.353] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:31:54.357] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 18:31:54.562] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[13Dec2024 18:31:57.369] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Dec2024 18:31:57.546] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[13Dec2024 18:32:00.183] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
-[13Dec2024 18:32:00.184] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
-[13Dec2024 18:32:00.184] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
-[13Dec2024 18:32:00.186] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
-[13Dec2024 18:32:00.187] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
-[13Dec2024 18:32:00.187] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
-[13Dec2024 18:32:00.680] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[13Dec2024 18:32:12.120] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[13Dec2024 18:32:12.121] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[13Dec2024 18:32:12.124] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[13Dec2024 18:32:12.134] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[13Dec2024 18:32:12.135] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[13Dec2024 18:32:12.136] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[13Dec2024 18:32:12.137] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[13Dec2024 18:32:12.138] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[13Dec2024 18:32:12.859] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
-[13Dec2024 18:32:13.998] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[13Dec2024 18:32:14.004] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[13Dec2024 18:32:14.004] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[13Dec2024 18:32:21.943] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
-[13Dec2024 18:32:22.776] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[13Dec2024 18:32:22.914] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[13Dec2024 18:32:22.930] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[13Dec2024 18:32:22.931] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[13Dec2024 18:32:22.931] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[13Dec2024 18:32:22.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
-[13Dec2024 18:32:23.039] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5d93cb14]
-[13Dec2024 18:32:23.055] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[13Dec2024 18:32:23.296] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[13Dec2024 18:32:23.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
-[13Dec2024 18:32:23.355] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
-[13Dec2024 18:32:23.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
-[13Dec2024 18:32:23.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[13Dec2024 18:32:23.449] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
+[13Dec2024 18:46:19.727] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Dec2024 18:46:19.731] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[13Dec2024 18:46:20.592] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Dec2024 18:46:20.675] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ayuda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Dec2024 18:46:21.015] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:46:21.017] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:46:21.018] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:46:21.019] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Dec2024 18:46:21.282] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[13Dec2024 18:46:24.197] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Dec2024 18:46:24.346] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[13Dec2024 18:46:27.010] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[13Dec2024 18:46:27.013] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[13Dec2024 18:46:27.013] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
+[13Dec2024 18:46:27.019] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[13Dec2024 18:46:27.021] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[13Dec2024 18:46:27.022] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
+[13Dec2024 18:46:27.511] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[13Dec2024 18:46:39.514] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Dec2024 18:46:39.515] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[13Dec2024 18:46:39.517] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[13Dec2024 18:46:39.518] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[13Dec2024 18:46:39.519] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[13Dec2024 18:46:39.524] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[13Dec2024 18:46:39.525] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[13Dec2024 18:46:39.527] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[13Dec2024 18:46:40.133] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[13Dec2024 18:46:41.518] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Dec2024 18:46:41.518] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Dec2024 18:46:41.773] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[13Dec2024 18:46:49.259] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
+[13Dec2024 18:46:50.133] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[13Dec2024 18:46:50.207] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@66cba6a6]
+[13Dec2024 18:46:50.227] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[13Dec2024 18:46:50.257] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[13Dec2024 18:46:50.258] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[13Dec2024 18:46:50.266] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[13Dec2024 18:46:50.266] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[13Dec2024 18:46:50.268] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[13Dec2024 18:46:50.350] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[13Dec2024 18:46:50.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[13Dec2024 18:46:50.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[13Dec2024 18:46:50.504] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
 
-[13Dec2024 18:32:23.531] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[13Dec2024 18:32:23.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
-[13Dec2024 18:32:23.644] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
-[13Dec2024 18:32:23.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
-[13Dec2024 18:32:23.763] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
-[13Dec2024 18:32:23.797] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
-[13Dec2024 18:32:23.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
-[13Dec2024 18:32:23.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.11 Target: null
-[13Dec2024 18:32:23.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[13Dec2024 18:32:24.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
-[13Dec2024 18:32:24.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Dec2024 18:32:24.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[13Dec2024 18:32:24.569] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[13Dec2024 18:32:24.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.19
-[13Dec2024 18:32:27.411] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Dec2024 18:32:27.573] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-casinocraft (version 24.0 -> MISSING)
-deditasmod (version 1.0.0 -> MISSING)
-dedsafio_3 (version 1 -> MISSING)
-journeymap (version 5.10.3 -> MISSING)
-pacomodsforge (version 0.0.5 -> MISSING)
+[13Dec2024 18:46:50.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[13Dec2024 18:46:50.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[13Dec2024 18:46:50.693] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[13Dec2024 18:46:50.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
+[13Dec2024 18:46:50.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
+[13Dec2024 18:46:50.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
+[13Dec2024 18:46:50.939] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
+[13Dec2024 18:46:50.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
+[13Dec2024 18:46:50.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[13Dec2024 18:46:51.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.11 Target: null
+[13Dec2024 18:46:51.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[13Dec2024 18:46:51.658] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
+[13Dec2024 18:46:51.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Dec2024 18:46:51.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[13Dec2024 18:46:51.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[13Dec2024 18:46:51.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.19
+[13Dec2024 18:46:54.822] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Dec2024 18:46:55.048] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+dedsafio3 (version 0.0.8 -> MISSING)
 Things may not work well.
-[13Dec2024 18:32:27.716] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
-	casinocraft:arcade_base_black: 1064
-	casinocraft:arcade_base_blue: 1060
-	casinocraft:arcade_base_brown: 1061
-	casinocraft:arcade_base_cyan: 1058
-	casinocraft:arcade_base_gray: 1056
-	casinocraft:arcade_base_green: 1062
-	casinocraft:arcade_base_light_blue: 1052
-	casinocraft:arcade_base_light_gray: 1057
-	casinocraft:arcade_base_lime: 1054
-	casinocraft:arcade_base_magenta: 1051
-	casinocraft:arcade_base_orange: 1050
-	casinocraft:arcade_base_pink: 1055
-	casinocraft:arcade_base_purple: 1059
-	casinocraft:arcade_base_red: 1063
-	casinocraft:arcade_base_white: 1049
-	casinocraft:arcade_base_yellow: 1053
-	casinocraft:arcade_slot_black: 1080
-	casinocraft:arcade_slot_blue: 1076
-	casinocraft:arcade_slot_brown: 1077
-	casinocraft:arcade_slot_cyan: 1074
-	casinocraft:arcade_slot_gray: 1072
-	casinocraft:arcade_slot_green: 1078
-	casinocraft:arcade_slot_light_blue: 1068
-	casinocraft:arcade_slot_light_gray: 1073
-	casinocraft:arcade_slot_lime: 1070
-	casinocraft:arcade_slot_magenta: 1067
-	casinocraft:arcade_slot_orange: 1066
-	casinocraft:arcade_slot_pink: 1071
-	casinocraft:arcade_slot_purple: 1075
-	casinocraft:arcade_slot_red: 1079
-	casinocraft:arcade_slot_white: 1065
-	casinocraft:arcade_slot_yellow: 1069
-	casinocraft:cardtable_base_black: 1032
-	casinocraft:cardtable_base_blue: 1028
-	casinocraft:cardtable_base_brown: 1029
-	casinocraft:cardtable_base_cyan: 1026
-	casinocraft:cardtable_base_gray: 1024
-	casinocraft:cardtable_base_green: 1030
-	casinocraft:cardtable_base_light_blue: 1020
-	casinocraft:cardtable_base_light_gray: 1025
-	casinocraft:cardtable_base_lime: 1022
-	casinocraft:cardtable_base_magenta: 1019
-	casinocraft:cardtable_base_orange: 1018
-	casinocraft:cardtable_base_pink: 1023
-	casinocraft:cardtable_base_purple: 1027
-	casinocraft:cardtable_base_red: 1031
-	casinocraft:cardtable_base_white: 1017
-	casinocraft:cardtable_base_yellow: 1021
-	casinocraft:cardtable_wide_black: 1048
-	casinocraft:cardtable_wide_blue: 1044
-	casinocraft:cardtable_wide_brown: 1045
-	casinocraft:cardtable_wide_cyan: 1042
-	casinocraft:cardtable_wide_gray: 1040
-	casinocraft:cardtable_wide_green: 1046
-	casinocraft:cardtable_wide_light_blue: 1036
-	casinocraft:cardtable_wide_light_gray: 1041
-	casinocraft:cardtable_wide_lime: 1038
-	casinocraft:cardtable_wide_magenta: 1035
-	casinocraft:cardtable_wide_orange: 1034
-	casinocraft:cardtable_wide_pink: 1039
-	casinocraft:cardtable_wide_purple: 1043
-	casinocraft:cardtable_wide_red: 1047
-	casinocraft:cardtable_wide_white: 1033
-	casinocraft:cardtable_wide_yellow: 1037
-	deditasmod:lingote_de_acero_negro_aureo_ore: 1009
-	dedsafio_3:altar_a: 1371
-	dedsafio_3:altar_objects: 1373
-	dedsafio_3:batidora_legendaria: 1368
-	dedsafio_3:casino_d_3: 1372
-	dedsafio_3:lana_arcoiris: 1369
-	dedsafio_3:stone_plyaer: 1370
-	pacomodsforge:reforced_glass: 1010
+[13Dec2024 18:46:55.269] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	dedsafio3:arcoiris_wool: 1013
+	dedsafio3:batidora_legendaria: 1012
+	dedsafio3:bloque_dilitio: 1014
+	dedsafio3:piedra_tintadaextrana: 1106
+	dedsafio3:piedrapulidadesueloextrano: 1105
+	dedsafio3:reforced_glass: 1011
+	dedsafio3:runa_celest: 1016
+	dedsafio3:runa_red: 1015
+	dedsafio3:runa_rose: 1103
+	dedsafio3:runa_yellow: 1104
 
-[13Dec2024 18:32:27.725] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
-	dedsafio_3:blaze_storm: 338
-	dedsafio_3:bone_spider: 336
-	dedsafio_3:creeper_cake: 331
-	dedsafio_3:creeper_warden: 337
-	dedsafio_3:esquelo_dog: 334
-	dedsafio_3:fantasma_rojo: 344
-	dedsafio_3:flashbang: 341
-	dedsafio_3:fogata: 345
-	dedsafio_3:infernal_bull: 335
-	dedsafio_3:medusa: 340
-	dedsafio_3:r_evill_boss: 339
-	dedsafio_3:rana_gigante: 332
-	dedsafio_3:revil: 329
-	dedsafio_3:sapo: 333
-	dedsafio_3:taxi_23: 330
-	dedsafio_3:tiki: 346
-	dedsafio_3:tiki_guardian: 343
-	dedsafio_3:wild_fire: 342
-	pacomodsforge:bomba_a_cuerpo: 134
-	pacomodsforge:bomba_a_suelo: 133
-	pacomodsforge:bomba_a_voladora: 135
-	pacomodsforge:bomba_n_cuerpo: 131
-	pacomodsforge:bomba_n_suelo: 132
-	pacomodsforge:bomba_n_voladora: 129
-	pacomodsforge:bomba_r_cuerpo: 128
-	pacomodsforge:bomba_r_suelo: 130
-	pacomodsforge:bomba_r_voladora: 127
-	pacomodsforge:fantasmarojo: 125
-	pacomodsforge:infernal_bull_experimental: 136
-	pacomodsforge:mobxd: 124
-	pacomodsforge:spawner: 126
+[13Dec2024 18:46:55.271] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	dedsafio3:freezing_aspect: 42
+	dedsafio3:leeching_aspect: 41
 
-[13Dec2024 18:32:27.729] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
-	casinocraft:arcade_base_black: 1317
-	casinocraft:arcade_base_blue: 1313
-	casinocraft:arcade_base_brown: 1314
-	casinocraft:arcade_base_cyan: 1311
-	casinocraft:arcade_base_gray: 1309
-	casinocraft:arcade_base_green: 1315
-	casinocraft:arcade_base_light_blue: 1305
-	casinocraft:arcade_base_light_gray: 1310
-	casinocraft:arcade_base_lime: 1307
-	casinocraft:arcade_base_magenta: 1304
-	casinocraft:arcade_base_orange: 1303
-	casinocraft:arcade_base_pink: 1308
-	casinocraft:arcade_base_purple: 1312
-	casinocraft:arcade_base_red: 1316
-	casinocraft:arcade_base_white: 1302
-	casinocraft:arcade_base_yellow: 1306
-	casinocraft:arcade_slot_black: 1333
-	casinocraft:arcade_slot_blue: 1329
-	casinocraft:arcade_slot_brown: 1330
-	casinocraft:arcade_slot_cyan: 1327
-	casinocraft:arcade_slot_gray: 1325
-	casinocraft:arcade_slot_green: 1331
-	casinocraft:arcade_slot_light_blue: 1321
-	casinocraft:arcade_slot_light_gray: 1326
-	casinocraft:arcade_slot_lime: 1323
-	casinocraft:arcade_slot_magenta: 1320
-	casinocraft:arcade_slot_orange: 1319
-	casinocraft:arcade_slot_pink: 1324
-	casinocraft:arcade_slot_purple: 1328
-	casinocraft:arcade_slot_red: 1332
-	casinocraft:arcade_slot_white: 1318
-	casinocraft:arcade_slot_yellow: 1322
-	casinocraft:cardtable_base_black: 1285
-	casinocraft:cardtable_base_blue: 1281
-	casinocraft:cardtable_base_brown: 1282
-	casinocraft:cardtable_base_cyan: 1279
-	casinocraft:cardtable_base_gray: 1277
-	casinocraft:cardtable_base_green: 1283
-	casinocraft:cardtable_base_light_blue: 1273
-	casinocraft:cardtable_base_light_gray: 1278
-	casinocraft:cardtable_base_lime: 1275
-	casinocraft:cardtable_base_magenta: 1272
-	casinocraft:cardtable_base_orange: 1271
-	casinocraft:cardtable_base_pink: 1276
-	casinocraft:cardtable_base_purple: 1280
-	casinocraft:cardtable_base_red: 1284
-	casinocraft:cardtable_base_white: 1270
-	casinocraft:cardtable_base_yellow: 1274
-	casinocraft:cardtable_wide_black: 1301
-	casinocraft:cardtable_wide_blue: 1297
-	casinocraft:cardtable_wide_brown: 1298
-	casinocraft:cardtable_wide_cyan: 1295
-	casinocraft:cardtable_wide_gray: 1293
-	casinocraft:cardtable_wide_green: 1299
-	casinocraft:cardtable_wide_light_blue: 1289
-	casinocraft:cardtable_wide_light_gray: 1294
-	casinocraft:cardtable_wide_lime: 1291
-	casinocraft:cardtable_wide_magenta: 1288
-	casinocraft:cardtable_wide_orange: 1287
-	casinocraft:cardtable_wide_pink: 1292
-	casinocraft:cardtable_wide_purple: 1296
-	casinocraft:cardtable_wide_red: 1300
-	casinocraft:cardtable_wide_white: 1286
-	casinocraft:cardtable_wide_yellow: 1290
-	casinocraft:rulebook_1_1: 1334
-	casinocraft:rulebook_2_1: 1335
-	casinocraft:rulebook_2_2: 1336
-	casinocraft:rulebook_3_1: 1337
-	casinocraft:rulebook_3_2: 1338
-	casinocraft:rulebook_3_3: 1339
-	casinocraft:rulebook_4_1: 1340
-	casinocraft:rulebook_4_2: 1341
-	casinocraft:rulebook_5_1: 1342
-	casinocraft:rulebook_5_2: 1343
-	casinocraft:rulebook_6_1: 1344
-	casinocraft:rulebook_6_2: 1345
-	casinocraft:rulebook_7_0: 1346
-	deditasmod:armadura_infernal_armor_boots: 1440
-	deditasmod:armadura_infernal_armor_chestplate: 1438
-	deditasmod:armadura_infernal_armor_helmet: 1437
-	deditasmod:armadura_infernal_armor_leggings: 1439
-	deditasmod:as_ingot: 1443
-	deditasmod:ass_ingot: 1442
-	deditasmod:bloqueador_solar: 1425
-	deditasmod:cuchara: 1423
-	deditasmod:cuchara_de_resurreccion: 1422
-	deditasmod:cuerno_de_toro_infernal: 1435
-	deditasmod:dedita: 1415
-	deditasmod:dedita_morada: 1418
-	deditasmod:dedita_multicolor: 1431
-	deditasmod:dedita_roja: 1420
-	deditasmod:dedita_verde: 1421
-	deditasmod:deditarosa: 1419
-	deditasmod:deditas: 1416
-	deditasmod:deditass: 1417
-	deditasmod:healinginfernalsword: 1434
-	deditasmod:lingote_de_acero_negro_aureo_ore: 1436
-	deditasmod:pepita_de_acero_negro_aureo_ingot: 1441
-	deditasmod:tenedor_de_resurreccion: 1424
-	deditasmod:totem_eon_dedsafio_3: 1433
-	deditasmod:totem_eon_mariposon: 1432
-	deditasmod:totem_eonico: 1427
-	deditasmod:totem_ferreo: 1430
-	deditasmod:totem_flash_bang: 1428
-	deditasmod:totem_nutria: 1426
-	deditasmod:totem_reviil: 1429
-	dedsafio_3:aguacate: 2549
-	dedsafio_3:alma_golem: 2560
-	dedsafio_3:altar_a: 2565
-	dedsafio_3:altar_objects: 2590
-	dedsafio_3:armadura_espacial_boots: 2587
-	dedsafio_3:armadura_espacial_chestplate: 2585
-	dedsafio_3:armadura_espacial_helmet: 2584
-	dedsafio_3:armadura_espacial_leggings: 2586
-	dedsafio_3:armadura_infernal_boots: 2555
-	dedsafio_3:armadura_infernal_chestplate: 2553
-	dedsafio_3:armadura_infernal_helmet: 2552
-	dedsafio_3:armadura_infernal_leggings: 2554
-	dedsafio_3:batidora_legendaria: 2538
-	dedsafio_3:blaze_storm_spawn_egg: 2573
-	dedsafio_3:bone_spider_spawn_egg: 2571
-	dedsafio_3:brocoli: 2577
-	dedsafio_3:casino_d_3: 2579
-	dedsafio_3:cetro_ancestral: 2537
-	dedsafio_3:creeper_cake_spawn_egg: 2556
-	dedsafio_3:creeper_warden_spawn_egg: 2572
-	dedsafio_3:cuchara: 2540
-	dedsafio_3:cuchara_normal: 2574
-	dedsafio_3:dedita_celeste: 2548
-	dedsafio_3:dedita_gold: 2547
-	dedsafio_3:deditas: 2546
-	dedsafio_3:espada_fantasmal: 2558
-	dedsafio_3:espada_inanimada: 2559
-	dedsafio_3:esquelo_dog_spawn_egg: 2566
-	dedsafio_3:fantasma_rojo_spawn_egg: 2589
-	dedsafio_3:flashbang_spawn_egg: 2578
-	dedsafio_3:fogata_spawn_egg: 2591
-	dedsafio_3:fragmento_infernal: 2570
-	dedsafio_3:icon: 2542
-	dedsafio_3:inferal_nugets: 2569
-	dedsafio_3:infernal_bull_spawn_egg: 2567
-	dedsafio_3:infernal_ingots: 2568
-	dedsafio_3:infernal_sword: 2557
-	dedsafio_3:lana_arcoiris: 2539
-	dedsafio_3:manzana: 2544
-	dedsafio_3:maza: 2580
-	dedsafio_3:medusa_spawn_egg: 2576
-	dedsafio_3:metal_recocido: 2561
-	dedsafio_3:pildora: 2581
-	dedsafio_3:r_evill_boss_spawn_egg: 2575
-	dedsafio_3:rana_gigante_spawn_egg: 2563
-	dedsafio_3:revil_spawn_egg: 2541
-	dedsafio_3:rodillo: 2545
-	dedsafio_3:sapo_spawn_egg: 2564
-	dedsafio_3:sc_3: 2583
-	dedsafio_3:stone_plyaer: 2562
-	dedsafio_3:taxi: 2551
-	dedsafio_3:taxi_23_spawn_egg: 2550
-	dedsafio_3:tenedor: 2543
-	dedsafio_3:tiki_guardian_spawn_egg: 2588
-	dedsafio_3:tiki_spawn_egg: 2592
-	dedsafio_3:wild_fire_spawn_egg: 2582
-	pacomodsforge:almade_golem: 1484
-	pacomodsforge:black_shulker_bag: 1455
-	pacomodsforge:blue_capsule: 1445
-	pacomodsforge:blue_shulker_bag: 1456
-	pacomodsforge:bomba_a_voladora_spawn_egg: 1476
-	pacomodsforge:bomba_n_voladora_spawn_egg: 1475
-	pacomodsforge:bomba_r_voladora_spawn_egg: 1474
-	pacomodsforge:boost: 1470
-	pacomodsforge:brown_shulker_bag: 1457
-	pacomodsforge:cyan_shulker_bag: 1458
-	pacomodsforge:dedita: 1478
-	pacomodsforge:dedita_mision: 1479
-	pacomodsforge:deditacasino: 1480
-	pacomodsforge:deditamulticolor: 1481
-	pacomodsforge:emptycapsule: 1446
-	pacomodsforge:ender_bag: 1471
-	pacomodsforge:espada: 1466
-	pacomodsforge:espada_inanimada: 1483
-	pacomodsforge:fantasmarojo_spawn_egg: 1469
-	pacomodsforge:gray_shulker_bag: 1459
-	pacomodsforge:green_shulker_bag: 1460
-	pacomodsforge:healingsword: 1448
-	pacomodsforge:infernal_bull_experimental_spawn_egg: 1477
-	pacomodsforge:light_blue_shulker_bag: 1461
-	pacomodsforge:light_gray_shulker_bag: 1462
-	pacomodsforge:lime_shulker_bag: 1463
-	pacomodsforge:magenta_shulker_bag: 1464
-	pacomodsforge:metalrecocido: 1482
-	pacomodsforge:mobxd_spawn_egg: 1465
-	pacomodsforge:orange_shulker_bag: 1450
-	pacomodsforge:pink_shulker_bag: 1452
-	pacomodsforge:portable_anvil: 1467
-	pacomodsforge:portable_golden_anvil: 1468
-	pacomodsforge:procectorsolar: 1444
-	pacomodsforge:purple_shulker_bag: 1453
-	pacomodsforge:red_shulker_bag: 1451
-	pacomodsforge:reforced_glass: 1472
-	pacomodsforge:shulkerbag: 1447
-	pacomodsforge:spawner_spawn_egg: 1473
-	pacomodsforge:white_shulker_bag: 1449
-	pacomodsforge:yellow_shulker_bag: 1454
+[13Dec2024 18:46:55.272] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	dedsafio3:bomba_a_cuerpo: 320
+	dedsafio3:bomba_a_suelo: 319
+	dedsafio3:bomba_a_voladora: 321
+	dedsafio3:bomba_n_cuerpo: 317
+	dedsafio3:bomba_n_suelo: 318
+	dedsafio3:bomba_n_voladora: 315
+	dedsafio3:bomba_r_cuerpo: 314
+	dedsafio3:bomba_r_suelo: 316
+	dedsafio3:bomba_r_voladora: 313
+	dedsafio3:casino_dedsafio: 141
+	dedsafio3:creeper_warden: 150
+	dedsafio3:creeperpastel: 149
+	dedsafio3:fantasmarojo: 138
+	dedsafio3:flachbang: 142
+	dedsafio3:gorgona: 145
+	dedsafio3:hydra: 143
+	dedsafio3:infernal_bull_experimental: 322
+	dedsafio3:mobxd: 137
+	dedsafio3:ojon: 147
+	dedsafio3:rana: 140
+	dedsafio3:rana_gigante: 327
+	dedsafio3:revil: 144
+	dedsafio3:revil_boss: 326
+	dedsafio3:serpiente: 146
+	dedsafio3:spawner: 139
+	dedsafio3:taxi_23: 324
+	dedsafio3:tiki_guardian: 325
+	dedsafio3:tortuga_infernal: 323
+	dedsafio3:vampiro: 148
 
-[13Dec2024 18:32:27.733] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
-	pacomodsforge:bomba: 36
-	pacomodsforge:distorsion: 38
-	pacomodsforge:freeze_effect: 34
-	pacomodsforge:infeccion: 39
-	pacomodsforge:protectorsolar: 60
-	pacomodsforge:shuffle: 35
-	pacomodsforge:tempo: 37
-	pacomodsforge:trueslowness: 0
-	pacomodsforge:zombifik: 61
+[13Dec2024 18:46:55.281] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	dedsafio3:aguacate: 1564
+	dedsafio3:algodondeazucar: 1605
+	dedsafio3:almade_golem: 1525
+	dedsafio3:arcoiris_wool: 1562
+	dedsafio3:bala: 1577
+	dedsafio3:batidora_legendaria: 1558
+	dedsafio3:black_shulker_bag: 1496
+	dedsafio3:blood_medusa: 1582
+	dedsafio3:bloque_dilitio: 1583
+	dedsafio3:blue_capsule: 1486
+	dedsafio3:blue_shulker_bag: 1497
+	dedsafio3:bomba_a_voladora_spawn_egg: 1517
+	dedsafio3:bomba_bloqueador: 1596
+	dedsafio3:bomba_n_voladora_spawn_egg: 1516
+	dedsafio3:bomba_r_voladora_spawn_egg: 1515
+	dedsafio3:boost: 1511
+	dedsafio3:boost_vacio: 1556
+	dedsafio3:borg_extractor: 1613
+	dedsafio3:borg_extractor_filled: 1614
+	dedsafio3:brocoli: 1559
+	dedsafio3:brown_shulker_bag: 1498
+	dedsafio3:casino_dedsafio_spawn_egg: 1570
+	dedsafio3:cetro_ancestral: 1563
+	dedsafio3:corazon: 1578
+	dedsafio3:corazon_dorado: 1593
+	dedsafio3:creeper_warden_spawn_egg: 1621
+	dedsafio3:creeperpastel_spawn_egg: 1620
+	dedsafio3:cristal_dilitio: 1592
+	dedsafio3:cuchara: 1534
+	dedsafio3:cuchara_r: 1533
+	dedsafio3:cuerno_toro: 1532
+	dedsafio3:cyan_shulker_bag: 1499
+	dedsafio3:dedita: 1519
+	dedsafio3:dedita_amarilla: 1529
+	dedsafio3:dedita_mision: 1520
+	dedsafio3:dedita_morada: 1530
+	dedsafio3:dedita_roja: 1528
+	dedsafio3:dedita_rosa: 1527
+	dedsafio3:dedita_verde: 1531
+	dedsafio3:deditacasino: 1521
+	dedsafio3:deditamulticolor: 1522
+	dedsafio3:emptycapsule: 1487
+	dedsafio3:ender_bag: 1512
+	dedsafio3:energia: 1581
+	dedsafio3:energia_vacio: 1580
+	dedsafio3:espacial_armor_boots: 1550
+	dedsafio3:espacial_armor_chestplate: 1548
+	dedsafio3:espacial_armor_helmet: 1547
+	dedsafio3:espacial_armor_leggings: 1549
+	dedsafio3:espacial_naoneim_armor_boots: 1546
+	dedsafio3:espacial_naoneim_armor_chestplate: 1544
+	dedsafio3:espacial_naoneim_armor_helmet: 1543
+	dedsafio3:espacial_naoneim_armor_leggings: 1545
+	dedsafio3:espada: 1507
+	dedsafio3:espada_inanimada: 1524
+	dedsafio3:estoesunitem: 1526
+	dedsafio3:fantasmarojo_spawn_egg: 1510
+	dedsafio3:flachbang_spawn_egg: 1571
+	dedsafio3:gema_dilitio: 1538
+	dedsafio3:gema_nereida: 1576
+	dedsafio3:golden_black_steel_ingot: 1573
+	dedsafio3:golden_black_steel_reinforced_sheet: 1572
+	dedsafio3:gorgona_spawn_egg: 1589
+	dedsafio3:gray_shulker_bag: 1500
+	dedsafio3:green_shulker_bag: 1501
+	dedsafio3:healingsword: 1489
+	dedsafio3:hueso_aguacate: 1560
+	dedsafio3:hydra_spawn_egg: 1574
+	dedsafio3:ice_sword: 1537
+	dedsafio3:infernal_armor_boots: 1542
+	dedsafio3:infernal_armor_chestplate: 1540
+	dedsafio3:infernal_armor_helmet: 1539
+	dedsafio3:infernal_armor_leggings: 1541
+	dedsafio3:infernal_bull_experimental_spawn_egg: 1518
+	dedsafio3:infernal_nugget: 1555
+	dedsafio3:light_blue_shulker_bag: 1502
+	dedsafio3:light_gray_shulker_bag: 1503
+	dedsafio3:limbo_extractor: 1615
+	dedsafio3:limbo_extractor_filled: 1616
+	dedsafio3:lime_shulker_bag: 1504
+	dedsafio3:magenta_shulker_bag: 1505
+	dedsafio3:maza: 1553
+	dedsafio3:mejoria_dilitio: 1552
+	dedsafio3:mejoria_espacial: 1551
+	dedsafio3:metalrecocido: 1523
+	dedsafio3:mobxd_spawn_egg: 1506
+	dedsafio3:motordedilitio: 1604
+	dedsafio3:nereida_extractor: 1617
+	dedsafio3:nereida_extractor_filled: 1618
+	dedsafio3:nether_extractor: 1609
+	dedsafio3:nether_extractor_filled: 1610
+	dedsafio3:nutri_totem: 1598
+	dedsafio3:ojo_rana: 1591
+	dedsafio3:ojon_spawn_egg: 1603
+	dedsafio3:orange_shulker_bag: 1491
+	dedsafio3:overworld_extractor: 1612
+	dedsafio3:overworld_extractor_filled: 1611
+	dedsafio3:pata_rana: 1588
+	dedsafio3:pepita_dilitio: 1554
+	dedsafio3:piedra_tintadaextrana: 1608
+	dedsafio3:piedrapulidadesueloextrano: 1607
+	dedsafio3:pink_shulker_bag: 1493
+	dedsafio3:placa_corona: 1595
+	dedsafio3:portable_anvil: 1508
+	dedsafio3:portable_golden_anvil: 1509
+	dedsafio3:procectorsolar: 1485
+	dedsafio3:purple_shulker_bag: 1494
+	dedsafio3:rana_gigante_spawn_egg: 1568
+	dedsafio3:rana_spawn_egg: 1569
+	dedsafio3:red_shulker_bag: 1492
+	dedsafio3:reforced_glass: 1513
+	dedsafio3:revil_boss_spawn_egg: 1567
+	dedsafio3:revil_spawn_egg: 1575
+	dedsafio3:rodillo: 1561
+	dedsafio3:runa_celest: 1585
+	dedsafio3:runa_red: 1584
+	dedsafio3:runa_rose: 1586
+	dedsafio3:runa_yellow: 1587
+	dedsafio3:sc_3: 1579
+	dedsafio3:serpiente_spawn_egg: 1590
+	dedsafio3:shulkerbag: 1488
+	dedsafio3:soul_gem_fragment: 1619
+	dedsafio3:spawner_spawn_egg: 1514
+	dedsafio3:tanque_dilitio: 1594
+	dedsafio3:taxi_23_spawn_egg: 1565
+	dedsafio3:tenedor: 1536
+	dedsafio3:tenedor_r: 1535
+	dedsafio3:tiki_guardian_spawn_egg: 1566
+	dedsafio3:tortuga_infernal_spawn_egg: 1557
+	dedsafio3:totem_eon: 1597
+	dedsafio3:totem_eon_raro: 1601
+	dedsafio3:totem_eon_raro_2: 1602
+	dedsafio3:totem_espacial: 1599
+	dedsafio3:totem_reviil: 1600
+	dedsafio3:vampiro_spawn_egg: 1606
+	dedsafio3:warden_bat_wing_group: 1622
+	dedsafio3:white_shulker_bag: 1490
+	dedsafio3:yellow_shulker_bag: 1495
 
-[13Dec2024 18:32:27.733] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:point_of_interest_type
-	pacomodsforge:casino: 25
+[13Dec2024 18:46:55.302] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	dedsafio3:bomba: 45
+	dedsafio3:desangrado: 89
+	dedsafio3:distorsion: 47
+	dedsafio3:enderman_vision: 54
+	dedsafio3:fiesta: 56
+	dedsafio3:flashbang: 50
+	dedsafio3:freeze_effect: 43
+	dedsafio3:incapacidad: 57
+	dedsafio3:infeccion: 48
+	dedsafio3:invertido: 55
+	dedsafio3:milk: 53
+	dedsafio3:pre: 51
+	dedsafio3:pre_2: 59
+	dedsafio3:protector_bomba: 52
+	dedsafio3:protectorsolar: 40
+	dedsafio3:shuffle: 44
+	dedsafio3:sirenomorphosis: 49
+	dedsafio3:tempo: 46
+	dedsafio3:tortazo: 58
+	dedsafio3:trueslowness: 42
+	dedsafio3:zombifik: 41
 
-[13Dec2024 18:32:27.733] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
-	casinocraft:casinocraft.card.place: 1607
-	casinocraft:casinocraft.card.shove: 1608
-	casinocraft:casinocraft.chip: 1610
-	casinocraft:casinocraft.dice: 1611
-	casinocraft:casinocraft.impact: 1602
-	casinocraft:casinocraft.menu: 1603
-	casinocraft:casinocraft.pause.off: 1605
-	casinocraft:casinocraft.pause.on: 1604
-	casinocraft:casinocraft.pickup: 1601
-	casinocraft:casinocraft.reward: 1612
-	casinocraft:casinocraft.roulette: 1609
-	casinocraft:casinocraft.tetris: 1606
-	dedsafio_3:flash: 1937
-	dedsafio_3:gorgondie: 1934
-	dedsafio_3:gorgonhurt: 1935
-	dedsafio_3:gorgonidle: 1936
-	dedsafio_3:gorgonrisa: 1933
-	pacomodsforge:ghost.ambient: 1811
-	pacomodsforge:ghost.death: 1812
-	pacomodsforge:ghosthit: 1810
+[13Dec2024 18:46:55.303] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:point_of_interest_type
+	dedsafio3:casino: 20
 
-[13Dec2024 18:32:27.734] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:villager_profession
-	pacomodsforge:casino: 16
+[13Dec2024 18:46:55.303] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:potion
+	dedsafio3:milk_potion: 43
 
-[13Dec2024 18:32:27.745] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+[13Dec2024 18:46:55.304] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	dedsafio3:flashbang: 1796
+	dedsafio3:ghost.ambient: 1794
+	dedsafio3:ghost.death: 1795
+	dedsafio3:ghosthit: 1793
+	dedsafio3:gorgondie: 1797
+	dedsafio3:gorgonhurt: 1800
+	dedsafio3:gorgonidle: 1799
+	dedsafio3:gorgonrisa: 1798
+	dedsafio3:ring: 1801
 
-There are 337 missing entries in this save.
+[13Dec2024 18:46:55.307] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:villager_profession
+	dedsafio3:casino: 20
+
+[13Dec2024 18:46:55.309] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 212 missing entries in this save.
 If you continue the missing entries will get removed.
 A world backup will be automatically created in your saves directory.
 
 
-[13Dec2024 18:32:27.745] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
-    casinocraft:casinocraft.card.place
-    casinocraft:casinocraft.card.shove
-    casinocraft:casinocraft.chip
-    casinocraft:casinocraft.dice
-    casinocraft:casinocraft.impact
-    casinocraft:casinocraft.menu
-    casinocraft:casinocraft.pause.off
-    casinocraft:casinocraft.pause.on
-    casinocraft:casinocraft.pickup
-    casinocraft:casinocraft.reward
-    casinocraft:casinocraft.roulette
-    casinocraft:casinocraft.tetris
-    dedsafio_3:flash
-    dedsafio_3:gorgondie
-    dedsafio_3:gorgonhurt
-    dedsafio_3:gorgonidle
-    dedsafio_3:gorgonrisa
-    pacomodsforge:ghost.ambient
-    pacomodsforge:ghost.death
-    pacomodsforge:ghosthit
+[13Dec2024 18:46:55.310] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    dedsafio3:flashbang
+    dedsafio3:ghost.ambient
+    dedsafio3:ghost.death
+    dedsafio3:ghosthit
+    dedsafio3:gorgondie
+    dedsafio3:gorgonhurt
+    dedsafio3:gorgonidle
+    dedsafio3:gorgonrisa
+    dedsafio3:ring
 
 Missing minecraft:villager_profession:
-    pacomodsforge:casino
+    dedsafio3:casino
 
 Missing minecraft:item:
-    casinocraft:arcade_base_black
-    casinocraft:arcade_base_blue
-    casinocraft:arcade_base_brown
-    casinocraft:arcade_base_cyan
-    casinocraft:arcade_base_gray
-    casinocraft:arcade_base_green
-    casinocraft:arcade_base_light_blue
-    casinocraft:arcade_base_light_gray
-    casinocraft:arcade_base_lime
-    casinocraft:arcade_base_magenta
-    casinocraft:arcade_base_orange
-    casinocraft:arcade_base_pink
-    casinocraft:arcade_base_purple
-    casinocraft:arcade_base_red
-    casinocraft:arcade_base_white
-    casinocraft:arcade_base_yellow
-    casinocraft:arcade_slot_black
-    casinocraft:arcade_slot_blue
-    casinocraft:arcade_slot_brown
-    casinocraft:arcade_slot_cyan
-    casinocraft:arcade_slot_gray
-    casinocraft:arcade_slot_green
-    casinocraft:arcade_slot_light_blue
-    casinocraft:arcade_slot_light_gray
-    casinocraft:arcade_slot_lime
-    casinocraft:arcade_slot_magenta
-    casinocraft:arcade_slot_orange
-    casinocraft:arcade_slot_pink
-    casinocraft:arcade_slot_purple
-    casinocraft:arcade_slot_red
-    casinocraft:arcade_slot_white
-    casinocraft:arcade_slot_yellow
-    casinocraft:cardtable_base_black
-    casinocraft:cardtable_base_blue
-    casinocraft:cardtable_base_brown
-    casinocraft:cardtable_base_cyan
-    casinocraft:cardtable_base_gray
-    casinocraft:cardtable_base_green
-    casinocraft:cardtable_base_light_blue
-    casinocraft:cardtable_base_light_gray
-    casinocraft:cardtable_base_lime
-    casinocraft:cardtable_base_magenta
-    casinocraft:cardtable_base_orange
-    casinocraft:cardtable_base_pink
-    casinocraft:cardtable_base_purple
-    casinocraft:cardtable_base_red
-    casinocraft:cardtable_base_white
-    casinocraft:cardtable_base_yellow
-    casinocraft:cardtable_wide_black
-    casinocraft:cardtable_wide_blue
-    casinocraft:cardtable_wide_brown
-    casinocraft:cardtable_wide_cyan
-    casinocraft:cardtable_wide_gray
-    casinocraft:cardtable_wide_green
-    casinocraft:cardtable_wide_light_blue
-    casinocraft:cardtable_wide_light_gray
-    casinocraft:cardtable_wide_lime
-    casinocraft:cardtable_wide_magenta
-    casinocraft:cardtable_wide_orange
-    casinocraft:cardtable_wide_pink
-    casinocraft:cardtable_wide_purple
-    casinocraft:cardtable_wide_red
-    casinocraft:cardtable_wide_white
-    casinocraft:cardtable_wide_yellow
-    casinocraft:rulebook_1_1
-    casinocraft:rulebook_2_1
-    casinocraft:rulebook_2_2
-    casinocraft:rulebook_3_1
-    casinocraft:rulebook_3_2
-    casinocraft:rulebook_3_3
-    casinocraft:rulebook_4_1
-    casinocraft:rulebook_4_2
-    casinocraft:rulebook_5_1
-    casinocraft:rulebook_5_2
-    casinocraft:rulebook_6_1
-    casinocraft:rulebook_6_2
-    casinocraft:rulebook_7_0
-    deditasmod:armadura_infernal_armor_boots
-    deditasmod:armadura_infernal_armor_chestplate
-    deditasmod:armadura_infernal_armor_helmet
-    deditasmod:armadura_infernal_armor_leggings
-    deditasmod:as_ingot
-    deditasmod:ass_ingot
-    deditasmod:bloqueador_solar
-    deditasmod:cuchara
-    deditasmod:cuchara_de_resurreccion
-    deditasmod:cuerno_de_toro_infernal
-    deditasmod:dedita
-    deditasmod:dedita_morada
-    deditasmod:dedita_multicolor
-    deditasmod:dedita_roja
-    deditasmod:dedita_verde
-    deditasmod:deditarosa
-    deditasmod:deditas
-    deditasmod:deditass
-    deditasmod:healinginfernalsword
-    deditasmod:lingote_de_acero_negro_aureo_ore
-    deditasmod:pepita_de_acero_negro_aureo_ingot
-    deditasmod:tenedor_de_resurreccion
-    deditasmod:totem_eon_dedsafio_3
-    deditasmod:totem_eon_mariposon
-    deditasmod:totem_eonico
-    deditasmod:totem_ferreo
-    deditasmod:totem_flash_bang
-    deditasmod:totem_nutria
-    deditasmod:totem_reviil
-    dedsafio_3:aguacate
-    dedsafio_3:alma_golem
-    dedsafio_3:altar_a
-    dedsafio_3:altar_objects
-    dedsafio_3:armadura_espacial_boots
-    dedsafio_3:armadura_espacial_chestplate
-    dedsafio_3:armadura_espacial_helmet
-    dedsafio_3:armadura_espacial_leggings
-    dedsafio_3:armadura_infernal_boots
-    dedsafio_3:armadura_infernal_chestplate
-    dedsafio_3:armadura_infernal_helmet
-    dedsafio_3:armadura_infernal_leggings
-    dedsafio_3:batidora_legendaria
-    dedsafio_3:blaze_storm_spawn_egg
-    dedsafio_3:bone_spider_spawn_egg
-    dedsafio_3:brocoli
-    dedsafio_3:casino_d_3
-    dedsafio_3:cetro_ancestral
-    dedsafio_3:creeper_cake_spawn_egg
-    dedsafio_3:creeper_warden_spawn_egg
-    dedsafio_3:cuchara
-    dedsafio_3:cuchara_normal
-    dedsafio_3:dedita_celeste
-    dedsafio_3:dedita_gold
-    dedsafio_3:deditas
-    dedsafio_3:espada_fantasmal
-    dedsafio_3:espada_inanimada
-    dedsafio_3:esquelo_dog_spawn_egg
-    dedsafio_3:fantasma_rojo_spawn_egg
-    dedsafio_3:flashbang_spawn_egg
-    dedsafio_3:fogata_spawn_egg
-    dedsafio_3:fragmento_infernal
-    dedsafio_3:icon
-    dedsafio_3:inferal_nugets
-    dedsafio_3:infernal_bull_spawn_egg
-    dedsafio_3:infernal_ingots
-    dedsafio_3:infernal_sword
-    dedsafio_3:lana_arcoiris
-    dedsafio_3:manzana
-    dedsafio_3:maza
-    dedsafio_3:medusa_spawn_egg
-    dedsafio_3:metal_recocido
-    dedsafio_3:pildora
-    dedsafio_3:r_evill_boss_spawn_egg
-    dedsafio_3:rana_gigante_spawn_egg
-    dedsafio_3:revil_spawn_egg
-    dedsafio_3:rodillo
-    dedsafio_3:sapo_spawn_egg
-    dedsafio_3:sc_3
-    dedsafio_3:stone_plyaer
-    dedsafio_3:taxi
-    dedsafio_3:taxi_23_spawn_egg
-    dedsafio_3:tenedor
-    dedsafio_3:tiki_guardian_spawn_egg
-    dedsafio_3:tiki_spawn_egg
-    dedsafio_3:wild_fire_spawn_egg
-    pacomodsforge:almade_golem
-    pacomodsforge:black_shulker_bag
-    pacomodsforge:blue_capsule
-    pacomodsforge:blue_shulker_bag
-    pacomodsforge:bomba_a_voladora_spawn_egg
-    pacomodsforge:bomba_n_voladora_spawn_egg
-    pacomodsforge:bomba_r_voladora_spawn_egg
-    pacomodsforge:boost
-    pacomodsforge:brown_shulker_bag
-    pacomodsforge:cyan_shulker_bag
-    pacomodsforge:dedita
-    pacomodsforge:dedita_mision
-    pacomodsforge:deditacasino
-    pacomodsforge:deditamulticolor
-    pacomodsforge:emptycapsule
-    pacomodsforge:ender_bag
-    pacomodsforge:espada
-    pacomodsforge:espada_inanimada
-    pacomodsforge:fantasmarojo_spawn_egg
-    pacomodsforge:gray_shulker_bag
-    pacomodsforge:green_shulker_bag
-    pacomodsforge:healingsword
-    pacomodsforge:infernal_bull_experimental_spawn_egg
-    pacomodsforge:light_blue_shulker_bag
-    pacomodsforge:light_gray_shulker_bag
-    pacomodsforge:lime_shulker_bag
-    pacomodsforge:magenta_shulker_bag
-    pacomodsforge:metalrecocido
-    pacomodsforge:mobxd_spawn_egg
-    pacomodsforge:orange_shulker_bag
-    pacomodsforge:pink_shulker_bag
-    pacomodsforge:portable_anvil
-    pacomodsforge:portable_golden_anvil
-    pacomodsforge:procectorsolar
-    pacomodsforge:purple_shulker_bag
-    pacomodsforge:red_shulker_bag
-    pacomodsforge:reforced_glass
-    pacomodsforge:shulkerbag
-    pacomodsforge:spawner_spawn_egg
-    pacomodsforge:white_shulker_bag
-    pacomodsforge:yellow_shulker_bag
+    dedsafio3:aguacate
+    dedsafio3:algodondeazucar
+    dedsafio3:almade_golem
+    dedsafio3:arcoiris_wool
+    dedsafio3:bala
+    dedsafio3:batidora_legendaria
+    dedsafio3:black_shulker_bag
+    dedsafio3:blood_medusa
+    dedsafio3:bloque_dilitio
+    dedsafio3:blue_capsule
+    dedsafio3:blue_shulker_bag
+    dedsafio3:bomba_a_voladora_spawn_egg
+    dedsafio3:bomba_bloqueador
+    dedsafio3:bomba_n_voladora_spawn_egg
+    dedsafio3:bomba_r_voladora_spawn_egg
+    dedsafio3:boost
+    dedsafio3:boost_vacio
+    dedsafio3:borg_extractor
+    dedsafio3:borg_extractor_filled
+    dedsafio3:brocoli
+    dedsafio3:brown_shulker_bag
+    dedsafio3:casino_dedsafio_spawn_egg
+    dedsafio3:cetro_ancestral
+    dedsafio3:corazon
+    dedsafio3:corazon_dorado
+    dedsafio3:creeper_warden_spawn_egg
+    dedsafio3:creeperpastel_spawn_egg
+    dedsafio3:cristal_dilitio
+    dedsafio3:cuchara
+    dedsafio3:cuchara_r
+    dedsafio3:cuerno_toro
+    dedsafio3:cyan_shulker_bag
+    dedsafio3:dedita
+    dedsafio3:dedita_amarilla
+    dedsafio3:dedita_mision
+    dedsafio3:dedita_morada
+    dedsafio3:dedita_roja
+    dedsafio3:dedita_rosa
+    dedsafio3:dedita_verde
+    dedsafio3:deditacasino
+    dedsafio3:deditamulticolor
+    dedsafio3:emptycapsule
+    dedsafio3:ender_bag
+    dedsafio3:energia
+    dedsafio3:energia_vacio
+    dedsafio3:espacial_armor_boots
+    dedsafio3:espacial_armor_chestplate
+    dedsafio3:espacial_armor_helmet
+    dedsafio3:espacial_armor_leggings
+    dedsafio3:espacial_naoneim_armor_boots
+    dedsafio3:espacial_naoneim_armor_chestplate
+    dedsafio3:espacial_naoneim_armor_helmet
+    dedsafio3:espacial_naoneim_armor_leggings
+    dedsafio3:espada
+    dedsafio3:espada_inanimada
+    dedsafio3:estoesunitem
+    dedsafio3:fantasmarojo_spawn_egg
+    dedsafio3:flachbang_spawn_egg
+    dedsafio3:gema_dilitio
+    dedsafio3:gema_nereida
+    dedsafio3:golden_black_steel_ingot
+    dedsafio3:golden_black_steel_reinforced_sheet
+    dedsafio3:gorgona_spawn_egg
+    dedsafio3:gray_shulker_bag
+    dedsafio3:green_shulker_bag
+    dedsafio3:healingsword
+    dedsafio3:hueso_aguacate
+    dedsafio3:hydra_spawn_egg
+    dedsafio3:ice_sword
+    dedsafio3:infernal_armor_boots
+    dedsafio3:infernal_armor_chestplate
+    dedsafio3:infernal_armor_helmet
+    dedsafio3:infernal_armor_leggings
+    dedsafio3:infernal_bull_experimental_spawn_egg
+    dedsafio3:infernal_nugget
+    dedsafio3:light_blue_shulker_bag
+    dedsafio3:light_gray_shulker_bag
+    dedsafio3:limbo_extractor
+    dedsafio3:limbo_extractor_filled
+    dedsafio3:lime_shulker_bag
+    dedsafio3:magenta_shulker_bag
+    dedsafio3:maza
+    dedsafio3:mejoria_dilitio
+    dedsafio3:mejoria_espacial
+    dedsafio3:metalrecocido
+    dedsafio3:mobxd_spawn_egg
+    dedsafio3:motordedilitio
+    dedsafio3:nereida_extractor
+    dedsafio3:nereida_extractor_filled
+    dedsafio3:nether_extractor
+    dedsafio3:nether_extractor_filled
+    dedsafio3:nutri_totem
+    dedsafio3:ojo_rana
+    dedsafio3:ojon_spawn_egg
+    dedsafio3:orange_shulker_bag
+    dedsafio3:overworld_extractor
+    dedsafio3:overworld_extractor_filled
+    dedsafio3:pata_rana
+    dedsafio3:pepita_dilitio
+    dedsafio3:piedra_tintadaextrana
+    dedsafio3:piedrapulidadesueloextrano
+    dedsafio3:pink_shulker_bag
+    dedsafio3:placa_corona
+    dedsafio3:portable_anvil
+    dedsafio3:portable_golden_anvil
+    dedsafio3:procectorsolar
+    dedsafio3:purple_shulker_bag
+    dedsafio3:rana_gigante_spawn_egg
+    dedsafio3:rana_spawn_egg
+    dedsafio3:red_shulker_bag
+    dedsafio3:reforced_glass
+    dedsafio3:revil_boss_spawn_egg
+    dedsafio3:revil_spawn_egg
+    dedsafio3:rodillo
+    dedsafio3:runa_celest
+    dedsafio3:runa_red
+    dedsafio3:runa_rose
+    dedsafio3:runa_yellow
+    dedsafio3:sc_3
+    dedsafio3:serpiente_spawn_egg
+    dedsafio3:shulkerbag
+    dedsafio3:soul_gem_fragment
+    dedsafio3:spawner_spawn_egg
+    dedsafio3:tanque_dilitio
+    dedsafio3:taxi_23_spawn_egg
+    dedsafio3:tenedor
+    dedsafio3:tenedor_r
+    dedsafio3:tiki_guardian_spawn_egg
+    dedsafio3:tortuga_infernal_spawn_egg
+    dedsafio3:totem_eon
+    dedsafio3:totem_eon_raro
+    dedsafio3:totem_eon_raro_2
+    dedsafio3:totem_espacial
+    dedsafio3:totem_reviil
+    dedsafio3:vampiro_spawn_egg
+    dedsafio3:warden_bat_wing_group
+    dedsafio3:white_shulker_bag
+    dedsafio3:yellow_shulker_bag
+
+Missing minecraft:potion:
+    dedsafio3:milk_potion
 
 Missing minecraft:block:
-    casinocraft:arcade_base_black
-    casinocraft:arcade_base_blue
-    casinocraft:arcade_base_brown
-    casinocraft:arcade_base_cyan
-    casinocraft:arcade_base_gray
-    casinocraft:arcade_base_green
-    casinocraft:arcade_base_light_blue
-    casinocraft:arcade_base_light_gray
-    casinocraft:arcade_base_lime
-    casinocraft:arcade_base_magenta
-    casinocraft:arcade_base_orange
-    casinocraft:arcade_base_pink
-    casinocraft:arcade_base_purple
-    casinocraft:arcade_base_red
-    casinocraft:arcade_base_white
-    casinocraft:arcade_base_yellow
-    casinocraft:arcade_slot_black
-    casinocraft:arcade_slot_blue
-    casinocraft:arcade_slot_brown
-    casinocraft:arcade_slot_cyan
-    casinocraft:arcade_slot_gray
-    casinocraft:arcade_slot_green
-    casinocraft:arcade_slot_light_blue
-    casinocraft:arcade_slot_light_gray
-    casinocraft:arcade_slot_lime
-    casinocraft:arcade_slot_magenta
-    casinocraft:arcade_slot_orange
-    casinocraft:arcade_slot_pink
-    casinocraft:arcade_slot_purple
-    casinocraft:arcade_slot_red
-    casinocraft:arcade_slot_white
-    casinocraft:arcade_slot_yellow
-    casinocraft:cardtable_base_black
-    casinocraft:cardtable_base_blue
-    casinocraft:cardtable_base_brown
-    casinocraft:cardtable_base_cyan
-    casinocraft:cardtable_base_gray
-    casinocraft:cardtable_base_green
-    casinocraft:cardtable_base_light_blue
-    casinocraft:cardtable_base_light_gray
-    casinocraft:cardtable_base_lime
-    casinocraft:cardtable_base_magenta
-    casinocraft:cardtable_base_orange
-    casinocraft:cardtable_base_pink
-    casinocraft:cardtable_base_purple
-    casinocraft:cardtable_base_red
-    casinocraft:cardtable_base_white
-    casinocraft:cardtable_base_yellow
-    casinocraft:cardtable_wide_black
-    casinocraft:cardtable_wide_blue
-    casinocraft:cardtable_wide_brown
-    casinocraft:cardtable_wide_cyan
-    casinocraft:cardtable_wide_gray
-    casinocraft:cardtable_wide_green
-    casinocraft:cardtable_wide_light_blue
-    casinocraft:cardtable_wide_light_gray
-    casinocraft:cardtable_wide_lime
-    casinocraft:cardtable_wide_magenta
-    casinocraft:cardtable_wide_orange
-    casinocraft:cardtable_wide_pink
-    casinocraft:cardtable_wide_purple
-    casinocraft:cardtable_wide_red
-    casinocraft:cardtable_wide_white
-    casinocraft:cardtable_wide_yellow
-    deditasmod:lingote_de_acero_negro_aureo_ore
-    dedsafio_3:altar_a
-    dedsafio_3:altar_objects
-    dedsafio_3:batidora_legendaria
-    dedsafio_3:casino_d_3
-    dedsafio_3:lana_arcoiris
-    dedsafio_3:stone_plyaer
-    pacomodsforge:reforced_glass
+    dedsafio3:arcoiris_wool
+    dedsafio3:batidora_legendaria
+    dedsafio3:bloque_dilitio
+    dedsafio3:piedra_tintadaextrana
+    dedsafio3:piedrapulidadesueloextrano
+    dedsafio3:reforced_glass
+    dedsafio3:runa_celest
+    dedsafio3:runa_red
+    dedsafio3:runa_rose
+    dedsafio3:runa_yellow
 
 Missing minecraft:point_of_interest_type:
-    pacomodsforge:casino
+    dedsafio3:casino
 
 Missing minecraft:mob_effect:
-    pacomodsforge:bomba
-    pacomodsforge:distorsion
-    pacomodsforge:freeze_effect
-    pacomodsforge:infeccion
-    pacomodsforge:protectorsolar
-    pacomodsforge:shuffle
-    pacomodsforge:tempo
-    pacomodsforge:trueslowness
-    pacomodsforge:zombifik
+    dedsafio3:bomba
+    dedsafio3:desangrado
+    dedsafio3:distorsion
+    dedsafio3:enderman_vision
+    dedsafio3:fiesta
+    dedsafio3:flashbang
+    dedsafio3:freeze_effect
+    dedsafio3:incapacidad
+    dedsafio3:infeccion
+    dedsafio3:invertido
+    dedsafio3:milk
+    dedsafio3:pre
+    dedsafio3:pre_2
+    dedsafio3:protector_bomba
+    dedsafio3:protectorsolar
+    dedsafio3:shuffle
+    dedsafio3:sirenomorphosis
+    dedsafio3:tempo
+    dedsafio3:tortazo
+    dedsafio3:trueslowness
+    dedsafio3:zombifik
+
+Missing minecraft:enchantment:
+    dedsafio3:freezing_aspect
+    dedsafio3:leeching_aspect
 
 Missing minecraft:entity_type:
-    dedsafio_3:blaze_storm
-    dedsafio_3:bone_spider
-    dedsafio_3:creeper_cake
-    dedsafio_3:creeper_warden
-    dedsafio_3:esquelo_dog
-    dedsafio_3:fantasma_rojo
-    dedsafio_3:flashbang
-    dedsafio_3:fogata
-    dedsafio_3:infernal_bull
-    dedsafio_3:medusa
-    dedsafio_3:r_evill_boss
-    dedsafio_3:rana_gigante
-    dedsafio_3:revil
-    dedsafio_3:sapo
-    dedsafio_3:taxi_23
-    dedsafio_3:tiki
-    dedsafio_3:tiki_guardian
-    dedsafio_3:wild_fire
-    pacomodsforge:bomba_a_cuerpo
-    pacomodsforge:bomba_a_suelo
-    pacomodsforge:bomba_a_voladora
-    pacomodsforge:bomba_n_cuerpo
-    pacomodsforge:bomba_n_suelo
-    pacomodsforge:bomba_n_voladora
-    pacomodsforge:bomba_r_cuerpo
-    pacomodsforge:bomba_r_suelo
-    pacomodsforge:bomba_r_voladora
-    pacomodsforge:fantasmarojo
-    pacomodsforge:infernal_bull_experimental
-    pacomodsforge:mobxd
-    pacomodsforge:spawner
+    dedsafio3:bomba_a_cuerpo
+    dedsafio3:bomba_a_suelo
+    dedsafio3:bomba_a_voladora
+    dedsafio3:bomba_n_cuerpo
+    dedsafio3:bomba_n_suelo
+    dedsafio3:bomba_n_voladora
+    dedsafio3:bomba_r_cuerpo
+    dedsafio3:bomba_r_suelo
+    dedsafio3:bomba_r_voladora
+    dedsafio3:casino_dedsafio
+    dedsafio3:creeper_warden
+    dedsafio3:creeperpastel
+    dedsafio3:fantasmarojo
+    dedsafio3:flachbang
+    dedsafio3:gorgona
+    dedsafio3:hydra
+    dedsafio3:infernal_bull_experimental
+    dedsafio3:mobxd
+    dedsafio3:ojon
+    dedsafio3:rana
+    dedsafio3:rana_gigante
+    dedsafio3:revil
+    dedsafio3:revil_boss
+    dedsafio3:serpiente
+    dedsafio3:spawner
+    dedsafio3:taxi_23
+    dedsafio3:tiki_guardian
+    dedsafio3:tortuga_infernal
+    dedsafio3:vampiro
 
 
-[13Dec2024 18:32:27.745] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[13Dec2024 18:32:27.749] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:reforced_glass Expected: 2046 Got: 1011
-[13Dec2024 18:32:27.749] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:batidora_legendaria Expected: 2047 Got: 1012
-[13Dec2024 18:32:27.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:arcoiris_wool Expected: 2048 Got: 1013
-[13Dec2024 18:32:27.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:bloque_dilitio Expected: 2049 Got: 1014
-[13Dec2024 18:32:27.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:runa_red Expected: 2050 Got: 1015
-[13Dec2024 18:32:27.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:runa_celest Expected: 2051 Got: 1016
-[13Dec2024 18:32:27.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:runa_rose Expected: 2052 Got: 1103
-[13Dec2024 18:32:27.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:runa_yellow Expected: 2053 Got: 1104
-[13Dec2024 18:32:27.750] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:piedrapulidadesueloextrano Expected: 2054 Got: 1105
-[13Dec2024 18:32:27.751] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: dedsafio3:piedra_tintadaextrana Expected: 2055 Got: 1106
-[13Dec2024 18:32:27.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:procectorsolar Expected: 3022 Got: 1485
-[13Dec2024 18:32:27.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:blue_capsule Expected: 3023 Got: 1486
-[13Dec2024 18:32:27.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:emptycapsule Expected: 3024 Got: 1487
-[13Dec2024 18:32:27.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:shulkerbag Expected: 3025 Got: 1488
-[13Dec2024 18:32:27.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:healingsword Expected: 3026 Got: 1489
-[13Dec2024 18:32:27.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:white_shulker_bag Expected: 3027 Got: 1490
-[13Dec2024 18:32:27.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:orange_shulker_bag Expected: 3028 Got: 1491
-[13Dec2024 18:32:27.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:red_shulker_bag Expected: 3029 Got: 1492
-[13Dec2024 18:32:27.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:pink_shulker_bag Expected: 3030 Got: 1493
-[13Dec2024 18:32:27.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:purple_shulker_bag Expected: 3031 Got: 1494
-[13Dec2024 18:32:27.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:yellow_shulker_bag Expected: 3032 Got: 1495
-[13Dec2024 18:32:27.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:black_shulker_bag Expected: 3033 Got: 1496
-[13Dec2024 18:32:27.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:blue_shulker_bag Expected: 3034 Got: 1497
-[13Dec2024 18:32:27.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:brown_shulker_bag Expected: 3035 Got: 1498
-[13Dec2024 18:32:27.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:cyan_shulker_bag Expected: 3036 Got: 1499
-[13Dec2024 18:32:27.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:gray_shulker_bag Expected: 3037 Got: 1500
-[13Dec2024 18:32:27.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:green_shulker_bag Expected: 3038 Got: 1501
-[13Dec2024 18:32:27.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:light_blue_shulker_bag Expected: 3039 Got: 1502
-[13Dec2024 18:32:27.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:light_gray_shulker_bag Expected: 3040 Got: 1503
-[13Dec2024 18:32:27.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:lime_shulker_bag Expected: 3041 Got: 1504
-[13Dec2024 18:32:27.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:magenta_shulker_bag Expected: 3042 Got: 1505
-[13Dec2024 18:32:27.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:mobxd_spawn_egg Expected: 3043 Got: 1506
-[13Dec2024 18:32:27.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espada Expected: 3044 Got: 1507
-[13Dec2024 18:32:27.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:portable_anvil Expected: 3045 Got: 1508
-[13Dec2024 18:32:27.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:portable_golden_anvil Expected: 3046 Got: 1509
-[13Dec2024 18:32:27.758] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:fantasmarojo_spawn_egg Expected: 3047 Got: 1510
-[13Dec2024 18:32:27.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:boost Expected: 3048 Got: 1511
-[13Dec2024 18:32:27.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:ender_bag Expected: 3049 Got: 1512
-[13Dec2024 18:32:27.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:reforced_glass Expected: 3050 Got: 1513
-[13Dec2024 18:32:27.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:spawner_spawn_egg Expected: 3051 Got: 1514
-[13Dec2024 18:32:27.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:bomba_r_voladora_spawn_egg Expected: 3052 Got: 1515
-[13Dec2024 18:32:27.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:bomba_n_voladora_spawn_egg Expected: 3053 Got: 1516
-[13Dec2024 18:32:27.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:bomba_a_voladora_spawn_egg Expected: 3054 Got: 1517
-[13Dec2024 18:32:27.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:infernal_bull_experimental_spawn_egg Expected: 3055 Got: 1518
-[13Dec2024 18:32:27.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:dedita Expected: 3056 Got: 1519
-[13Dec2024 18:32:27.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:dedita_mision Expected: 3057 Got: 1520
-[13Dec2024 18:32:27.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:deditacasino Expected: 3058 Got: 1521
-[13Dec2024 18:32:27.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:deditamulticolor Expected: 3059 Got: 1522
-[13Dec2024 18:32:27.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:metalrecocido Expected: 3060 Got: 1523
-[13Dec2024 18:32:27.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espada_inanimada Expected: 3061 Got: 1524
-[13Dec2024 18:32:27.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:almade_golem Expected: 3062 Got: 1525
-[13Dec2024 18:32:27.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:estoesunitem Expected: 3063 Got: 1526
-[13Dec2024 18:32:27.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:dedita_rosa Expected: 3064 Got: 1527
-[13Dec2024 18:32:27.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:dedita_roja Expected: 3065 Got: 1528
-[13Dec2024 18:32:27.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:dedita_amarilla Expected: 3066 Got: 1529
-[13Dec2024 18:32:27.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:dedita_morada Expected: 3067 Got: 1530
-[13Dec2024 18:32:27.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:dedita_verde Expected: 3068 Got: 1531
-[13Dec2024 18:32:27.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:cuerno_toro Expected: 3069 Got: 1532
-[13Dec2024 18:32:27.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:cuchara_r Expected: 3070 Got: 1533
-[13Dec2024 18:32:27.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:cuchara Expected: 3071 Got: 1534
-[13Dec2024 18:32:27.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:tenedor_r Expected: 3072 Got: 1535
-[13Dec2024 18:32:27.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:tenedor Expected: 3073 Got: 1536
-[13Dec2024 18:32:27.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:ice_sword Expected: 3074 Got: 1537
-[13Dec2024 18:32:27.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:gema_dilitio Expected: 3075 Got: 1538
-[13Dec2024 18:32:27.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:infernal_armor_helmet Expected: 3076 Got: 1539
-[13Dec2024 18:32:27.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:infernal_armor_chestplate Expected: 3077 Got: 1540
-[13Dec2024 18:32:27.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:infernal_armor_leggings Expected: 3078 Got: 1541
-[13Dec2024 18:32:27.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:infernal_armor_boots Expected: 3079 Got: 1542
-[13Dec2024 18:32:27.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_naoneim_armor_helmet Expected: 3080 Got: 1543
-[13Dec2024 18:32:27.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_naoneim_armor_chestplate Expected: 3081 Got: 1544
-[13Dec2024 18:32:27.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_naoneim_armor_leggings Expected: 3082 Got: 1545
-[13Dec2024 18:32:27.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_naoneim_armor_boots Expected: 3083 Got: 1546
-[13Dec2024 18:32:27.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_armor_helmet Expected: 3084 Got: 1547
-[13Dec2024 18:32:27.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_armor_chestplate Expected: 3085 Got: 1548
-[13Dec2024 18:32:27.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_armor_leggings Expected: 3086 Got: 1549
-[13Dec2024 18:32:27.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:espacial_armor_boots Expected: 3087 Got: 1550
-[13Dec2024 18:32:27.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:mejoria_espacial Expected: 3088 Got: 1551
-[13Dec2024 18:32:27.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:mejoria_dilitio Expected: 3089 Got: 1552
-[13Dec2024 18:32:27.773] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:maza Expected: 3090 Got: 1553
-[13Dec2024 18:32:27.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:pepita_dilitio Expected: 3091 Got: 1554
-[13Dec2024 18:32:27.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:infernal_nugget Expected: 3092 Got: 1555
-[13Dec2024 18:32:27.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:boost_vacio Expected: 3093 Got: 1556
-[13Dec2024 18:32:27.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:tortuga_infernal_spawn_egg Expected: 3094 Got: 1557
-[13Dec2024 18:32:27.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:batidora_legendaria Expected: 3095 Got: 1558
-[13Dec2024 18:32:27.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:brocoli Expected: 3096 Got: 1559
-[13Dec2024 18:32:27.774] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:hueso_aguacate Expected: 3097 Got: 1560
-[13Dec2024 18:32:27.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:rodillo Expected: 3098 Got: 1561
-[13Dec2024 18:32:27.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:arcoiris_wool Expected: 3099 Got: 1562
-[13Dec2024 18:32:27.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:cetro_ancestral Expected: 3100 Got: 1563
-[13Dec2024 18:32:27.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:aguacate Expected: 3101 Got: 1564
-[13Dec2024 18:32:27.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:taxi_23_spawn_egg Expected: 3102 Got: 1565
-[13Dec2024 18:32:27.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:tiki_guardian_spawn_egg Expected: 3103 Got: 1566
-[13Dec2024 18:32:27.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:revil_boss_spawn_egg Expected: 3104 Got: 1567
-[13Dec2024 18:32:27.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:rana_gigante_spawn_egg Expected: 3105 Got: 1568
-[13Dec2024 18:32:27.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:rana_spawn_egg Expected: 3106 Got: 1569
-[13Dec2024 18:32:27.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:casino_dedsafio_spawn_egg Expected: 3107 Got: 1570
-[13Dec2024 18:32:27.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:flachbang_spawn_egg Expected: 3108 Got: 1571
-[13Dec2024 18:32:27.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:golden_black_steel_reinforced_sheet Expected: 3109 Got: 1572
-[13Dec2024 18:32:27.776] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:golden_black_steel_ingot Expected: 3110 Got: 1573
-[13Dec2024 18:32:27.784] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:hydra_spawn_egg Expected: 3111 Got: 1574
-[13Dec2024 18:32:27.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:revil_spawn_egg Expected: 3112 Got: 1575
-[13Dec2024 18:32:27.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:gema_nereida Expected: 3113 Got: 1576
-[13Dec2024 18:32:27.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:bala Expected: 3114 Got: 1577
-[13Dec2024 18:32:27.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:corazon Expected: 3115 Got: 1578
-[13Dec2024 18:32:27.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:sc_3 Expected: 3116 Got: 1579
-[13Dec2024 18:32:27.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:energia_vacio Expected: 3117 Got: 1580
-[13Dec2024 18:32:27.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:energia Expected: 3118 Got: 1581
-[13Dec2024 18:32:27.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:blood_medusa Expected: 3119 Got: 1582
-[13Dec2024 18:32:27.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:bloque_dilitio Expected: 3120 Got: 1583
-[13Dec2024 18:32:27.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:runa_red Expected: 3121 Got: 1584
-[13Dec2024 18:32:27.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:runa_celest Expected: 3122 Got: 1585
-[13Dec2024 18:32:27.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:runa_rose Expected: 3123 Got: 1586
-[13Dec2024 18:32:27.786] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:runa_yellow Expected: 3124 Got: 1587
-[13Dec2024 18:32:27.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:pata_rana Expected: 3125 Got: 1588
-[13Dec2024 18:32:27.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:gorgona_spawn_egg Expected: 3126 Got: 1589
-[13Dec2024 18:32:27.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:serpiente_spawn_egg Expected: 3127 Got: 1590
-[13Dec2024 18:32:27.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:ojo_rana Expected: 3128 Got: 1591
-[13Dec2024 18:32:27.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:cristal_dilitio Expected: 3129 Got: 1592
-[13Dec2024 18:32:27.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:corazon_dorado Expected: 3130 Got: 1593
-[13Dec2024 18:32:27.787] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:tanque_dilitio Expected: 3131 Got: 1594
-[13Dec2024 18:32:27.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:placa_corona Expected: 3132 Got: 1595
-[13Dec2024 18:32:27.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:bomba_bloqueador Expected: 3133 Got: 1596
-[13Dec2024 18:32:27.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:totem_eon Expected: 3134 Got: 1597
-[13Dec2024 18:32:27.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:nutri_totem Expected: 3135 Got: 1598
-[13Dec2024 18:32:27.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:totem_espacial Expected: 3136 Got: 1599
-[13Dec2024 18:32:27.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:totem_reviil Expected: 3137 Got: 1600
-[13Dec2024 18:32:27.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:totem_eon_raro Expected: 3138 Got: 1601
-[13Dec2024 18:32:27.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:totem_eon_raro_2 Expected: 3139 Got: 1602
-[13Dec2024 18:32:27.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:ojon_spawn_egg Expected: 3140 Got: 1603
-[13Dec2024 18:32:27.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:motordedilitio Expected: 3141 Got: 1604
-[13Dec2024 18:32:27.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:algodondeazucar Expected: 3142 Got: 1605
-[13Dec2024 18:32:27.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:vampiro_spawn_egg Expected: 3143 Got: 1606
-[13Dec2024 18:32:27.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:piedrapulidadesueloextrano Expected: 3144 Got: 1607
-[13Dec2024 18:32:27.789] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:piedra_tintadaextrana Expected: 3145 Got: 1608
-[13Dec2024 18:32:27.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:nether_extractor Expected: 3146 Got: 1609
-[13Dec2024 18:32:27.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:nether_extractor_filled Expected: 3147 Got: 1610
-[13Dec2024 18:32:27.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:overworld_extractor_filled Expected: 3148 Got: 1611
-[13Dec2024 18:32:27.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:overworld_extractor Expected: 3149 Got: 1612
-[13Dec2024 18:32:27.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:borg_extractor Expected: 3150 Got: 1613
-[13Dec2024 18:32:27.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:borg_extractor_filled Expected: 3151 Got: 1614
-[13Dec2024 18:32:27.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:limbo_extractor Expected: 3152 Got: 1615
-[13Dec2024 18:32:27.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:limbo_extractor_filled Expected: 3153 Got: 1616
-[13Dec2024 18:32:27.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:nereida_extractor Expected: 3154 Got: 1617
-[13Dec2024 18:32:27.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:nereida_extractor_filled Expected: 3155 Got: 1618
-[13Dec2024 18:32:27.791] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:soul_gem_fragment Expected: 3156 Got: 1619
-[13Dec2024 18:32:27.800] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:creeperpastel_spawn_egg Expected: 3157 Got: 1620
-[13Dec2024 18:32:27.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:creeper_warden_spawn_egg Expected: 3158 Got: 1621
-[13Dec2024 18:32:27.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: dedsafio3:warden_bat_wing_group Expected: 3159 Got: 1622
-[13Dec2024 18:32:27.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:protectorsolar Expected: 60 Got: 40
-[13Dec2024 18:32:27.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:zombifik Expected: 61 Got: 41
-[13Dec2024 18:32:27.801] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:trueslowness Expected: 62 Got: 42
-[13Dec2024 18:32:27.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:freeze_effect Expected: 63 Got: 43
-[13Dec2024 18:32:27.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:shuffle Expected: 64 Got: 44
-[13Dec2024 18:32:27.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:bomba Expected: 65 Got: 45
-[13Dec2024 18:32:27.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:tempo Expected: 66 Got: 46
-[13Dec2024 18:32:27.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:distorsion Expected: 67 Got: 47
-[13Dec2024 18:32:27.802] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:infeccion Expected: 68 Got: 48
-[13Dec2024 18:32:27.803] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:sirenomorphosis Expected: 69 Got: 49
-[13Dec2024 18:32:27.803] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:flashbang Expected: 70 Got: 50
-[13Dec2024 18:32:27.803] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:pre Expected: 71 Got: 51
-[13Dec2024 18:32:27.803] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:protector_bomba Expected: 72 Got: 52
-[13Dec2024 18:32:27.803] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:milk Expected: 73 Got: 53
-[13Dec2024 18:32:27.803] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:enderman_vision Expected: 74 Got: 54
-[13Dec2024 18:32:27.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:invertido Expected: 75 Got: 55
-[13Dec2024 18:32:27.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:fiesta Expected: 76 Got: 56
-[13Dec2024 18:32:27.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:incapacidad Expected: 77 Got: 57
-[13Dec2024 18:32:27.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:tortazo Expected: 78 Got: 58
-[13Dec2024 18:32:27.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:pre_2 Expected: 79 Got: 59
-[13Dec2024 18:32:27.804] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: dedsafio3:desangrado Expected: 80 Got: 89
-[13Dec2024 18:32:27.805] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:potion: Object did not get ID it asked for. Name: dedsafio3:milk_potion Expected: 87 Got: 43
-[13Dec2024 18:32:27.813] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:mobxd Expected: 310 Got: 137
-[13Dec2024 18:32:27.813] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:fantasmarojo Expected: 311 Got: 138
-[13Dec2024 18:32:27.813] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:spawner Expected: 312 Got: 139
-[13Dec2024 18:32:27.813] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:rana Expected: 328 Got: 140
-[13Dec2024 18:32:27.814] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:casino_dedsafio Expected: 329 Got: 141
-[13Dec2024 18:32:27.814] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:flachbang Expected: 330 Got: 142
-[13Dec2024 18:32:27.814] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:hydra Expected: 331 Got: 143
-[13Dec2024 18:32:27.814] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:revil Expected: 332 Got: 144
-[13Dec2024 18:32:27.814] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:gorgona Expected: 333 Got: 145
-[13Dec2024 18:32:27.814] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:serpiente Expected: 334 Got: 146
-[13Dec2024 18:32:27.815] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:ojon Expected: 335 Got: 147
-[13Dec2024 18:32:27.815] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:vampiro Expected: 336 Got: 148
-[13Dec2024 18:32:27.815] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:creeperpastel Expected: 337 Got: 149
-[13Dec2024 18:32:27.815] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: dedsafio3:creeper_warden Expected: 338 Got: 150
-[13Dec2024 18:32:27.819] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession: Object did not get ID it asked for. Name: dedsafio3:casino Expected: 19 Got: 20
-[13Dec2024 18:32:27.829] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type: Object did not get ID it asked for. Name: dedsafio3:casino Expected: 25 Got: 20
-[13Dec2024 18:32:30.025] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[13Dec2024 18:32:30.026] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[13Dec2024 18:32:30.114] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:casinocraft
-[13Dec2024 18:32:30.115] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:dedsafio_3
-[13Dec2024 18:32:30.115] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:journeymap
-[13Dec2024 18:32:30.116] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:deditasmod
-[13Dec2024 18:32:30.116] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:pacomodsforge
-[13Dec2024 18:32:31.738] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[13Dec2024 18:32:32.810] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[13Dec2024 18:32:35.323] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
-[13Dec2024 18:32:35.412] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
-[13Dec2024 18:32:35.440] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
-[13Dec2024 18:32:35.469] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[13Dec2024 18:32:35.823] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2846 advancements
-[13Dec2024 18:32:35.853] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[13Dec2024 18:32:35.877] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[13Dec2024 18:32:35.905] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
-[13Dec2024 18:32:35.912] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
-[13Dec2024 18:32:37.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[13Dec2024 18:32:37.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Dec2024 18:32:37.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Dec2024 18:32:37.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Dec2024 18:32:38.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Dec2024 18:32:38.171] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Dec2024 18:32:38.326] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Dec2024 18:32:38.327] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Dec2024 18:32:38.327] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Dec2024 18:32:38.327] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Dec2024 18:32:38.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Dec2024 18:32:39.162] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
-[13Dec2024 18:32:39.188] [Server thread/INFO] [voicechat/]: [voicechat] Successfully migrated config voicechat-server.toml
-[13Dec2024 18:33:02.223] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
-[13Dec2024 18:33:02.244] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
-[13Dec2024 18:33:02.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Dec2024 18:33:14.153] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.163] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.165] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.166] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.167] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.169] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.170] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.174] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.176] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.178] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.180] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.190] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.194] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.198] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.198] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:14.749] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:15.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:15.749] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 18:33:16.254] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[13Dec2024 18:33:16.793] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:33:16.794] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:33:16.796] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:33:16.799] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:33:16.801] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:33:16.840] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14592 ms
-[13Dec2024 18:33:16.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (38.498s)! For help, type "help"
-[13Dec2024 18:33:16.958] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Dec2024 18:33:20.914] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[13Dec2024 18:33:20.914] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[13Dec2024 18:33:20.915] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[13Dec2024 18:33:21.002] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[13Dec2024 18:33:21.328] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:rana_gigante
-[13Dec2024 18:33:21.329] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:33:21.332] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:33:21.332] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:31.046] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:deditas is
-[13Dec2024 18:36:31.046] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what deditasmod:totem_nutria is
-[13Dec2024 18:36:31.047] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:dedita_gold is
-[13Dec2024 18:36:31.047] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what pacomodsforge:deditacasino is
-[13Dec2024 18:36:31.047] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:rana_gigante is
-[13Dec2024 18:36:31.048] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:bone_spider is
-[13Dec2024 18:36:31.056] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:deditas is
-[13Dec2024 18:36:31.057] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:casino_d_3 is
-[13Dec2024 18:36:31.057] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what pacomodsforge:deditacasino is
-[13Dec2024 18:36:31.057] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:casino_d_3 is
-[13Dec2024 18:36:31.058] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:manzana is
-[13Dec2024 18:36:31.058] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:casino_d_3 is
-[13Dec2024 18:36:31.058] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:flashbang_spawn_egg is
-[13Dec2024 18:36:31.059] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:sc_3 is
-[13Dec2024 18:36:31.059] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what dedsafio_3:bone_spider_spawn_egg is
-[13Dec2024 18:36:31.059] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what deditasmod:armadura_infernal_armor_boots is
-[13Dec2024 18:36:31.059] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what pacomodsforge:bomba_n_voladora_spawn_egg is
-[13Dec2024 18:36:31.060] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json: Don't know what casinocraft:cardtable_wide_red is
-[13Dec2024 18:36:31.151] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'casinocraft:recipes/decorations/wool_blue' in progress file ./world/advancements/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json - it doesn't exist anymore?
-[13Dec2024 18:36:31.153] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'casinocraft:recipes/decorations/wool_yellow' in progress file ./world/advancements/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json - it doesn't exist anymore?
-[13Dec2024 18:36:31.154] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'casinocraft:recipes/decorations/wool_red' in progress file ./world/advancements/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json - it doesn't exist anymore?
-[13Dec2024 18:36:31.155] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'casinocraft:recipes/decorations/wool_lime' in progress file ./world/advancements/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json - it doesn't exist anymore?
-[13Dec2024 18:36:31.160] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'casinocraft:recipes/misc/item_book' in progress file ./world/advancements/7e72bd4c-8b47-3eae-954c-2a9ebf246379.json - it doesn't exist anymore?
-[13Dec2024 18:36:31.237] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_blue removed now.
-[13Dec2024 18:36:31.238] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_2_1 removed now.
-[13Dec2024 18:36:31.239] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_2_2 removed now.
-[13Dec2024 18:36:31.239] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_lime removed now.
-[13Dec2024 18:36:31.240] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_1_1 removed now.
-[13Dec2024 18:36:31.241] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_yellow removed now.
-[13Dec2024 18:36:31.241] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_lime removed now.
-[13Dec2024 18:36:31.243] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_red removed now.
-[13Dec2024 18:36:31.244] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_blue removed now.
-[13Dec2024 18:36:31.245] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_7_0 removed now.
-[13Dec2024 18:36:31.246] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_yellow removed now.
-[13Dec2024 18:36:31.246] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_4_1 removed now.
-[13Dec2024 18:36:31.247] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_4_2 removed now.
-[13Dec2024 18:36:31.249] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_3_1 removed now.
-[13Dec2024 18:36:31.249] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_3_2 removed now.
-[13Dec2024 18:36:31.252] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_3_3 removed now.
-[13Dec2024 18:36:31.255] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_6_1 removed now.
-[13Dec2024 18:36:31.255] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_6_2 removed now.
-[13Dec2024 18:36:31.258] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_red removed now.
-[13Dec2024 18:36:31.259] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_5_1 removed now.
-[13Dec2024 18:36:31.260] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_5_2 removed now.
-[13Dec2024 18:36:31.262] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_blue removed now.
-[13Dec2024 18:36:31.262] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_2_1 removed now.
-[13Dec2024 18:36:31.263] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_2_2 removed now.
-[13Dec2024 18:36:31.264] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_lime removed now.
-[13Dec2024 18:36:31.265] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_1_1 removed now.
-[13Dec2024 18:36:31.266] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_yellow removed now.
-[13Dec2024 18:36:31.267] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_lime removed now.
-[13Dec2024 18:36:31.268] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_red removed now.
-[13Dec2024 18:36:31.269] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_blue removed now.
-[13Dec2024 18:36:31.270] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_7_0 removed now.
-[13Dec2024 18:36:31.270] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_wide_yellow removed now.
-[13Dec2024 18:36:31.271] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_4_1 removed now.
-[13Dec2024 18:36:31.272] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_4_2 removed now.
-[13Dec2024 18:36:31.273] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_3_1 removed now.
-[13Dec2024 18:36:31.274] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_3_2 removed now.
-[13Dec2024 18:36:31.276] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_3_3 removed now.
-[13Dec2024 18:36:31.277] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_6_1 removed now.
-[13Dec2024 18:36:31.278] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_6_2 removed now.
-[13Dec2024 18:36:31.279] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:cardtable_base_red removed now.
-[13Dec2024 18:36:31.280] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_5_1 removed now.
-[13Dec2024 18:36:31.282] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: casinocraft:rulebook_5_2 removed now.
-[13Dec2024 18:36:31.290] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.18.191.26:33475] logged in with entity id 61 at (-875.7091893754024, 57.200000047683716, -393.5514570143503)
-[13Dec2024 18:36:31.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
-[13Dec2024 18:36:32.804] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of hola7 (18)
-[13Dec2024 18:36:32.809] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to hola7
-[13Dec2024 18:36:33.473] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:33.496] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:33.742] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:33.756] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:33.757] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:33.767] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:flashbang
-[13Dec2024 18:36:33.769] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:33.917] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:34.367] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:34.411] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:rana_gigante
-[13Dec2024 18:36:34.461] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.064] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.066] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.074] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.076] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.077] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.078] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.080] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id dedsafio_3:casino_d_3
-[13Dec2024 18:36:35.185] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:rana_gigante
-[13Dec2024 18:36:35.186] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.259] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.268] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.268] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.269] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.821] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.840] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:35.841] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:36.114] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:36.617] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:36.633] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:36.633] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:36.634] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:36.727] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:37.467] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:37.624] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:37.630] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:rana_gigante
-[13Dec2024 18:36:37.703] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:37.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[13Dec2024 18:36:38.315] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:38.321] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:38.321] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:38.342] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:38.912] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:39.144] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:36:39.286] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:37:13.197] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id dedsafio_3:esquelo_dog
-[13Dec2024 18:39:01.261] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[13Dec2024 18:39:04.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made hola7 a server operator
-[13Dec2024 18:39:42.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[13Dec2024 18:39:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Dec2024 18:39:42.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Dec2024 18:39:42.995] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Server closed
-[13Dec2024 18:39:42.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
-[13Dec2024 18:39:43.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Dec2024 18:39:43.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
-[13Dec2024 18:39:43.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
-[13Dec2024 18:39:43.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
-[13Dec2024 18:39:43.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13Dec2024 18:39:43.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Dec2024 18:39:43.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Dec2024 18:39:43.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Dec2024 18:46:55.319] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[13Dec2024 18:46:55.325] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: deditasmod:lingote_de_acero_negro_aureo_ore Expected: 2046 Got: 1009
+[13Dec2024 18:46:55.327] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita Expected: 3022 Got: 1270
+[13Dec2024 18:46:55.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:deditas Expected: 3023 Got: 1271
+[13Dec2024 18:46:55.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:deditass Expected: 3024 Got: 1272
+[13Dec2024 18:46:55.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_morada Expected: 3025 Got: 1273
+[13Dec2024 18:46:55.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:deditarosa Expected: 3026 Got: 1274
+[13Dec2024 18:46:55.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_roja Expected: 3027 Got: 1275
+[13Dec2024 18:46:55.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_verde Expected: 3028 Got: 1276
+[13Dec2024 18:46:55.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:cuchara_de_resurreccion Expected: 3029 Got: 1277
+[13Dec2024 18:46:55.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:cuchara Expected: 3030 Got: 1278
+[13Dec2024 18:46:55.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:tenedor_de_resurreccion Expected: 3031 Got: 1279
+[13Dec2024 18:46:55.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:bloqueador_solar Expected: 3032 Got: 1280
+[13Dec2024 18:46:55.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_nutria Expected: 3033 Got: 1281
+[13Dec2024 18:46:55.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_eonico Expected: 3034 Got: 1282
+[13Dec2024 18:46:55.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_flash_bang Expected: 3035 Got: 1283
+[13Dec2024 18:46:55.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_reviil Expected: 3036 Got: 1284
+[13Dec2024 18:46:55.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_ferreo Expected: 3037 Got: 1285
+[13Dec2024 18:46:55.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:dedita_multicolor Expected: 3038 Got: 1286
+[13Dec2024 18:46:55.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_eon_mariposon Expected: 3039 Got: 1287
+[13Dec2024 18:46:55.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:totem_eon_dedsafio_3 Expected: 3040 Got: 1288
+[13Dec2024 18:46:55.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:healinginfernalsword Expected: 3041 Got: 1289
+[13Dec2024 18:46:55.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:cuerno_de_toro_infernal Expected: 3042 Got: 1290
+[13Dec2024 18:46:55.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:lingote_de_acero_negro_aureo_ore Expected: 3043 Got: 1291
+[13Dec2024 18:46:55.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_helmet Expected: 3044 Got: 1292
+[13Dec2024 18:46:55.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_chestplate Expected: 3045 Got: 1293
+[13Dec2024 18:46:55.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_leggings Expected: 3046 Got: 1294
+[13Dec2024 18:46:55.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:armadura_infernal_armor_boots Expected: 3047 Got: 1295
+[13Dec2024 18:46:55.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:pepita_de_acero_negro_aureo_ingot Expected: 3048 Got: 1296
+[13Dec2024 18:46:55.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:ass_ingot Expected: 3049 Got: 1297
+[13Dec2024 18:46:55.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: deditasmod:as_ingot Expected: 3050 Got: 1298
+[13Dec2024 18:46:57.384] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[13Dec2024 18:46:57.388] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[13Dec2024 18:46:57.538] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:dedsafio3
+[13Dec2024 18:46:58.972] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[13Dec2024 18:46:59.777] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[13Dec2024 18:47:02.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[13Dec2024 18:47:02.650] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[13Dec2024 18:47:02.660] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[13Dec2024 18:47:02.677] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[13Dec2024 18:47:03.021] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2846 advancements
+[13Dec2024 18:47:03.036] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[13Dec2024 18:47:03.044] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[13Dec2024 18:47:03.053] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[13Dec2024 18:47:03.058] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[13Dec2024 18:47:04.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Dec2024 18:47:04.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Dec2024 18:47:04.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Dec2024 18:47:04.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Dec2024 18:47:04.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Dec2024 18:47:04.743] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Dec2024 18:47:04.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Dec2024 18:47:04.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Dec2024 18:47:04.867] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Dec2024 18:47:04.867] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Dec2024 18:47:05.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Dec2024 18:47:05.775] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[13Dec2024 18:47:07.482] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2024 18:47:07.909] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2024 18:47:22.082] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Dec2024 18:47:23.832] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[13Dec2024 18:47:23.854] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[13Dec2024 18:47:23.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Dec2024 18:47:35.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.189] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.196] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.197] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.202] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.202] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.203] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.203] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.211] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.359] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:35.858] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:36.357] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 18:47:37.187] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 13331 ms
+[13Dec2024 18:47:37.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (32.303s)! For help, type "help"
+[13Dec2024 18:47:37.273] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Dec2024 18:47:41.499] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[13Dec2024 18:47:41.506] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[13Dec2024 18:47:41.508] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13Dec2024 18:47:41.533] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[13Dec2024 18:47:55.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.18.191.26:39201] logged in with entity id 48 at (-875.386333829989, 56.166109260938214, -389.6397659563255)
+[13Dec2024 18:47:55.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
+[13Dec2024 18:47:56.421] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of hola7 (18)
+[13Dec2024 18:47:56.426] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to hola7
+[13Dec2024 18:47:58.723] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[13Dec2024 18:48:25.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [We Need to Go Deeper]
+[13Dec2024 18:48:25.329] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5998ms or 119 ticks behind
+[13Dec2024 18:48:26.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has made the advancement [A Terrible Fortress]
+[13Dec2024 18:48:33.688] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[13Dec2024 18:48:45.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 was killed
+[13Dec2024 18:48:45.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Killed hola7]
+[13Dec2024 18:48:51.295] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: hola7 lost connection: Disconnected
+[13Dec2024 18:48:51.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 left the game
+[13Dec2024 18:48:51.303] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client hola7
+[13Dec2024 18:48:54.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Dec2024 18:48:54.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Dec2024 18:48:54.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Dec2024 18:48:54.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Dec2024 18:48:54.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[13Dec2024 18:48:54.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[13Dec2024 18:48:54.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[13Dec2024 18:48:54.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Dec2024 18:48:54.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Dec2024 18:48:54.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Dec2024 18:48:54.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
