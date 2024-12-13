@@ -65,27 +65,9 @@
     },
     "done": true
   },
-  "vampirism:recipes/decorations/general/totem_top": {
+  "securitycraft:recipes/misc/sc_manual": {
     "criteria": {
-      "has_obsidian": "2024-12-13 14:02:00 +0000"
-    },
-    "done": true
-  },
-  "vampirism:recipes/misc/vampire_beacon": {
-    "criteria": {
-      "has_obsidian": "2024-12-13 14:02:00 +0000"
-    },
-    "done": true
-  },
-  "lootr:root": {
-    "criteria": {
-      "always_true": "2024-12-13 14:02:01 +0000"
-    },
-    "done": true
-  },
-  "vampirism:recipes/decorations/general/totem_base": {
-    "criteria": {
-      "has_obsidian": "2024-12-13 14:02:00 +0000"
+      "has_wood": "2024-12-13 14:02:00 +0000"
     },
     "done": true
   },
@@ -95,21 +77,9 @@
     },
     "done": true
   },
-  "vampirism:recipes/decorations/general/fire_place": {
+  "cataclysm:root": {
     "criteria": {
-      "has_logs": "2024-12-13 14:02:00 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2024-12-13 14:02:01 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/sc_manual": {
-    "criteria": {
-      "has_wood": "2024-12-13 14:02:00 +0000"
+      "custom_test_name": "2024-12-13 14:25:53 +0000"
     },
     "done": true
   },
