@@ -23,12 +23,6 @@
     },
     "done": true
   },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2024-12-09 19:28:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:mushroom_fields": "2024-12-09 20:33:55 +0000",
@@ -39,6 +33,7 @@
       "minecraft:lukewarm_ocean": "2024-12-09 20:58:07 +0000",
       "minecraft:river": "2024-12-09 19:36:43 +0000",
       "minecraft:stony_shore": "2024-12-09 19:29:02 +0000",
+      "minecraft:cold_ocean": "2024-12-11 20:25:40 +0000",
       "minecraft:forest": "2024-12-09 19:35:26 +0000",
       "minecraft:lush_caves": "2024-12-09 21:21:54 +0000",
       "minecraft:desert": "2024-12-09 22:45:37 +0000",
@@ -1329,12 +1324,6 @@
     },
     "done": true
   },
-  "casinocraft:recipes/decorations/wool_white": {
-    "criteria": {
-      "has_wool": "2024-12-09 19:54:56 +0000"
-    },
-    "done": true
-  },
   "vampirism:recipes/decorations/vampire/coffin_white": {
     "criteria": {
       "has_wool": "2024-12-09 19:54:56 +0000"
@@ -1917,12 +1906,6 @@
     },
     "done": true
   },
-  "dungeons_arise:find_undead_pirate_ship": {
-    "criteria": {
-      "location0": "2024-12-09 20:25:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_glazed_terracotta": {
     "criteria": {
       "has_black_terracotta": "2024-12-09 20:26:16 +0000"
@@ -2178,12 +2161,6 @@
   "vampirism:recipes/decorations/general/altar_cleansing_new": {
     "criteria": {
       "has_book": "2024-12-09 20:32:20 +0000"
-    },
-    "done": true
-  },
-  "casinocraft:recipes/misc/item_book": {
-    "criteria": {
-      "has_paper": "2024-12-09 20:32:20 +0000"
     },
     "done": true
   },
@@ -2493,12 +2470,6 @@
   "vampirism:recipes/alchemy_table/alchemy_table/plant_oil": {
     "criteria": {
       "has_wheat_seeds": "2024-12-09 21:04:38 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_bathhouse": {
-    "criteria": {
-      "location0": "2024-12-09 21:05:11 +0000"
     },
     "done": true
   },
@@ -2843,12 +2814,6 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2024-12-09 22:37:16 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_heavenly_rider": {
-    "criteria": {
-      "location0": "2024-12-09 22:39:37 +0000"
     },
     "done": true
   },
@@ -3419,6 +3384,30 @@
   "securitycraft:recipes/misc/reinforced_lectern": {
     "criteria": {
       "has_bookshelf": "2024-12-10 21:39:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-12-11 20:24:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-11 20:35:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-12-11 20:48:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-12-11 20:24:52 +0000"
     },
     "done": true
   },
