@@ -3505,6 +3505,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-13 20:38:30 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/sanctum/skull_on_a_stick": {
     "criteria": {
       "item": "2024-12-13 20:31:02 +0000"
