@@ -646,3 +646,34 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [13Dec2024 20:50:42.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> pinga
 [13Dec2024 20:50:54.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> nope
 [13Dec2024 20:50:58.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> hago
+[13Dec2024 20:51:16.291] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[13Dec2024 20:51:42.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> eeeee
+[13Dec2024 20:51:52.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> estaba escribiendo
+[13Dec2024 20:52:07.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> mira
+[13Dec2024 20:52:41.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> bueno me tengo que ir un rato
+[13Dec2024 20:52:51.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> no si esas las hice
+[13Dec2024 20:53:11.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Remolach0> ya regreso
+[13Dec2024 20:53:36.699] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Remolach0 lost connection: Disconnected
+[13Dec2024 20:53:36.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Remolach0 left the game
+[13Dec2024 20:53:36.702] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Remolach0
+[13Dec2024 20:58:59.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [We Need to Go Deeper]
+[13Dec2024 20:58:59.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Incendium]
+[13Dec2024 20:59:00.787] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2105ms or 42 ticks behind
+[13Dec2024 20:59:01.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [A Terrible Fortress]
+[13Dec2024 20:59:01.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Radioactive]
+[13Dec2024 20:59:11.140] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[13Dec2024 20:59:23.701] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7920ms or 158 ticks behind
+[13Dec2024 20:59:43.313] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4633ms or 92 ticks behind
+[13Dec2024 21:00:05.097] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6816ms or 136 ticks behind
+[13Dec2024 21:00:16.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Into Fire]
+[13Dec2024 21:00:23.449] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-85, y=67, z=-46} BlockPos{x=-85, y=65, z=-45}
+[13Dec2024 21:00:27.761] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7680ms or 153 ticks behind
+[13Dec2024 21:00:47.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> che xgab me haces un favor
+[13Dec2024 21:00:52.893] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10162ms or 203 ticks behind
+[13Dec2024 21:00:55.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> a ver
+[13Dec2024 21:01:03.619] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-86, y=67, z=-40} BlockPos{x=-86, y=65, z=-41}
+[13Dec2024 21:01:03.622] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-85, y=67, z=-40} BlockPos{x=-86, y=65, z=-41}
+[13Dec2024 21:01:04.179] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-85, y=67, z=-41} BlockPos{x=-85, y=65, z=-40}
+[13Dec2024 21:01:16.975] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9094ms or 181 ticks behind
+[13Dec2024 21:01:19.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> me decis las cordenadas de la fortaleza y q no rompas el spawn
+[13Dec2024 21:01:20.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> porfa

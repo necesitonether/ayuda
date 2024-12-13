@@ -4486,6 +4486,12 @@
     },
     "done": false
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "requirement": "2024-12-13 20:57:50 +0000"
+    },
+    "done": false
+  },
   "securitycraft:recipes/building_blocks/reinforced_polished_granite_slab_from_reinforced_granite_stonecutting": {
     "criteria": {
       "has_reinforced_granite": "2024-12-13 20:03:46 +0000"

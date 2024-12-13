@@ -3499,6 +3499,12 @@
     },
     "done": false
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "requirement": "2024-12-13 20:57:50 +0000"
+    },
+    "done": false
+  },
   "netherexp:recipes/misc/skeleton_skull_candle": {
     "criteria": {
       "has_item": "2024-12-13 20:31:02 +0000"
