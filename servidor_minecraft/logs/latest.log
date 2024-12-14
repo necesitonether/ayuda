@@ -1,175 +1,157 @@
-[13Dec2024 21:35:13.964] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[13Dec2024 21:35:13.968] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[13Dec2024 21:35:14.794] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Dec2024 21:35:14.895] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ayuda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[13Dec2024 21:35:15.479] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 21:35:15.480] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 21:35:15.482] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 21:35:15.485] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Dec2024 21:35:15.864] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[13Dec2024 21:35:19.149] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Dec2024 21:35:19.322] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[13Dec2024 21:35:22.392] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
-[13Dec2024 21:35:22.392] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
-[13Dec2024 21:35:22.393] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
-[13Dec2024 21:35:22.396] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
-[13Dec2024 21:35:22.404] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
-[13Dec2024 21:35:22.405] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
-[13Dec2024 21:35:23.235] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[13Dec2024 21:35:35.016] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[13Dec2024 21:35:35.021] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[13Dec2024 21:35:35.025] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[13Dec2024 21:35:35.027] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[13Dec2024 21:35:35.030] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[13Dec2024 21:35:35.033] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[13Dec2024 21:35:35.036] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[13Dec2024 21:35:35.037] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[13Dec2024 21:35:35.847] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
-[13Dec2024 21:35:37.408] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[13Dec2024 21:35:37.412] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[13Dec2024 21:35:37.454] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[13Dec2024 21:35:44.017] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:apparition] was not realized!
-[13Dec2024 21:35:44.018] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:ecto_slab] was not realized!
-[13Dec2024 21:35:44.018] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:banshee] was not realized!
-[13Dec2024 21:35:44.018] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:carcass] was not realized!
-[13Dec2024 21:35:44.019] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:vessel] was not realized!
-[13Dec2024 21:35:44.019] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:stampede] was not realized!
-[13Dec2024 21:35:44.019] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:wisp] was not realized!
-[13Dec2024 21:35:45.563] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
-[13Dec2024 21:35:46.300] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[13Dec2024 21:35:46.402] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[13Dec2024 21:35:46.415] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[13Dec2024 21:35:46.420] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[13Dec2024 21:35:46.421] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[13Dec2024 21:35:46.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
-[13Dec2024 21:35:46.672] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@28079493]
-[13Dec2024 21:35:46.690] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[13Dec2024 21:35:46.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
-[13Dec2024 21:35:46.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[13Dec2024 21:35:46.746] [main/INFO] [journeymap/]: Initializing Packet Registries
-[13Dec2024 21:35:46.816] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[13Dec2024 21:35:46.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[13Dec2024 21:35:46.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
-[13Dec2024 21:35:46.824] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[13Dec2024 21:35:46.824] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[13Dec2024 21:35:46.825] [main/INFO] [terrablender/]: Registered region vampirism:overworld to index 1 for type OVERWORLD
-[13Dec2024 21:35:46.828] [main/INFO] [de.teamlapen.vampirism.modcompat.terrablender.TerraBlenderCompat/]: TerraBlender is installed. Using it to add vampire Forest to overworld.
-[13Dec2024 21:35:46.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
-[13Dec2024 21:35:46.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[13Dec2024 21:35:46.971] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
+[14Dec2024 18:03:38.816] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14Dec2024 18:03:38.847] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[14Dec2024 18:03:46.423] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Dec2024 18:03:46.867] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ayuda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Dec2024 18:03:47.776] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[14Dec2024 18:03:47.778] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Dec2024 18:03:47.779] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Dec2024 18:03:47.781] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ayuda/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[14Dec2024 18:03:48.211] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[14Dec2024 18:03:53.564] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Dec2024 18:03:53.836] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14Dec2024 18:03:58.620] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[14Dec2024 18:03:58.621] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[14Dec2024 18:03:58.621] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
+[14Dec2024 18:03:58.624] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[14Dec2024 18:03:58.625] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[14Dec2024 18:03:58.625] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
+[14Dec2024 18:04:00.031] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14Dec2024 18:04:22.189] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[14Dec2024 18:04:22.190] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[14Dec2024 18:04:22.198] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[14Dec2024 18:04:22.200] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[14Dec2024 18:04:22.201] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[14Dec2024 18:04:22.204] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[14Dec2024 18:04:22.210] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[14Dec2024 18:04:22.212] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[14Dec2024 18:04:23.743] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[14Dec2024 18:04:26.598] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[14Dec2024 18:04:26.599] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[14Dec2024 18:04:27.278] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[14Dec2024 18:04:37.612] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:stampede] was not realized!
+[14Dec2024 18:04:37.613] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:carcass] was not realized!
+[14Dec2024 18:04:37.614] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:apparition] was not realized!
+[14Dec2024 18:04:37.614] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:banshee] was not realized!
+[14Dec2024 18:04:37.615] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:wisp] was not realized!
+[14Dec2024 18:04:37.621] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:vessel] was not realized!
+[14Dec2024 18:04:37.621] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / netherexp:ecto_slab] was not realized!
+[14Dec2024 18:04:39.756] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
+[14Dec2024 18:04:40.953] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[14Dec2024 18:04:41.146] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[14Dec2024 18:04:41.165] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[14Dec2024 18:04:41.179] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[14Dec2024 18:04:41.180] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[14Dec2024 18:04:41.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[14Dec2024 18:04:41.558] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@724b9ad9]
+[14Dec2024 18:04:41.563] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[14Dec2024 18:04:42.222] [main/INFO] [journeymap/]: Initializing Packet Registries
+[14Dec2024 18:04:42.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[14Dec2024 18:04:42.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[14Dec2024 18:04:42.360] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[14Dec2024 18:04:42.399] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14Dec2024 18:04:42.400] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[14Dec2024 18:04:42.400] [main/INFO] [terrablender/]: Registered region vampirism:overworld to index 1 for type OVERWORLD
+[14Dec2024 18:04:42.408] [main/INFO] [de.teamlapen.vampirism.modcompat.terrablender.TerraBlenderCompat/]: TerraBlender is installed. Using it to add vampire Forest to overworld.
+[14Dec2024 18:04:42.459] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[14Dec2024 18:04:42.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[14Dec2024 18:04:42.497] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[14Dec2024 18:04:42.498] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[14Dec2024 18:04:42.747] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
 
-[13Dec2024 21:35:47.068] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[13Dec2024 21:35:47.068] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Vampirism Biomes are added via TerraBlender. Not adding them to overworld preset.
-[13Dec2024 21:35:47.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
-[13Dec2024 21:35:47.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
-[13Dec2024 21:35:47.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
-[13Dec2024 21:35:47.192] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
-[13Dec2024 21:35:47.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
-[13Dec2024 21:35:47.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
-[13Dec2024 21:35:47.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.11 Target: null
-[13Dec2024 21:35:47.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[13Dec2024 21:35:47.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
-[13Dec2024 21:35:47.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Dec2024 21:35:48.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[13Dec2024 21:35:48.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[13Dec2024 21:35:48.138] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.19
-[13Dec2024 21:35:51.710] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Dec2024 21:35:54.570] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
-[13Dec2024 21:35:54.571] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
-[13Dec2024 21:35:57.156] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[13Dec2024 21:36:00.844] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
-[13Dec2024 21:36:00.905] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
-[13Dec2024 21:36:00.960] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
-[13Dec2024 21:36:00.973] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[13Dec2024 21:36:01.339] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3095 advancements
-[13Dec2024 21:36:01.352] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[13Dec2024 21:36:01.361] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[13Dec2024 21:36:01.371] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
-[13Dec2024 21:36:01.379] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
-[13Dec2024 21:36:03.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[13Dec2024 21:36:03.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Dec2024 21:36:03.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Dec2024 21:36:03.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Dec2024 21:36:03.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Dec2024 21:36:03.354] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Dec2024 21:36:03.456] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Dec2024 21:36:03.457] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Dec2024 21:36:03.457] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Dec2024 21:36:03.458] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Dec2024 21:36:03.482] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[13Dec2024 21:36:03.484] [Thread-3/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[13Dec2024 21:36:04.230] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[13Dec2024 21:36:04.232] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[13Dec2024 21:36:04.235] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Dec2024 21:36:04.890] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
-[13Dec2024 21:36:09.579] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 21:36:13.189] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 21:36:15.055] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 21:36:16.220] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 21:36:16.882] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 21:36:20.085] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
-[13Dec2024 21:36:20.107] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
-[13Dec2024 21:36:20.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Dec2024 21:36:43.532] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.533] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.535] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.535] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.545] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.553] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.559] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.567] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.572] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.584] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.604] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.608] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.612] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.619] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.622] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.626] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.629] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.631] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.635] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.637] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.640] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.642] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.644] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.647] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.650] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.651] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.653] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.655] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.658] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.659] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.661] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.662] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.664] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.665] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.666] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.668] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.673] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.675] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.677] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.679] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:43.681] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:44.112] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:44.255] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Dec2024 21:36:44.613] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:45.145] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Dec2024 21:36:46.037] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25925 ms
-[13Dec2024 21:36:46.048] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (42.574s)! For help, type "help"
-[13Dec2024 21:36:46.141] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Dec2024 21:36:51.643] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[13Dec2024 21:36:51.645] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[13Dec2024 21:36:51.646] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[13Dec2024 21:36:51.669] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'special-thats.gl.at.ply.gg:2024'
-[13Dec2024 21:36:51.889] [VoiceChatServerThread/ERROR] [voicechat/]: [voicechat] Failed to parse bind IP address 'i-indiana.gl.joinmc.link'
+[14Dec2024 18:04:42.844] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[14Dec2024 18:04:42.845] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Vampirism Biomes are added via TerraBlender. Not adding them to overworld preset.
+[14Dec2024 18:04:42.907] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
+[14Dec2024 18:04:42.909] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
+[14Dec2024 18:04:43.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
+[14Dec2024 18:04:43.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
+[14Dec2024 18:04:43.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
+[14Dec2024 18:04:43.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[14Dec2024 18:04:43.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: OUTDATED Current: 1.10.11 Target: 1.10.12
+[14Dec2024 18:04:43.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[14Dec2024 18:04:43.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
+[14Dec2024 18:04:43.819] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Dec2024 18:04:43.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[14Dec2024 18:04:43.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[14Dec2024 18:04:44.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.17 Target: 1.20.1-1.0.19
+[14Dec2024 18:04:48.616] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Dec2024 18:04:52.650] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
+[14Dec2024 18:04:52.651] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ayuda/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
+[14Dec2024 18:04:57.219] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[14Dec2024 18:05:03.274] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[14Dec2024 18:05:03.379] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[14Dec2024 18:05:03.447] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[14Dec2024 18:05:03.485] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[14Dec2024 18:05:04.157] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3095 advancements
+[14Dec2024 18:05:04.179] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[14Dec2024 18:05:04.195] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[14Dec2024 18:05:04.212] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[14Dec2024 18:05:04.233] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[14Dec2024 18:05:07.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Dec2024 18:05:07.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Dec2024 18:05:07.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Dec2024 18:05:07.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Dec2024 18:05:07.668] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Dec2024 18:05:07.834] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Dec2024 18:05:07.984] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Dec2024 18:05:07.985] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Dec2024 18:05:07.985] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Dec2024 18:05:07.986] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Dec2024 18:05:08.271] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14Dec2024 18:05:09.375] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14Dec2024 18:05:09.376] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14Dec2024 18:05:09.380] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Dec2024 18:05:10.691] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[14Dec2024 18:05:32.518] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[14Dec2024 18:05:50.081] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[14Dec2024 18:05:50.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Dec2024 18:06:04.019] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.132] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.298] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.450] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.587] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.762] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.804] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.808] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:04.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.036] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.062] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.094] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.145] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.156] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.161] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.162] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.166] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.167] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.171] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.173] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.174] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.177] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.179] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.184] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.232] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:05.625] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:06.130] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:06.753] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:07.090] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:07.591] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:08.092] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:08.589] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:09.090] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:09.635] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 18:06:11.605] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 21517 ms
+[14Dec2024 18:06:11.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (63.555s)! For help, type "help"
+[14Dec2024 18:06:11.750] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Dec2024 18:06:16.656] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[14Dec2024 18:06:16.656] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[14Dec2024 18:06:16.657] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14Dec2024 18:06:16.676] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'special-thats.gl.at.ply.gg:2024'
+[14Dec2024 18:06:16.837] [VoiceChatServerThread/ERROR] [voicechat/]: [voicechat] Failed to parse bind IP address 'i-indiana.gl.joinmc.link'
 java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated with hostname
 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
@@ -181,306 +163,58 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 	at java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
 	at de.maxhenkel.voicechat.plugins.impl.VoicechatSocketImpl.open(VoicechatSocketImpl.java:25) ~[voicechat-forge-1.20.1-2.5.26.jar%23159!/:1.20.1-2.5.26]
 	at de.maxhenkel.voicechat.voice.server.Server.run(Server.java:102) ~[voicechat-forge-1.20.1-2.5.26.jar%23159!/:1.20.1-2.5.26]
-[13Dec2024 21:36:51.890] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Binding to wildcard IP address
-[13Dec2024 21:36:51.891] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at i-indiana.gl.joinmc.link:2024
-[13Dec2024 21:37:28.326] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:40771] logged in with entity id 105 at (-220.0757703485039, 60.5, -1098.881791610414)
-[13Dec2024 21:37:28.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
-[13Dec2024 21:37:31.659] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaaa (18)
-[13Dec2024 21:37:31.664] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
-[13Dec2024 21:37:31.689] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3471ms or 69 ticks behind
-[13Dec2024 21:37:48.924] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2257ms or 45 ticks behind
-[13Dec2024 21:37:49.100] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
-[13Dec2024 21:37:50.095] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
-[13Dec2024 21:37:50.101] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaaa (7b2de654-3e79-34bf-bded-9c3297e7a4ff) successfully connected to voice chat
-[13Dec2024 21:38:12.565] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@775016fe[id=<null>,name=xGab,properties={},legacy=false] (/127.154.180.156:34833) lost connection: Disconnected
-[13Dec2024 21:38:45.131] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@488f590b[id=<null>,name=xGab,properties={},legacy=false] (/127.154.180.156:38735) lost connection: Disconnected
-[13Dec2024 21:38:51.682] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5f97b6f7[id=<null>,name=xGab,properties={},legacy=false] (/127.154.180.156:55793) lost connection: Disconnected
-[13Dec2024 21:38:59.536] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:56183] logged in with entity id 509 at (-878.2375000119209, 64.0, -264.4405065483622)
-[13Dec2024 21:38:59.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[13Dec2024 21:38:59.916] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xGab (18)
-[13Dec2024 21:38:59.924] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xGab
-[13Dec2024 21:39:01.730] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 53610399-617d-31d9-bf79-3ccc523fb0d7
-[13Dec2024 21:39:02.731] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 53610399-617d-31d9-bf79-3ccc523fb0d7
-[13Dec2024 21:39:02.733] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xGab (53610399-617d-31d9-bf79-3ccc523fb0d7) successfully connected to voice chat
-[13Dec2024 21:39:04.420] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[13Dec2024 21:39:36.136] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:37397] logged in with entity id 912 at (-215.58594050246307, 59.875, -1099.6699582675508)
-[13Dec2024 21:39:36.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
-[13Dec2024 21:39:36.751] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of joAcxz (18)
-[13Dec2024 21:39:36.753] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to joAcxz
-[13Dec2024 21:39:41.217] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
-[13Dec2024 21:39:42.213] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
-[13Dec2024 21:39:42.214] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player joAcxz (1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1) successfully connected to voice chat
-[13Dec2024 21:40:17.679] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
-[13Dec2024 21:40:21.024] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[13Dec2024 21:40:40.431] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4414ms or 88 ticks behind
-[13Dec2024 21:40:52.213] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5af58c9b[id=<null>,name=LaViejaDeAgustin,properties={},legacy=false] (/127.243.114.140:42109) lost connection: Disconnected
-[13Dec2024 21:40:53.839] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1202, l='ServerLevel[Mundo nuevo]', x=-136.53, y=-20.00, z=4.31] died: Toxic Slime was killed
-[13Dec2024 21:41:01.368] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1220, l='ServerLevel[Mundo nuevo]', x=-124.74, y=-20.00, z=30.26] died: Toxic Slime was killed
-[13Dec2024 21:41:38.849] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1231, l='ServerLevel[Mundo nuevo]', x=-182.78, y=-20.00, z=-24.41] died: Toxic Slime was killed
-[13Dec2024 21:41:54.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> xgab vos estas matando toxic slimes?
-[13Dec2024 21:42:02.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> no
-[13Dec2024 21:42:06.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> a ok
-[13Dec2024 21:42:42.770] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1252, l='ServerLevel[Mundo nuevo]', x=-123.22, y=-20.00, z=42.97] died: Toxic Slime was killed
-[13Dec2024 21:42:43.877] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1239, l='ServerLevel[Mundo nuevo]', x=-123.74, y=-20.00, z=32.26] died: Toxic Slime was killed
-[13Dec2024 21:43:26.771] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1431, l='ServerLevel[Mundo nuevo]', x=-162.27, y=-20.00, z=43.33] died: Toxic Slime was killed
-[13Dec2024 21:43:31.788] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1469, l='ServerLevel[Mundo nuevo]', x=-84.26, y=-20.00, z=41.37] died: Toxic Slime was killed
-[13Dec2024 21:43:40.037] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/1504, l='ServerLevel[Mundo nuevo]', x=-116.48, y=-20.00, z=22.12] died: Toxic Slime was killed
-[13Dec2024 21:43:57.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> muchachos tengo una duda
-[13Dec2024 21:44:01.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> quep
-[13Dec2024 21:44:16.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> el wither de java es igual de hardcore que el de bedrock en esta version?
-[13Dec2024 21:44:22.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> ni idea
-[13Dec2024 21:44:45.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> NO
-[13Dec2024 21:44:50.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> uy
-[13Dec2024 21:45:01.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <joAcxz> tenia las mayus activadas
-[13Dec2024 21:45:26.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> gracias
-[13Dec2024 21:47:15.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LaViejaDeAgustin[/127.243.114.140:55637] logged in with entity id 4417 at (-219.94611006046165, 60.0, -1101.7174482126595)
-[13Dec2024 21:47:15.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin joined the game
-[13Dec2024 21:47:16.172] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LaViejaDeAgustin (18)
-[13Dec2024 21:47:16.174] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LaViejaDeAgustin
-[13Dec2024 21:47:20.442] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 7d0e9327-f1db-3b06-b849-31212781d348
-[13Dec2024 21:47:21.443] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7d0e9327-f1db-3b06-b849-31212781d348
-[13Dec2024 21:47:21.447] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LaViejaDeAgustin (7d0e9327-f1db-3b06-b849-31212781d348) successfully connected to voice chat
-[13Dec2024 21:48:39.196] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/3960, l='ServerLevel[Mundo nuevo]', x=-119.35, y=-20.00, z=-100.26] died: Toxic Slime was killed
-[13Dec2024 21:48:41.797] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/3977, l='ServerLevel[Mundo nuevo]', x=-117.50, y=-20.00, z=21.77] died: Toxic Slime was killed
-[13Dec2024 21:49:15.494] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
-[13Dec2024 21:53:20.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Hot Stuff]
-[13Dec2024 21:56:53.620] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MushroomCow['Gena mama'/149, l='ServerLevel[Mundo nuevo]', x=-230.49, y=59.50, z=-1090.45] died: Gena mama was slain by LaViejaDeAgustin
-[13Dec2024 21:56:55.623] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MushroomCow['Gena mama'/159, l='ServerLevel[Mundo nuevo]', x=-230.97, y=60.00, z=-1094.12] died: Gena mama was slain by LaViejaDeAgustin
-[13Dec2024 21:56:59.583] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MushroomCow['Gena mama'/134, l='ServerLevel[Mundo nuevo]', x=-232.55, y=60.00, z=-1091.32] died: Gena mama was slain by LaViejaDeAgustin
-[13Dec2024 21:58:26.166] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 7b2de654-3e79-34bf-bded-9c3297e7a4ff timed out
-[13Dec2024 21:58:26.167] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player genaaa
-[13Dec2024 21:58:26.168] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
-[13Dec2024 21:59:00.555] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaaa lost connection: Timed out
-[13Dec2024 21:59:00.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa left the game
-[13Dec2024 21:59:00.562] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client genaaa
-[13Dec2024 21:59:00.648] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[13Dec2024 21:59:38.108] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:55845] logged in with entity id 9900 at (-222.15718316718676, 60.0, -1093.3984684907996)
-[13Dec2024 21:59:38.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
-[13Dec2024 21:59:43.044] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaaa (18)
-[13Dec2024 21:59:43.045] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
-[13Dec2024 21:59:55.826] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
-[13Dec2024 21:59:56.833] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
-[13Dec2024 21:59:56.834] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaaa (7b2de654-3e79-34bf-bded-9c3297e7a4ff) successfully connected to voice chat
-[13Dec2024 22:00:17.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[13Dec2024 22:00:43.861] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11693ms or 233 ticks behind
-[13Dec2024 22:02:14.535] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['diabetes'/152, l='ServerLevel[Mundo nuevo]', x=-216.96, y=60.00, z=-1106.59] died: diabetes was slain by joAcxz
-[13Dec2024 22:05:17.147] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[13Dec2024 22:05:23.810] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12040, l='ServerLevel[Mundo nuevo]', x=-158.64, y=-20.00, z=-91.74] died: Toxic Slime was killed
-[13Dec2024 22:05:48.064] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12011, l='ServerLevel[Mundo nuevo]', x=-128.76, y=-20.00, z=0.90] died: Toxic Slime was killed
-[13Dec2024 22:05:55.472] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12012, l='ServerLevel[Mundo nuevo]', x=-121.74, y=-20.00, z=-11.74] died: Toxic Slime was killed
-[13Dec2024 22:06:13.387] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[13Dec2024 22:06:33.143] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4776ms or 95 ticks behind
-[13Dec2024 22:07:13.225] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12027, l='ServerLevel[Mundo nuevo]', x=-205.55, y=-20.00, z=-9.70] died: Toxic Slime was killed
-[13Dec2024 22:07:35.442] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12017, l='ServerLevel[Mundo nuevo]', x=-145.09, y=-20.00, z=-33.24] died: Toxic Slime was killed
-[13Dec2024 22:08:34.225] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12319, l='ServerLevel[Mundo nuevo]', x=-200.55, y=-20.00, z=-32.71] died: Toxic Slime was killed
-[13Dec2024 22:09:12.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Hidden in the Depths]
-[13Dec2024 22:09:19.315] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12713, l='ServerLevel[Mundo nuevo]', x=-100.26, y=-20.00, z=-50.74] died: Toxic Slime was killed
-[13Dec2024 22:09:28.837] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12840, l='ServerLevel[Mundo nuevo]', x=-168.26, y=-20.00, z=-126.44] died: Toxic Slime was killed
-[13Dec2024 22:09:34.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/12936, l='ServerLevel[Mundo nuevo]', x=-215.36, y=-20.00, z=-140.94] died: Toxic Slime was killed
-[13Dec2024 22:09:43.899] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['ania'/172, l='ServerLevel[Mundo nuevo]', x=-209.50, y=60.00, z=-1106.29] died: ania was sucked dry fighting LaViejaDeAgustin
-[13Dec2024 22:10:09.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13169, l='ServerLevel[Mundo nuevo]', x=-161.31, y=-20.00, z=-124.98] died: Toxic Slime was killed
-[13Dec2024 22:10:29.240] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13281, l='ServerLevel[Mundo nuevo]', x=-192.04, y=-20.00, z=-57.51] died: Toxic Slime was killed
-[13Dec2024 22:10:44.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13349, l='ServerLevel[Mundo nuevo]', x=-179.98, y=-20.00, z=24.95] died: Toxic Slime was killed
-[13Dec2024 22:11:06.035] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13517, l='ServerLevel[Mundo nuevo]', x=-195.41, y=-20.00, z=-34.16] died: Toxic Slime was killed
-[13Dec2024 22:11:29.807] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-220, y=60, z=-1107} BlockPos{x=-220, y=60, z=-1108}
-[13Dec2024 22:11:46.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13770, l='ServerLevel[Mundo nuevo]', x=-146.23, y=-20.00, z=-65.15] died: Toxic Slime was killed
-[13Dec2024 22:12:00.222] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-163, y=17, z=-54} BlockPos{x=-163, y=15, z=-54}
-[13Dec2024 22:12:11.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13911, l='ServerLevel[Mundo nuevo]', x=-201.71, y=-20.00, z=61.73] died: Toxic Slime was killed
-[13Dec2024 22:12:11.225] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13913, l='ServerLevel[Mundo nuevo]', x=-144.10, y=-20.00, z=-27.36] died: Toxic Slime was killed
-[13Dec2024 22:12:15.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/13953, l='ServerLevel[Mundo nuevo]', x=-194.99, y=-20.00, z=-32.47] died: Toxic Slime was killed
-[13Dec2024 22:13:14.315] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/14429, l='ServerLevel[Mundo nuevo]', x=-264.74, y=-20.00, z=1.09] died: Toxic Slime was killed
-[13Dec2024 22:13:43.279] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/14596, l='ServerLevel[Mundo nuevo]', x=-240.97, y=-20.00, z=-127.96] died: Toxic Slime was killed
-[13Dec2024 22:13:48.356] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/14622, l='ServerLevel[Mundo nuevo]', x=-166.75, y=-20.00, z=-53.27] died: Toxic Slime was killed
-[13Dec2024 22:13:50.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/14634, l='ServerLevel[Mundo nuevo]', x=-221.77, y=-20.00, z=-127.20] died: Toxic Slime was killed
-[13Dec2024 22:13:58.460] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
-[13Dec2024 22:14:04.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/14727, l='ServerLevel[Mundo nuevo]', x=-195.07, y=-20.00, z=-73.57] died: Toxic Slime was killed
-[13Dec2024 22:14:18.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/14812, l='ServerLevel[Mundo nuevo]', x=-205.57, y=-20.00, z=-15.83] died: Toxic Slime was killed
-[13Dec2024 22:14:23.364] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/14836, l='ServerLevel[Mundo nuevo]', x=-220.90, y=-20.00, z=-59.16] died: Toxic Slime was killed
-[13Dec2024 22:14:40.343] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-179, y=20, z=-48} BlockPos{x=-179, y=20, z=-45}
-[13Dec2024 22:14:42.125] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-177, y=19, z=-47} BlockPos{x=-178, y=18, z=-46}
-[13Dec2024 22:14:42.162] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-177, y=19, z=-47} BlockPos{x=-178, y=18, z=-46}
-[13Dec2024 22:14:46.506] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-176, y=20, z=-46} BlockPos{x=-176, y=17, z=-47}
-[13Dec2024 22:14:47.810] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-176, y=20, z=-45} BlockPos{x=-177, y=20, z=-44}
-[13Dec2024 22:14:49.151] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-175, y=20, z=-44} BlockPos{x=-175, y=19, z=-43}
-[13Dec2024 22:15:02.511] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/15229, l='ServerLevel[Mundo nuevo]', x=-217.52, y=-20.00, z=-61.64] died: Toxic Slime was killed
-[13Dec2024 22:15:03.581] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/15245, l='ServerLevel[Mundo nuevo]', x=-191.53, y=-20.00, z=-40.14] died: Toxic Slime was killed
-[13Dec2024 22:15:19.543] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/15372, l='ServerLevel[Mundo nuevo]', x=-185.08, y=-20.00, z=-34.34] died: Toxic Slime was killed
-[13Dec2024 22:15:22.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/15398, l='ServerLevel[Mundo nuevo]', x=-201.87, y=-20.00, z=-12.09] died: Toxic Slime was killed
-[13Dec2024 22:15:41.586] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/15600, l='ServerLevel[Mundo nuevo]', x=-200.74, y=-20.00, z=-39.61] died: Toxic Slime was killed
-[13Dec2024 22:15:58.743] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[13Dec2024 22:16:06.977] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-194, y=12, z=-34} BlockPos{x=-194, y=11, z=-35}
-[13Dec2024 22:16:26.661] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/15980, l='ServerLevel[Mundo nuevo]', x=-156.61, y=-20.00, z=-38.24] died: Toxic Slime was killed
-[13Dec2024 22:16:32.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16055, l='ServerLevel[Mundo nuevo]', x=-166.72, y=-20.00, z=-53.25] died: Toxic Slime was killed
-[13Dec2024 22:16:35.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16091, l='ServerLevel[Mundo nuevo]', x=-175.56, y=-20.00, z=-67.61] died: Toxic Slime was killed
-[13Dec2024 22:16:35.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16092, l='ServerLevel[Mundo nuevo]', x=-200.68, y=-20.00, z=-42.46] died: Toxic Slime was killed
-[13Dec2024 22:16:41.548] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16146, l='ServerLevel[Mundo nuevo]', x=-198.29, y=-20.00, z=-60.28] died: Toxic Slime was killed
-[13Dec2024 22:16:45.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16175, l='ServerLevel[Mundo nuevo]', x=-201.13, y=-20.00, z=-49.02] died: Toxic Slime was killed
-[13Dec2024 22:17:01.233] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16283, l='ServerLevel[Mundo nuevo]', x=-183.47, y=-20.00, z=-54.90] died: Toxic Slime was killed
-[13Dec2024 22:17:11.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16368, l='ServerLevel[Mundo nuevo]', x=-187.79, y=-20.00, z=-40.10] died: Toxic Slime was killed
-[13Dec2024 22:17:21.924] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[13Dec2024 22:17:39.246] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16699, l='ServerLevel[Mundo nuevo]', x=-244.90, y=-20.00, z=72.66] died: Toxic Slime was killed
-[13Dec2024 22:17:56.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16795, l='ServerLevel[Mundo nuevo]', x=-181.50, y=-20.00, z=-19.58] died: Toxic Slime was killed
-[13Dec2024 22:18:00.344] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16823, l='ServerLevel[Mundo nuevo]', x=-198.28, y=-20.00, z=-86.88] died: Toxic Slime was killed
-[13Dec2024 22:18:12.927] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[13Dec2024 22:18:15.466] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/16965, l='ServerLevel[Mundo nuevo]', x=-219.96, y=-20.00, z=-68.29] died: Toxic Slime was killed
-[13Dec2024 22:18:16.497] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-229, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:16.559] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-229, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:16.561] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:16.640] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:16.722] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:16.723] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:16.809] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:16.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=15, z=-43} BlockPos{x=-228, y=17, z=-42}
-[13Dec2024 22:18:42.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/17349, l='ServerLevel[Mundo nuevo]', x=-197.15, y=-20.00, z=-19.13] died: Toxic Slime was killed
-[13Dec2024 22:18:44.467] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/17376, l='ServerLevel[Mundo nuevo]', x=-209.92, y=-20.00, z=-52.20] died: Toxic Slime was killed
-[13Dec2024 22:18:44.468] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/17381, l='ServerLevel[Mundo nuevo]', x=-132.39, y=-20.00, z=-2.23] died: Toxic Slime was killed
-[13Dec2024 22:18:50.366] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=18, z=-41} BlockPos{x=-236, y=17, z=-41}
-[13Dec2024 22:18:59.338] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/17638, l='ServerLevel[Mundo nuevo]', x=-189.63, y=-20.00, z=3.56] died: Toxic Slime was killed
-[13Dec2024 22:19:02.618] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/17699, l='ServerLevel[Mundo nuevo]', x=-209.88, y=-20.00, z=-22.35] died: Toxic Slime was killed
-[13Dec2024 22:19:03.404] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/17707, l='ServerLevel[Mundo nuevo]', x=-221.04, y=-20.00, z=17.80] died: Toxic Slime was killed
-[13Dec2024 22:19:11.358] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=21, z=-37} BlockPos{x=-231, y=19, z=-37}
-[13Dec2024 22:19:11.421] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=21, z=-37} BlockPos{x=-231, y=19, z=-37}
-[13Dec2024 22:19:11.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-230, y=21, z=-37} BlockPos{x=-231, y=19, z=-37}
-[13Dec2024 22:19:22.227] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/17940, l='ServerLevel[Mundo nuevo]', x=-211.38, y=-20.00, z=-30.53] died: Toxic Slime was killed
-[13Dec2024 22:19:39.778] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[13Dec2024 22:20:05.233] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/18321, l='ServerLevel[Mundo nuevo]', x=-192.04, y=-20.00, z=-8.36] died: Toxic Slime was killed
-[13Dec2024 22:20:08.890] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/18347, l='ServerLevel[Mundo nuevo]', x=-199.06, y=-20.00, z=-15.49] died: Toxic Slime was killed
-[13Dec2024 22:20:40.225] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/18645, l='ServerLevel[Mundo nuevo]', x=-191.28, y=-20.00, z=-12.87] died: Toxic Slime was killed
-[13Dec2024 22:20:43.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/18703, l='ServerLevel[Mundo nuevo]', x=-198.98, y=-20.00, z=-15.50] died: Toxic Slime was killed
-[13Dec2024 22:20:45.568] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-218, y=60, z=-1106} BlockPos{x=-218, y=59, z=-1105}
-[13Dec2024 22:20:53.682] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2164ms or 43 ticks behind
-[13Dec2024 22:21:08.761] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MushroomCow['Gena mama'/135, l='ServerLevel[Mundo nuevo]', x=-228.33, y=60.00, z=-1099.06] died: Gena mama was slain by joAcxz
-[13Dec2024 22:21:18.540] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MushroomCow['Gena mama'/166, l='ServerLevel[Mundo nuevo]', x=-230.62, y=60.00, z=-1094.78] died: Gena mama was slain by joAcxz
-[13Dec2024 22:21:48.635] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[13Dec2024 22:22:23.060] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/20227, l='ServerLevel[Mundo nuevo]', x=-235.67, y=-20.00, z=-83.77] died: Toxic Slime was killed
-[13Dec2024 22:22:27.373] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/20284, l='ServerLevel[Mundo nuevo]', x=-272.80, y=-20.00, z=-64.88] died: Toxic Slime was killed
-[13Dec2024 22:22:46.295] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/20491, l='ServerLevel[Mundo nuevo]', x=-274.75, y=-20.00, z=-120.15] died: Toxic Slime was killed
-[13Dec2024 22:23:12.697] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/20755, l='ServerLevel[Mundo nuevo]', x=-297.12, y=-20.00, z=-52.25] died: Toxic Slime was killed
-[13Dec2024 22:23:29.447] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=72, z=-1084} BlockPos{x=-211, y=72, z=-1083}
-[13Dec2024 22:23:53.373] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/21365, l='ServerLevel[Mundo nuevo]', x=-212.77, y=-20.00, z=-52.48] died: Toxic Slime was killed
-[13Dec2024 22:23:54.372] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/21379, l='ServerLevel[Mundo nuevo]', x=-280.31, y=-20.00, z=-60.76] died: Toxic Slime was killed
-[13Dec2024 22:24:39.869] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[13Dec2024 22:25:33.372] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/22730, l='ServerLevel[Mundo nuevo]', x=-288.21, y=-20.00, z=-2.13] died: Toxic Slime was killed
-[13Dec2024 22:25:34.377] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/22747, l='ServerLevel[Mundo nuevo]', x=-322.49, y=-20.00, z=-29.69] died: Toxic Slime was killed
-[13Dec2024 22:25:34.378] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/22750, l='ServerLevel[Mundo nuevo]', x=-188.26, y=-20.00, z=1.94] died: Toxic Slime was killed
-[13Dec2024 22:25:53.860] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2092ms or 41 ticks behind
-[13Dec2024 22:26:40.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/23609, l='ServerLevel[Mundo nuevo]', x=-352.37, y=-20.00, z=-71.61] died: Toxic Slime was killed
-[13Dec2024 22:27:01.641] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/23889, l='ServerLevel[Mundo nuevo]', x=-223.14, y=-20.00, z=-6.55] died: Toxic Slime was killed
-[13Dec2024 22:27:04.535] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/23931, l='ServerLevel[Mundo nuevo]', x=-310.23, y=-20.00, z=-11.50] died: Toxic Slime was killed
-[13Dec2024 22:27:34.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/24414, l='ServerLevel[Mundo nuevo]', x=-293.31, y=-20.00, z=-12.47] died: Toxic Slime was killed
-[13Dec2024 22:28:04.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/24829, l='ServerLevel[Mundo nuevo]', x=-218.66, y=-20.00, z=-61.65] died: Toxic Slime was killed
-[13Dec2024 22:28:30.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/25202, l='ServerLevel[Mundo nuevo]', x=-315.80, y=-20.00, z=-33.99] died: Toxic Slime was killed
-[13Dec2024 22:28:57.399] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-202, y=14, z=-34} BlockPos{x=-202, y=13, z=-36}
-[13Dec2024 22:29:00.504] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=14, z=-34} BlockPos{x=-204, y=13, z=-31}
-[13Dec2024 22:29:00.548] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-205, y=14, z=-33} BlockPos{x=-204, y=13, z=-31}
-[13Dec2024 22:29:00.599] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-205, y=14, z=-33} BlockPos{x=-204, y=13, z=-31}
-[13Dec2024 22:29:10.550] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=12, z=-33} BlockPos{x=-205, y=11, z=-31}
-[13Dec2024 22:29:10.597] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=12, z=-33} BlockPos{x=-205, y=11, z=-31}
-[13Dec2024 22:29:10.647] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=12, z=-33} BlockPos{x=-205, y=11, z=-31}
-[13Dec2024 22:29:10.699] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=12, z=-33} BlockPos{x=-205, y=11, z=-31}
-[13Dec2024 22:29:13.949] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-200, y=14, z=-34} BlockPos{x=-199, y=13, z=-33}
-[13Dec2024 22:29:39.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/26238, l='ServerLevel[Mundo nuevo]', x=-204.24, y=-20.00, z=-43.30] died: Toxic Slime was killed
-[13Dec2024 22:29:39.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/26239, l='ServerLevel[Mundo nuevo]', x=-208.56, y=-20.00, z=-50.94] died: Toxic Slime was killed
-[13Dec2024 22:29:43.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/26291, l='ServerLevel[Mundo nuevo]', x=-212.62, y=-20.00, z=-30.65] died: Toxic Slime was killed
-[13Dec2024 22:29:43.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/26292, l='ServerLevel[Mundo nuevo]', x=-197.61, y=-20.00, z=-33.65] died: Toxic Slime was killed
-[13Dec2024 22:29:44.808] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/26302, l='ServerLevel[Mundo nuevo]', x=-183.37, y=-20.00, z=-1.11] died: Toxic Slime was killed
-[13Dec2024 22:29:44.810] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/26303, l='ServerLevel[Mundo nuevo]', x=-170.24, y=-20.00, z=-33.80] died: Toxic Slime was killed
-[13Dec2024 22:30:07.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/26606, l='ServerLevel[Mundo nuevo]', x=-188.51, y=-20.00, z=-45.50] died: Toxic Slime was killed
-[13Dec2024 22:31:29.857] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['humberto'/201, l='ServerLevel[Mundo nuevo]', x=-213.55, y=62.00, z=-1107.53] died: humberto was slain by joAcxz
-[13Dec2024 22:32:08.871] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/28084, l='ServerLevel[Mundo nuevo]', x=-191.60, y=-20.00, z=-24.82] died: Toxic Slime was killed
-[13Dec2024 22:32:14.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/28155, l='ServerLevel[Mundo nuevo]', x=-136.74, y=-20.00, z=-106.26] died: Toxic Slime was killed
-[13Dec2024 22:32:29.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/28330, l='ServerLevel[Mundo nuevo]', x=-127.95, y=-20.00, z=-18.58] died: Toxic Slime was killed
-[13Dec2024 22:32:55.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/28563, l='ServerLevel[Mundo nuevo]', x=-170.59, y=-20.00, z=-22.54] died: Toxic Slime was killed
-[13Dec2024 22:32:56.256] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 7b2de654-3e79-34bf-bded-9c3297e7a4ff timed out
-[13Dec2024 22:32:56.256] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player genaaa
-[13Dec2024 22:32:56.257] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
-[13Dec2024 22:33:11.960] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaaa lost connection: Timed out
-[13Dec2024 22:33:11.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa left the game
-[13Dec2024 22:33:11.963] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client genaaa
-[13Dec2024 22:33:12.037] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[13Dec2024 22:34:08.983] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:47049] logged in with entity id 30376 at (-220.69999998807907, 60.5, -1098.8982145514856)
-[13Dec2024 22:34:09.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
-[13Dec2024 22:34:10.693] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaaa (18)
-[13Dec2024 22:34:10.694] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
-[13Dec2024 22:34:27.225] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
-[13Dec2024 22:34:28.228] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
-[13Dec2024 22:34:28.229] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaaa (7b2de654-3e79-34bf-bded-9c3297e7a4ff) successfully connected to voice chat
-[13Dec2024 22:35:28.915] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:30.148] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:30.615] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:30.957] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:31.269] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:31.606] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:31.948] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:32.206] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "joAcxz" tried to enter a passcode into "Keypad Door" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=-222, y=60, z=-1098}] too quickly!
-[13Dec2024 22:35:59.591] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-856, y=67, z=-190} BlockPos{x=-844, y=67, z=-72}
-[13Dec2024 22:36:02.798] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-856, y=67, z=-190} BlockPos{x=-844, y=67, z=-72}
-[13Dec2024 22:36:29.921] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Disconnected
-[13Dec2024 22:36:29.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
-[13Dec2024 22:36:29.924] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xGab
-[13Dec2024 22:36:37.501] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xGab[/127.154.180.156:43823] logged in with entity id 31489 at (-842.0615987294192, 67.0, -71.6191682776932)
-[13Dec2024 22:36:37.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab joined the game
-[13Dec2024 22:36:37.826] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xGab (18)
-[13Dec2024 22:36:37.828] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xGab
-[13Dec2024 22:36:39.620] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 53610399-617d-31d9-bf79-3ccc523fb0d7
-[13Dec2024 22:36:40.622] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 53610399-617d-31d9-bf79-3ccc523fb0d7
-[13Dec2024 22:36:40.623] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xGab (53610399-617d-31d9-bf79-3ccc523fb0d7) successfully connected to voice chat
-[13Dec2024 22:36:53.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> gente
-[13Dec2024 22:36:59.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> que
-[13Dec2024 22:37:01.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> escuchen esto
-[13Dec2024 22:37:04.459] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-834, y=67, z=-75}
-[13Dec2024 22:37:04.517] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-834, y=67, z=-74}
-[13Dec2024 22:37:06.192] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-832, y=65, z=-74}
-[13Dec2024 22:37:09.012] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-838, y=66, z=-76}
-[13Dec2024 22:37:09.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-837, y=66, z=-76}
-[13Dec2024 22:37:09.245] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-838, y=66, z=-76}
-[13Dec2024 22:37:25.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> uuu esperen
-[13Dec2024 22:37:34.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> no
-[13Dec2024 22:38:32.122] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1 timed out
-[13Dec2024 22:38:32.123] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player joAcxz
-[13Dec2024 22:38:32.124] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to joAcxz
-[13Dec2024 22:38:33.799] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
-[13Dec2024 22:38:34.804] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
-[13Dec2024 22:38:34.804] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player joAcxz (1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1) successfully connected to voice chat
-[13Dec2024 22:39:34.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ok ahora si
-[13Dec2024 22:39:37.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> escuchen
-[13Dec2024 22:39:45.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab has made the advancement [Withering Heights]
-[13Dec2024 22:39:53.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> que mierda haces
-[13Dec2024 22:41:03.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> lo mataste?
-[13Dec2024 22:41:12.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> no tengo arco xd
-[13Dec2024 22:41:15.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> y no
-[13Dec2024 22:41:18.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> por dios
-[13Dec2024 22:41:24.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> la rompiste
-[13Dec2024 22:41:34.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> buena
-[13Dec2024 22:41:48.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> como?
-[13Dec2024 22:43:14.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> ok
-[13Dec2024 22:43:49.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> donde estas?
-[13Dec2024 22:43:58.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> en nuestra base
-[13Dec2024 22:44:02.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> donde te mate
-[13Dec2024 22:44:07.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> a
-[13Dec2024 22:44:12.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xGab> o bueno, cerca
-[13Dec2024 22:44:23.879] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xGab lost connection: Disconnected
-[13Dec2024 22:44:23.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xGab left the game
-[13Dec2024 22:44:23.882] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xGab
-[13Dec2024 22:44:24.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaaa> cerca de que
-[13Dec2024 22:44:31.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LaViejaDeAgustin> porque lo spawneaste
-[13Dec2024 22:44:53.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made genaaa a server operator
-[13Dec2024 22:45:02.835] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joAcxz lost connection: Disconnected
-[13Dec2024 22:45:02.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz left the game
-[13Dec2024 22:45:02.837] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client joAcxz
-[13Dec2024 22:45:08.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [genaaa: Saved the game]
-[13Dec2024 22:45:13.483] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LaViejaDeAgustin lost connection: Disconnected
-[13Dec2024 22:45:13.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LaViejaDeAgustin left the game
-[13Dec2024 22:45:13.484] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LaViejaDeAgustin
-[13Dec2024 22:45:19.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [genaaa: Stopping the server]
-[13Dec2024 22:45:19.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Dec2024 22:45:19.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Dec2024 22:45:19.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Dec2024 22:45:21.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
-[13Dec2024 22:45:21.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
-[13Dec2024 22:45:21.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
-[13Dec2024 22:45:21.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13Dec2024 22:45:21.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Dec2024 22:45:21.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Dec2024 22:45:21.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13Dec2024 22:45:22.011] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14Dec2024 18:06:16.839] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Binding to wildcard IP address
+[14Dec2024 18:06:16.841] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at i-indiana.gl.joinmc.link:2024
+[14Dec2024 18:06:42.714] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: hola7[/127.18.191.26:56385] logged in with entity id 44 at (-962.4717634038767, 129.55014469798127, -341.55182881382956)
+[14Dec2024 18:06:42.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 joined the game
+[14Dec2024 18:06:43.389] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of hola7 (18)
+[14Dec2024 18:06:43.394] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to hola7
+[14Dec2024 18:06:45.007] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: joAcxz[/127.112.204.214:57461] logged in with entity id 157 at (-220.5271214644111, 60.5, -1099.7505125506516)
+[14Dec2024 18:06:45.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz joined the game
+[14Dec2024 18:06:47.403] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of joAcxz (18)
+[14Dec2024 18:06:47.404] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to joAcxz
+[14Dec2024 18:06:47.421] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2796ms or 55 ticks behind
+[14Dec2024 18:06:53.440] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
+[14Dec2024 18:06:54.447] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1
+[14Dec2024 18:06:54.459] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player joAcxz (1ff2fba3-8446-33c6-b499-1fa4b0ba5ff1) successfully connected to voice chat
+[14Dec2024 18:07:11.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:07:12.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:07:13.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10857ms or 217 ticks behind
+[14Dec2024 18:07:21.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:07:31.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:07:40.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:07:42.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:07:47.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Pig]
+[14Dec2024 18:11:28.379] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaaa[/127.175.82.2:45209] logged in with entity id 1429 at (-219.87618961447237, 60.5, -1100.9626375993548)
+[14Dec2024 18:11:28.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa joined the game
+[14Dec2024 18:11:32.668] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaaa (18)
+[14Dec2024 18:11:32.673] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaaa
+[14Dec2024 18:11:41.111] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['ania'/743, l='ServerLevel[Mundo nuevo]', x=-216.20, y=60.00, z=-1107.54] died: ania was slain by hola7
+[14Dec2024 18:11:41.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hola7 has completed the challenge [Overkill]
+[14Dec2024 18:11:44.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Pig]
+[14Dec2024 18:12:10.842] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
+[14Dec2024 18:12:11.846] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7b2de654-3e79-34bf-bded-9c3297e7a4ff
+[14Dec2024 18:12:11.846] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaaa (7b2de654-3e79-34bf-bded-9c3297e7a4ff) successfully connected to voice chat
+[14Dec2024 18:12:16.741] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.maxHealth'
+[14Dec2024 18:12:16.742] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.knockbackResistance'
+[14Dec2024 18:12:16.743] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.movementSpeed'
+[14Dec2024 18:12:22.660] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['ania'/1552, l='ServerLevel[Mundo nuevo]', x=-218.99, y=60.00, z=-1104.45] died: ania was slain by hola7
+[14Dec2024 18:12:28.477] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.maxHealth'
+[14Dec2024 18:12:28.479] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.knockbackResistance'
+[14Dec2024 18:12:28.479] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.movementSpeed'
+[14Dec2024 18:13:48.426] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.maxHealth'
+[14Dec2024 18:13:48.427] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.knockbackResistance'
+[14Dec2024 18:13:48.427] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.movementSpeed'
+[14Dec2024 18:14:11.077] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.maxHealth'
+[14Dec2024 18:14:11.077] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.knockbackResistance'
+[14Dec2024 18:14:11.077] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'generic.movementSpeed'
+[14Dec2024 18:14:27.117] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Chicken['humberto'/1924, l='ServerLevel[Mundo nuevo]', x=-210.50, y=60.00, z=-1097.38] died: humberto was slain by joAcxz
+[14Dec2024 18:19:11.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [genaaa: Set own game mode to Creative Mode]
+[14Dec2024 18:19:19.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [genaaa: Set own game mode to Survival Mode]
+[14Dec2024 18:19:52.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Made genaaa no longer a server operator]
+[14Dec2024 18:20:46.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:20:48.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:22:11.087] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2162ms or 43 ticks behind
+[14Dec2024 18:22:30.938] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2413ms or 48 ticks behind
+[14Dec2024 18:22:48.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:22:56.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
