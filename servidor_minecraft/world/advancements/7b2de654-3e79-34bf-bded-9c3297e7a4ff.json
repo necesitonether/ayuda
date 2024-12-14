@@ -4696,6 +4696,12 @@
     },
     "done": true
   },
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+    "criteria": {
+      "has_item": "2024-12-14 19:33:46 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/combat/vampire/vampire_cloak_white_black": {
     "criteria": {
       "has_pure_blood": "2024-12-14 19:00:06 +0000"
@@ -4753,6 +4759,12 @@
   "minecraft:recipes/decorations/nether_brick_wall": {
     "criteria": {
       "has_nether_bricks": "2024-12-14 19:12:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-12-14 19:33:46 +0000"
     },
     "done": true
   },

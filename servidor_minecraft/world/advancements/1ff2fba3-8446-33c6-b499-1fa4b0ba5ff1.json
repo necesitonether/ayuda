@@ -2963,6 +2963,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/misc/vampire/blood_bottle_to_glass": {
+    "criteria": {
+      "has_blood_bottle": "2024-12-14 19:35:29 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/misc/gold_nugget_from_accessory_blasting": {
     "criteria": {
       "has_amulet": "2024-12-14 19:11:52 +0000"
