@@ -19172,5 +19172,11 @@
     },
     "done": true
   },
+  "netherexp:recipes/quartz/chiseled_quartz_pillar": {
+    "criteria": {
+      "has_item": "2024-12-14 19:09:31 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
