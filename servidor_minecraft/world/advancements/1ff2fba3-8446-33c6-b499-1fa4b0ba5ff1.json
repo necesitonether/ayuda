@@ -26,6 +26,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:mushroom_fields": "2024-12-09 22:50:24 +0000",
+      "minecraft:deep_ocean": "2024-12-14 18:39:53 +0000",
       "minecraft:beach": "2024-12-09 22:37:53 +0000",
       "minecraft:river": "2024-12-09 22:39:20 +0000",
       "minecraft:stony_shore": "2024-12-09 22:39:09 +0000",
@@ -2850,6 +2851,24 @@
   "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
       "has_melon": "2024-12-13 22:12:17 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+    "criteria": {
+      "has_item": "2024-12-14 18:41:26 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_feeding_upgrade": {
+    "criteria": {
+      "has_feeding_upgrade": "2024-12-14 18:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-12-14 18:41:26 +0000"
     },
     "done": true
   },

@@ -218,3 +218,24 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [14Dec2024 18:22:30.938] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2413ms or 48 ticks behind
 [14Dec2024 18:22:48.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
 [14Dec2024 18:22:56.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:23:42.446] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[14Dec2024 18:23:53.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:24:36.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:25:07.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to joAcxz]
+[14Dec2024 18:25:50.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:26:04.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:26:11.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported hola7 to -210.500000, 62.000000, -1092.500000]
+[14Dec2024 18:27:47.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Killed Wither]
+[14Dec2024 18:34:54.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Showing new title for 3 players]
+[14Dec2024 18:35:14.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Showing new title for 3 players]
+[14Dec2024 18:35:33.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Showing new title for 3 players]
+[14Dec2024 18:35:41.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Showing new title for 3 players]
+[14Dec2024 18:35:56.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Showing new title for 3 players]
+[14Dec2024 18:36:04.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Showing new title for 3 players]
+[14Dec2024 18:36:20.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Showing new title for 3 players]
+[14Dec2024 18:38:14.148] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[14Dec2024 18:38:37.111] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7986ms or 159 ticks behind
+[14Dec2024 18:38:55.068] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2993ms or 59 ticks behind
+[14Dec2024 18:41:32.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:42:49.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set the weather to rain & thunder]
+[14Dec2024 18:43:23.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
