@@ -252,3 +252,7 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [14Dec2024 18:45:38.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported 3 entities to hola7]
 [14Dec2024 18:45:41.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
 [14Dec2024 18:49:46.631] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[14Dec2024 18:58:44.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Amateur Archaeologist]
+[14Dec2024 19:02:42.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Stayin' Frosty]
+[14Dec2024 19:03:03.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set joAcxz's game mode to Adventure Mode]
+[14Dec2024 19:03:07.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set genaaa's game mode to Adventure Mode]
