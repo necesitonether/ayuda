@@ -239,3 +239,16 @@ java.net.UnknownHostException: i-indiana.gl.joinmc.link: No address associated w
 [14Dec2024 18:41:32.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
 [14Dec2024 18:42:49.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set the weather to rain & thunder]
 [14Dec2024 18:43:23.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:44:10.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaaa has made the advancement [Surge Protector]
+[14Dec2024 18:44:30.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
+[14Dec2024 18:44:37.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Spectator Mode]
+[14Dec2024 18:44:46.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
+[14Dec2024 18:44:47.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joAcxz has made the advancement [Surge Protector]
+[14Dec2024 18:44:50.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
+[14Dec2024 18:44:50.945] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/6730, l='ServerLevel[Mundo nuevo]', x=-892.41, y=63.56, z=-291.08] was struck by lightning LightningBolt['Lightning Bolt'/14129, l='ServerLevel[Mundo nuevo]', x=-892.79, y=67.61, z=-294.37].
+[14Dec2024 18:44:51.141] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/6734, l='ServerLevel[Mundo nuevo]', x=-890.88, y=63.56, z=-291.08] was struck by lightning LightningBolt['Lightning Bolt'/14129, l='ServerLevel[Mundo nuevo]', x=-892.79, y=67.61, z=-294.37].
+[14Dec2024 18:44:56.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
+[14Dec2024 18:45:09.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Summoned new Lightning Bolt]
+[14Dec2024 18:45:38.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Teleported 3 entities to hola7]
+[14Dec2024 18:45:41.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [hola7: Set own game mode to Creative Mode]
+[14Dec2024 18:49:46.631] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
